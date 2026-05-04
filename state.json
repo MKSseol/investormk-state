@@ -1,12 +1,29 @@
 {
-  "schema_version": 1,
-  "generated_at": "2026-05-05T00:02:41",
+  "schema_version": 3,
+  "generated_at": "2026-05-05T00:10:25",
   "as_of": "2026-05-05",
   "window_days": 90,
   "summary": {
     "latest_cash_krw": 10000000,
     "latest_holdings_count": 0,
     "latest_total_value_krw": 10000000,
+    "invested_amount_krw": 0,
+    "holdings_market_value_krw": 0,
+    "unrealized_pl_krw": 0,
+    "today_net_change_krw": 0,
+    "today_external_cash_flow_krw": 0,
+    "today_cash_flow_adjusted_profit_loss_krw": 0,
+    "today_cash_flow_adjusted_return_pct": null,
+    "today_profit_loss_krw": 0,
+    "today_profit_loss_pct": null,
+    "today_realized_pl_krw": 0,
+    "month_net_change_krw": 0,
+    "month_external_cash_flow_krw": 0,
+    "month_cash_flow_adjusted_profit_loss_krw": 0,
+    "month_cash_flow_adjusted_return_pct": null,
+    "month_profit_loss_krw": 0,
+    "month_profit_loss_pct": null,
+    "month_realized_pl_krw": 0,
     "realized_pl_30d_krw": 0,
     "cycles_30d": 1,
     "cycles_held_30d": 0,
@@ -23,16 +40,64 @@
       "min_momentum_score": 0.0
     },
     "rationale": "initial defaults",
-    "updated_at": "2026-05-05T00:02:41"
+    "updated_at": "2026-05-05T00:10:25"
   },
   "portfolio_timeseries": [
     {
       "date": "2026-05-05",
       "total_value_krw": 10000000,
       "cash_krw": 10000000,
-      "holdings_count": 0
+      "holdings_count": 0,
+      "invested_amount_krw": 0,
+      "holdings_market_value_krw": 0,
+      "unrealized_pl_krw": 0
     }
   ],
+  "daily_profit_loss": [
+    {
+      "date": "2026-05-05",
+      "total_value_krw": 10000000,
+      "cash_krw": 10000000,
+      "invested_amount_krw": 0,
+      "holdings_market_value_krw": 0,
+      "unrealized_pl_krw": 0,
+      "previous_total_value_krw": null,
+      "net_change_krw": 0,
+      "external_cash_flow_krw": 0,
+      "cash_flow_adjusted_profit_loss_krw": 0,
+      "cash_flow_adjusted_return_pct": null,
+      "profit_loss_krw": 0,
+      "profit_loss_pct": null,
+      "realized_pl_krw": 0,
+      "return_method": "baseline",
+      "return_note": "first_snapshot_no_return"
+    }
+  ],
+  "monthly_profit_loss": [
+    {
+      "month": "2026-05",
+      "start_value_krw": 10000000,
+      "end_value_krw": 10000000,
+      "net_change_krw": 0,
+      "external_cash_flow_krw": 0,
+      "cash_flow_adjusted_profit_loss_krw": 0,
+      "profit_loss_krw": 0,
+      "profit_loss_pct": null,
+      "cash_flow_adjusted_return_pct": null,
+      "realized_pl_krw": 0,
+      "trading_days": 1
+    }
+  ],
+  "return_interpretation": {
+    "primary_money_field": "net_change_krw",
+    "primary_performance_field": "cash_flow_adjusted_profit_loss_krw",
+    "primary_return_field": "cash_flow_adjusted_return_pct",
+    "external_cash_flow_event_type": "external_cash_flow",
+    "external_cash_flow_sign": "positive=deposit, negative=withdrawal",
+    "external_cash_flow_events_recorded": 0,
+    "unrecorded_cash_flow_risk": true,
+    "policy": "Do not infer deposits or withdrawals from account value changes. Recorded external cash flows are subtracted from net account change; deposits are included in the daily return denominator to avoid overstating gains."
+  },
   "current_holdings": [],
   "recent_trades": [],
   "playbook": {
