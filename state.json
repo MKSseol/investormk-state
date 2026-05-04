@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-05-05T00:02:41",
+  "as_of": "2026-05-05",
+  "window_days": 90,
+  "summary": {
+    "latest_cash_krw": 10000000,
+    "latest_holdings_count": 0,
+    "latest_total_value_krw": 10000000,
+    "realized_pl_30d_krw": 0,
+    "cycles_30d": 1,
+    "cycles_held_30d": 0,
+    "orders_sent_30d": 0,
+    "fills_30d": 0,
+    "avg_slippage_bps_30d": 0.0,
+    "strategy_version": 1
+  },
+  "strategy": {
+    "version": 1,
+    "params": {
+      "lookback_days": 20,
+      "top_n": 3,
+      "min_momentum_score": 0.0
+    },
+    "rationale": "initial defaults",
+    "updated_at": "2026-05-05T00:02:41"
+  },
+  "portfolio_timeseries": [
+    {
+      "date": "2026-05-05",
+      "total_value_krw": 10000000,
+      "cash_krw": 10000000,
+      "holdings_count": 0
+    }
+  ],
+  "current_holdings": [],
+  "recent_trades": [],
+  "playbook": {
+    "principles": [
+      "**완전한 사이클 실행**: backtest_gate, cycle_snapshot, universe_refresh, universe_select, plan_result, order_attempt(또는 order_skipped), trade_review를 순차적으로 거친다.",
+      "**Dry-run 검증**: 실제 주문 전에 dry-run 상태로 주문 시뮬레이션을 수행한다.",
+      "**거래 후 검토 필수**: 모든 주문 시도 후 trade_review를 통해 결과를 기록한다.",
+      "**현금 관리**: 초기 자본(10,000,000 KRW)을 기준으로 거래를 계획한다.",
+      "**무보유 상태 확인**: 현재 보유 자산이 없음(0개)을 확인하고 신규 거래 계획을 세운다."
+    ],
+    "patterns_to_avoid": [
+      "**order_attempt 없이 order_skipped 발생**: 주문 스킵 발생 시 그 원인(마진 부족, 거래량 제한 등)을 명확히 파악하고 다음 사이클에 반영한다.",
+      "**불완전한 사이클**: plan_result까지 도달했다면 반드시 order_attempt 또는 order_skipped로 마무리하고 trade_review를 생략하지 않는다.",
+      "**Universe 재선택 없음**: cycle_snapshot 이후 universe_refresh와 universe_select를 건너뛰지 않는다."
+    ],
+    "patterns_to_repeat": [
+      "**순차적 게이트 통과**: backtest_gate → cycle_snapshot → universe_refresh → universe_select 순서를 유지한다.",
+      "**Dry-run 시뮬레이션**: order_attempt 시 dry-run 상태로 실행하여 실제 거래 전 검증한다.",
+      "**거래 검토 기록**: trade_review를 통해 매 주기마다 거래 결과를 명시적으로 기록한다.",
+      "**전체 8가지 이벤트 타입 활용**: 한 사이클에서 모든 주요 이벤트 타입(backtest_gate, cycle_snapshot, order_attempt/order_skipped, plan_result, trade_review, universe_refresh, universe_select)이 최소 1회씩 발생하도록 설계한다."
+    ]
+  }
+}
