@@ -1,6 +1,6 @@
 {
-  "schema_version": 3,
-  "generated_at": "2026-05-05T00:10:25",
+  "schema_version": 4,
+  "generated_at": "2026-05-05T01:03:24",
   "as_of": "2026-05-05",
   "window_days": 90,
   "summary": {
@@ -40,7 +40,7 @@
       "min_momentum_score": 0.0
     },
     "rationale": "initial defaults",
-    "updated_at": "2026-05-05T00:10:25"
+    "updated_at": "2026-05-05T01:03:24"
   },
   "portfolio_timeseries": [
     {
@@ -119,5 +119,34 @@
       "**거래 검토 기록**: trade_review를 통해 매 주기마다 거래 결과를 명시적으로 기록한다.",
       "**전체 8가지 이벤트 타입 활용**: 한 사이클에서 모든 주요 이벤트 타입(backtest_gate, cycle_snapshot, order_attempt/order_skipped, plan_result, trade_review, universe_refresh, universe_select)이 최소 1회씩 발생하도록 설계한다."
     ]
+  },
+  "market_context": {
+    "as_of": "2026-05-05",
+    "next_trading_day": "2026-05-06",
+    "recommendation": "trade_normal",
+    "macro_sentiment": "positive",
+    "key_themes": [
+      "KOSPI 사상 최고가 경신, 반도체 쌍끌이로 7000 임박",
+      "외인·기관 폭풍 매수, 환율 급락으로 자본 유입 신호 강함",
+      "한은·연준 금리 인상 신호로 향후 긴축 전환 예고",
+      "삼성·SK하이닉스 초호황 지속, 메모리 반도체 수급 극도로 긴축",
+      "중동 지정학적 리스크와 고유가 변수 확대",
+      "월별 '칠월 매도' 관례 속 일단의 조정 가능성"
+    ],
+    "per_symbol_notes": {},
+    "rationale_kr": "코스피는 반도체 초호황과 외인 폭풍 매수에 힘입어 사상 최고가를 경신하고 있으며, 7000선 달성이 임박한 상태입니다. 다음 거래일(5월 6일)은 급등 후 숨고르기 국면으로 예상되나, 목표가 달성 직전의 심리 구간으로 신규 매수 신호는 여전히 유효합니다. 다만 한은·Fed 모두 금리 인상 신호를 보내고 있으며, 지정학적 리스크(중동 전쟁)가 중기 변수로 작용 중이므로, 현물·시장 조성 차원의 평소 거래는 유지하되 대형 신규 진입은 일단 관망하는 절충적 입장을 권고합니다.",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 33771,
+    "output_tokens": 2155,
+    "iterations": 3,
+    "generated_at": "2026-05-05T01:03:23",
+    "status": "ok",
+    "tools_summary": {
+      "count": 6,
+      "names": [
+        "fetch_article_body",
+        "search_news"
+      ]
+    }
   }
 }
