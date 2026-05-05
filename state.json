@@ -1,6 +1,6 @@
 {
   "schema_version": 5,
-  "generated_at": "2026-05-05T12:00:04",
+  "generated_at": "2026-05-05T16:06:43",
   "as_of": "2026-05-05",
   "window_days": 90,
   "summary": {
@@ -40,7 +40,7 @@
       "min_momentum_score": 0.0
     },
     "rationale": "initial defaults",
-    "updated_at": "2026-05-05T12:00:04"
+    "updated_at": "2026-05-05T16:06:43"
   },
   "portfolio_timeseries": [
     {
