@@ -1,6 +1,6 @@
 {
-  "schema_version": 4,
-  "generated_at": "2026-05-05T01:03:24",
+  "schema_version": 5,
+  "generated_at": "2026-05-05T12:00:04",
   "as_of": "2026-05-05",
   "window_days": 90,
   "summary": {
@@ -40,7 +40,7 @@
       "min_momentum_score": 0.0
     },
     "rationale": "initial defaults",
-    "updated_at": "2026-05-05T01:03:24"
+    "updated_at": "2026-05-05T12:00:04"
   },
   "portfolio_timeseries": [
     {
@@ -147,6 +147,20 @@
         "fetch_article_body",
         "search_news"
       ]
+    }
+  },
+  "llm_usage_30d": {
+    "input_tokens": 33771,
+    "output_tokens": 2155,
+    "calls": 1,
+    "cost_usd_estimate": 0.0445,
+    "by_event": {
+      "market_context": {
+        "calls": 1,
+        "input_tokens": 33771,
+        "output_tokens": 2155,
+        "cost_usd": 0.0445
+      }
     }
   }
 }
