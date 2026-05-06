@@ -1,7 +1,7 @@
 {
   "schema_version": 5,
-  "generated_at": "2026-05-05T16:06:43",
-  "as_of": "2026-05-05",
+  "generated_at": "2026-05-06T12:00:04",
+  "as_of": "2026-05-06",
   "window_days": 90,
   "summary": {
     "latest_cash_krw": 10000000,
@@ -13,19 +13,19 @@
     "today_net_change_krw": 0,
     "today_external_cash_flow_krw": 0,
     "today_cash_flow_adjusted_profit_loss_krw": 0,
-    "today_cash_flow_adjusted_return_pct": null,
+    "today_cash_flow_adjusted_return_pct": 0.0,
     "today_profit_loss_krw": 0,
-    "today_profit_loss_pct": null,
+    "today_profit_loss_pct": 0.0,
     "today_realized_pl_krw": 0,
     "month_net_change_krw": 0,
     "month_external_cash_flow_krw": 0,
     "month_cash_flow_adjusted_profit_loss_krw": 0,
-    "month_cash_flow_adjusted_return_pct": null,
+    "month_cash_flow_adjusted_return_pct": 0.0,
     "month_profit_loss_krw": 0,
-    "month_profit_loss_pct": null,
+    "month_profit_loss_pct": 0.0,
     "month_realized_pl_krw": 0,
     "realized_pl_30d_krw": 0,
-    "cycles_30d": 1,
+    "cycles_30d": 2,
     "cycles_held_30d": 0,
     "orders_sent_30d": 0,
     "fills_30d": 0,
@@ -40,11 +40,20 @@
       "min_momentum_score": 0.0
     },
     "rationale": "initial defaults",
-    "updated_at": "2026-05-05T16:06:43"
+    "updated_at": "2026-05-06T12:00:04"
   },
   "portfolio_timeseries": [
     {
       "date": "2026-05-05",
+      "total_value_krw": 10000000,
+      "cash_krw": 10000000,
+      "holdings_count": 0,
+      "invested_amount_krw": 0,
+      "holdings_market_value_krw": 0,
+      "unrealized_pl_krw": 0
+    },
+    {
+      "date": "2026-05-06",
       "total_value_krw": 10000000,
       "cash_krw": 10000000,
       "holdings_count": 0,
@@ -71,6 +80,24 @@
       "realized_pl_krw": 0,
       "return_method": "baseline",
       "return_note": "first_snapshot_no_return"
+    },
+    {
+      "date": "2026-05-06",
+      "total_value_krw": 10000000,
+      "cash_krw": 10000000,
+      "invested_amount_krw": 0,
+      "holdings_market_value_krw": 0,
+      "unrealized_pl_krw": 0,
+      "previous_total_value_krw": 10000000,
+      "net_change_krw": 0,
+      "external_cash_flow_krw": 0,
+      "cash_flow_adjusted_profit_loss_krw": 0,
+      "cash_flow_adjusted_return_pct": 0.0,
+      "profit_loss_krw": 0,
+      "profit_loss_pct": 0.0,
+      "realized_pl_krw": 0,
+      "return_method": "cash_flow_adjusted_daily_return",
+      "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
     }
   ],
   "monthly_profit_loss": [
@@ -82,10 +109,10 @@
       "external_cash_flow_krw": 0,
       "cash_flow_adjusted_profit_loss_krw": 0,
       "profit_loss_krw": 0,
-      "profit_loss_pct": null,
-      "cash_flow_adjusted_return_pct": null,
+      "profit_loss_pct": 0.0,
+      "cash_flow_adjusted_return_pct": 0.0,
       "realized_pl_krw": 0,
-      "trading_days": 1
+      "trading_days": 2
     }
   ],
   "return_interpretation": {
@@ -106,18 +133,23 @@
       "**Dry-run 검증**: 실제 주문 전에 dry-run 상태로 주문 시뮬레이션을 수행한다.",
       "**거래 후 검토 필수**: 모든 주문 시도 후 trade_review를 통해 결과를 기록한다.",
       "**현금 관리**: 초기 자본(10,000,000 KRW)을 기준으로 거래를 계획한다.",
-      "**무보유 상태 확인**: 현재 보유 자산이 없음(0개)을 확인하고 신규 거래 계획을 세운다."
+      "**무보유 상태 확인**: 현재 보유 자산이 없음(0개)을 확인하고 신규 거래 계획을 세운다.",
+      "**LLM 리뷰어 판정 존중**: 거래 계획이 LLM 리뷰어의 수정 요청을 받으면 양수 수량이 명시되지 않은 경우 해당 주문을 차단하고, modify 사유를 다음 사이클 계획에 반영한다."
     ],
     "patterns_to_avoid": [
-      "**order_attempt 없이 order_skipped 발생**: 주문 스킵 발생 시 그 원인(마진 부족, 거래량 제한 등)을 명확히 파악하고 다음 사이클에 반영한다.",
+      "**order_attempt 없이 order_skipped 발생**: 주문 스킵 발생 시 그 원인(마진 부족, 거래량 제한, 리뷰어 보류 등)을 명확히 파악하고 다음 사이클에 반영한다.",
       "**불완전한 사이클**: plan_result까지 도달했다면 반드시 order_attempt 또는 order_skipped로 마무리하고 trade_review를 생략하지 않는다.",
-      "**Universe 재선택 없음**: cycle_snapshot 이후 universe_refresh와 universe_select를 건너뛰지 않는다."
+      "**Universe 재선택 없음**: cycle_snapshot 이후 universe_refresh와 universe_select를 건너뛰지 않는다.",
+      "**리뷰어 보류 무시**: LLM 리뷰어가 modify를 요청하고 양수 수량을 제시하지 않으면, 해당 주문의 수량을 0으로 조정하거나 건너뛴다. 보류된 주문을 강행하지 않는다.",
+      "**현금 효율성 무시**: 단일 주문이 현금 대비 5% 이상을 소비하면서 잔여 현금이 다음 거래를 충분히 지원하지 못하는 경우, 계획 단계에서 수량 조정을 검토한다."
     ],
     "patterns_to_repeat": [
       "**순차적 게이트 통과**: backtest_gate → cycle_snapshot → universe_refresh → universe_select 순서를 유지한다.",
       "**Dry-run 시뮬레이션**: order_attempt 시 dry-run 상태로 실행하여 실제 거래 전 검증한다.",
       "**거래 검토 기록**: trade_review를 통해 매 주기마다 거래 결과를 명시적으로 기록한다.",
-      "**전체 8가지 이벤트 타입 활용**: 한 사이클에서 모든 주요 이벤트 타입(backtest_gate, cycle_snapshot, order_attempt/order_skipped, plan_result, trade_review, universe_refresh, universe_select)이 최소 1회씩 발생하도록 설계한다."
+      "**전체 주요 이벤트 타입 활용**: 한 사이클에서 backtest_gate, cycle_snapshot, order_attempt/order_skipped, plan_result, trade_review, universe_refresh, universe_select가 발생하도록 설계한다.",
+      "**모멘텀 신호 검증**: 20일 수익률 기반 모멘텀 스코어가 0.25 이상인 종목을 우선 고려하되, 현금 효율성과 유동성을 함께 평가한다.",
+      "**대형주 우선 전략**: 시가총액 최상위 유동성주(삼성전자 등)부터 진입 기초를 확보한 후, 잔여 현금 여유도와 모멘텀 신호를 함께 고려하여 추가 진입을 계획한다."
     ]
   },
   "market_context": {
@@ -150,11 +182,23 @@
     }
   },
   "llm_usage_30d": {
-    "input_tokens": 33771,
-    "output_tokens": 2155,
-    "calls": 1,
-    "cost_usd_estimate": 0.0445,
+    "input_tokens": 40458,
+    "output_tokens": 5489,
+    "calls": 3,
+    "cost_usd_estimate": 0.0679,
     "by_event": {
+      "trade_review": {
+        "calls": 1,
+        "input_tokens": 2874,
+        "output_tokens": 1010,
+        "cost_usd": 0.0079
+      },
+      "reflection": {
+        "calls": 1,
+        "input_tokens": 3813,
+        "output_tokens": 2324,
+        "cost_usd": 0.0154
+      },
       "market_context": {
         "calls": 1,
         "input_tokens": 33771,
