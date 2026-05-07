@@ -1,7 +1,7 @@
 {
   "schema_version": 5,
-  "generated_at": "2026-05-06T16:06:43",
-  "as_of": "2026-05-06",
+  "generated_at": "2026-05-07T12:00:04",
+  "as_of": "2026-05-07",
   "window_days": 90,
   "summary": {
     "latest_cash_krw": 10000000,
@@ -25,10 +25,10 @@
     "month_profit_loss_pct": 0.0,
     "month_realized_pl_krw": 0,
     "realized_pl_30d_krw": 0,
-    "cycles_30d": 2,
-    "cycles_held_30d": 0,
-    "orders_sent_30d": 0,
-    "fills_30d": 0,
+    "cycles_30d": 6,
+    "cycles_held_30d": 1,
+    "orders_sent_30d": 1,
+    "fills_30d": 1,
     "avg_slippage_bps_30d": 0.0,
     "strategy_version": 1
   },
@@ -40,7 +40,7 @@
       "min_momentum_score": 0.0
     },
     "rationale": "initial defaults",
-    "updated_at": "2026-05-06T16:06:43"
+    "updated_at": "2026-05-07T12:00:04"
   },
   "portfolio_timeseries": [
     {
@@ -54,6 +54,15 @@
     },
     {
       "date": "2026-05-06",
+      "total_value_krw": 10000000,
+      "cash_krw": 10000000,
+      "holdings_count": 0,
+      "invested_amount_krw": 0,
+      "holdings_market_value_krw": 0,
+      "unrealized_pl_krw": 0
+    },
+    {
+      "date": "2026-05-07",
       "total_value_krw": 10000000,
       "cash_krw": 10000000,
       "holdings_count": 0,
@@ -98,6 +107,24 @@
       "realized_pl_krw": 0,
       "return_method": "cash_flow_adjusted_daily_return",
       "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+    },
+    {
+      "date": "2026-05-07",
+      "total_value_krw": 10000000,
+      "cash_krw": 10000000,
+      "invested_amount_krw": 0,
+      "holdings_market_value_krw": 0,
+      "unrealized_pl_krw": 0,
+      "previous_total_value_krw": 10000000,
+      "net_change_krw": 0,
+      "external_cash_flow_krw": 0,
+      "cash_flow_adjusted_profit_loss_krw": 0,
+      "cash_flow_adjusted_return_pct": 0.0,
+      "profit_loss_krw": 0,
+      "profit_loss_pct": 0.0,
+      "realized_pl_krw": 0,
+      "return_method": "cash_flow_adjusted_daily_return",
+      "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
     }
   ],
   "monthly_profit_loss": [
@@ -112,7 +139,7 @@
       "profit_loss_pct": 0.0,
       "cash_flow_adjusted_return_pct": 0.0,
       "realized_pl_krw": 0,
-      "trading_days": 2
+      "trading_days": 3
     }
   ],
   "return_interpretation": {
@@ -126,84 +153,82 @@
     "policy": "Do not infer deposits or withdrawals from account value changes. Recorded external cash flows are subtracted from net account change; deposits are included in the daily return denominator to avoid overstating gains."
   },
   "current_holdings": [],
-  "recent_trades": [],
+  "recent_trades": [
+    {
+      "ts": "2026-05-07T09:46:18",
+      "order_no": "0000011241",
+      "symbol": "009150",
+      "name": "삼성전기",
+      "side": "buy",
+      "filled_quantity": 0,
+      "average_filled_price": 0,
+      "order_date": "20260507",
+      "order_time": "094612",
+      "cancelled": false
+    }
+  ],
   "playbook": {
     "principles": [
       "**완전한 사이클 실행**: backtest_gate, cycle_snapshot, universe_refresh, universe_select, plan_result, order_attempt(또는 order_skipped), trade_review를 순차적으로 거친다.",
-      "**Dry-run 검증**: 실제 주문 전에 dry-run 상태로 주문 시뮬레이션을 수행한다.",
-      "**거래 후 검토 필수**: 모든 주문 시도 후 trade_review를 통해 결과를 기록한다.",
-      "**현금 관리**: 초기 자본(10,000,000 KRW)을 기준으로 거래를 계획한다.",
-      "**무보유 상태 확인**: 현재 보유 자산이 없음(0개)을 확인하고 신규 거래 계획을 세운다.",
-      "**LLM 리뷰어 판정 존중**: 거래 계획이 LLM 리뷰어의 수정 요청을 받으면 양수 수량이 명시되지 않은 경우 해당 주문을 차단하고, modify 사유를 다음 사이클 계획에 반영한다."
+      "**Dry-run 검증 후 리뷰어 판정**: order_attempt 시 dry-run 상태로 실행하고, LLM 리뷰어의 판정(approve/modify/reject)을 명시적으로 기록한 후 최종 실행 여부를 결정한다.",
+      "**거래 후 검토 필수**: 모든 주문 시도(attempted/skipped 모두) 후 trade_review를 통해 리뷰어의 판정 사유와 조정 내용을 기록한다.",
+      "**현금 관리 규칙**: 초기 자본(10,000,000 KRW)을 기준으로, 단일 주문이 전체 현금의 5% 이상을 소비하는 경우 계획 단계에서 수량 조정을 반드시 검토한다.",
+      "**무보유 상태 확인**: 현재 보유 자산 0개를 확인하고 신규 거래 계획을 세운다.",
+      "**리뷰어 modify 판정 처리**: 리뷰어가 modify를 요청하면서 양수 수량을 명시하지 않은 경우(예: qty 1→0), 해당 주문을 자동으로 차단하고 차기 사이클 재평가 대상으로 기록한다."
     ],
     "patterns_to_avoid": [
-      "**order_attempt 없이 order_skipped 발생**: 주문 스킵 발생 시 그 원인(마진 부족, 거래량 제한, 리뷰어 보류 등)을 명확히 파악하고 다음 사이클에 반영한다.",
+      "**리뷰어 판정 무시**: LLM 리뷰어의 modify/reject 판정을 무시하고 원래 계획된 수량으로 주문을 강행하지 않는다. 특히 modify 시 수량이 명시되지 않았다면 해당 주문은 즉시 보류 상태(order_skipped)로 표시한다.",
+      "**현금 효율성 무시**: 단일 주문이 현금 대비 5% 이상을 소비하면서 차기 거래를 충분히 지원하지 못하는 경우, 계획 단계에서 수량 조정 없이 진행하지 않는다. 2026-05-05 사례에서 005930 4주(930만 원, 93% 소비)는 리뷰어가 승인했으나, 이는 대형주 기초 확보라는 전략적 판단 때문임을 명시한다.",
+      "**대형 신규 진입 과다**: 동시에 2개 이상의 대형주 신규 진입은 금리 인상 신호, 지정학적 리스크 등을 감안하여 신중히 검토한다. 2026-05-06 사례에서 리뷰어는 005930만 조정 승인(qty 3→2)하고 005380을 reject한 이유가 \"2개 종목 동시 진입은 과도\"이기 때문임을 명시한다.",
       "**불완전한 사이클**: plan_result까지 도달했다면 반드시 order_attempt 또는 order_skipped로 마무리하고 trade_review를 생략하지 않는다.",
-      "**Universe 재선택 없음**: cycle_snapshot 이후 universe_refresh와 universe_select를 건너뛰지 않는다.",
-      "**리뷰어 보류 무시**: LLM 리뷰어가 modify를 요청하고 양수 수량을 제시하지 않으면, 해당 주문의 수량을 0으로 조정하거나 건너뛴다. 보류된 주문을 강행하지 않는다.",
-      "**현금 효율성 무시**: 단일 주문이 현금 대비 5% 이상을 소비하면서 잔여 현금이 다음 거래를 충분히 지원하지 못하는 경우, 계획 단계에서 수량 조정을 검토한다."
+      "**Universe 재선택 없음**: cycle_snapshot 이후 universe_refresh와 universe_select를 건너뛰지 않는다."
     ],
     "patterns_to_repeat": [
-      "**순차적 게이트 통과**: backtest_gate → cycle_snapshot → universe_refresh → universe_select 순서를 유지한다.",
-      "**Dry-run 시뮬레이션**: order_attempt 시 dry-run 상태로 실행하여 실제 거래 전 검증한다.",
-      "**거래 검토 기록**: trade_review를 통해 매 주기마다 거래 결과를 명시적으로 기록한다.",
-      "**전체 주요 이벤트 타입 활용**: 한 사이클에서 backtest_gate, cycle_snapshot, order_attempt/order_skipped, plan_result, trade_review, universe_refresh, universe_select가 발생하도록 설계한다.",
-      "**모멘텀 신호 검증**: 20일 수익률 기반 모멘텀 스코어가 0.25 이상인 종목을 우선 고려하되, 현금 효율성과 유동성을 함께 평가한다.",
-      "**대형주 우선 전략**: 시가총액 최상위 유동성주(삼성전자 등)부터 진입 기초를 확보한 후, 잔여 현금 여유도와 모멘텀 신호를 함께 고려하여 추가 진입을 계획한다."
+      "**순차적 게이트 통과**: backtest_gate → cycle_snapshot → universe_refresh → universe_select → plan_result → order_attempt/order_skipped → trade_review 순서를 엄격히 유지한다.",
+      "**Dry-run 후 리뷰 루프**: order_attempt는 항상 dry-run 상태로 실행하고, 시스템이 LLM 리뷰어에게 portfolio thesis, modify/approve/reject 판정, 사유, 리스크를 포함한 리뷰를 요청하도록 설계한다.",
+      "**리뷰어 판정 명시 기록**: trade_review 섹션에서 각 주문별로 리뷰어의 최종 판정(approve/modify with qty/reject)과 사유를 명시적으로 기록하고, modify의 경우 조정된 수량과 근거를 포함한다.",
+      "**모멘텀 신호와 현금 효율성의 trade-off**: 모멘텀 스코어(20일 수익률)가 높더라도, 현금 소비 규모, 잔여 여유도, 포트폴리오 다각화 필요성을 함께 평가하여 우선순위를 결정한다. 상위 스코어 종목(000660: 0.7968)이 제외되고 중위 종목(005930: 0.3335)만 진입한 이유를 명시한다.",
+      "**대형주 기초 확보 후 다각화**: 시가총액 최상위 유동성주(삼성전자 등)부터 진입 기초를 확보한 후, 차기 사이클에서 현금 여유도와 모멘텀 신호를 함께 고려하여 추가 진입을 계획한다. 2026-05-05에서 005930 (approve)과 005380 (modify qty→0) 판정이 이를 반영한다.",
+      "**차기 사이클 재평가 목록 유지**: 리뷰어가 reject하거나 modify로 인해 보류된 주문(예: 005380)은 차기 사이클에서 재평가 대상으로 기록하고, 해당 종목의 모멘텈 신호 변화와 현금 여유도 개선 여부를 함께 검토한다."
     ]
   },
   "market_context": {
-    "as_of": "2026-05-05",
-    "next_trading_day": "2026-05-06",
+    "as_of": "2026-05-07",
+    "next_trading_day": "2026-05-08",
     "recommendation": "trade_normal",
-    "macro_sentiment": "positive",
-    "key_themes": [
-      "KOSPI 사상 최고가 경신, 반도체 쌍끌이로 7000 임박",
-      "외인·기관 폭풍 매수, 환율 급락으로 자본 유입 신호 강함",
-      "한은·연준 금리 인상 신호로 향후 긴축 전환 예고",
-      "삼성·SK하이닉스 초호황 지속, 메모리 반도체 수급 극도로 긴축",
-      "중동 지정학적 리스크와 고유가 변수 확대",
-      "월별 '칠월 매도' 관례 속 일단의 조정 가능성"
-    ],
+    "macro_sentiment": "neutral",
+    "key_themes": [],
     "per_symbol_notes": {},
-    "rationale_kr": "코스피는 반도체 초호황과 외인 폭풍 매수에 힘입어 사상 최고가를 경신하고 있으며, 7000선 달성이 임박한 상태입니다. 다음 거래일(5월 6일)은 급등 후 숨고르기 국면으로 예상되나, 목표가 달성 직전의 심리 구간으로 신규 매수 신호는 여전히 유효합니다. 다만 한은·Fed 모두 금리 인상 신호를 보내고 있으며, 지정학적 리스크(중동 전쟁)가 중기 변수로 작용 중이므로, 현물·시장 조성 차원의 평소 거래는 유지하되 대형 신규 진입은 일단 관망하는 절충적 입장을 권고합니다.",
-    "model": "claude-haiku-4-5-20251001",
-    "input_tokens": 33771,
-    "output_tokens": 2155,
-    "iterations": 3,
-    "generated_at": "2026-05-05T01:03:23",
-    "status": "ok",
+    "rationale_kr": "운영자 명시 override (2026-05-07 09:34 KST). 어제 16:30 시황 권고는 reduce_exposure였으나, 운영자가 새로 등록한 directive — 1) 기술적 지표 메인 / 펀더멘털·뉴스 보조, 2) 시황 분석도 기술적 우선, 3) 정책 뉴스 확정 외 검토/예고 단계는 약한 신호 — 기준에서 어제 reduce_exposure는 정책 뉴스(한은 금리 인상 검토 + 5월 물가 우려)에 가중치를 과하게 부여한 결과로 판단. 오늘 사이클은 trade_normal 로 진행한다. 어제 원본 권고는 data/market_context/2026-05-06.json 에 유지.",
+    "model": "operator_override",
     "tools_summary": {
-      "count": 6,
-      "names": [
-        "fetch_article_body",
-        "search_news"
-      ]
+      "count": 0,
+      "names": []
     }
   },
   "llm_usage_30d": {
-    "input_tokens": 40458,
-    "output_tokens": 5489,
-    "calls": 3,
-    "cost_usd_estimate": 0.0679,
+    "input_tokens": 213598,
+    "output_tokens": 19746,
+    "calls": 9,
+    "cost_usd_estimate": 0.3123,
     "by_event": {
-      "trade_review": {
-        "calls": 1,
-        "input_tokens": 2874,
-        "output_tokens": 1010,
-        "cost_usd": 0.0079
-      },
       "reflection": {
-        "calls": 1,
-        "input_tokens": 3813,
-        "output_tokens": 2324,
-        "cost_usd": 0.0154
+        "calls": 2,
+        "input_tokens": 10949,
+        "output_tokens": 5837,
+        "cost_usd": 0.0401
+      },
+      "trade_review": {
+        "calls": 3,
+        "input_tokens": 15173,
+        "output_tokens": 3296,
+        "cost_usd": 0.0317
       },
       "market_context": {
-        "calls": 1,
-        "input_tokens": 33771,
-        "output_tokens": 2155,
-        "cost_usd": 0.0445
+        "calls": 4,
+        "input_tokens": 187476,
+        "output_tokens": 10613,
+        "cost_usd": 0.2405
       }
     }
   }
