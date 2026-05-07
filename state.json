@@ -1,36 +1,23 @@
 {
-  "schema_version": 5,
-  "generated_at": "2026-05-07T16:06:43",
+  "schema_version": 6,
+  "generated_at": "2026-05-07T18:34:25",
   "as_of": "2026-05-07",
   "window_days": 90,
   "summary": {
-    "latest_cash_krw": 10000000,
     "latest_holdings_count": 0,
-    "latest_total_value_krw": 10912000,
-    "invested_amount_krw": 894000,
-    "holdings_market_value_krw": 912000,
-    "unrealized_pl_krw": 18000,
-    "today_net_change_krw": 912000,
-    "today_external_cash_flow_krw": 0,
-    "today_cash_flow_adjusted_profit_loss_krw": 912000,
-    "today_cash_flow_adjusted_return_pct": 9.12,
-    "today_profit_loss_krw": 912000,
-    "today_profit_loss_pct": 9.12,
-    "today_realized_pl_krw": 0,
-    "month_net_change_krw": 912000,
-    "month_external_cash_flow_krw": 0,
-    "month_cash_flow_adjusted_profit_loss_krw": 912000,
-    "month_cash_flow_adjusted_return_pct": 9.12,
-    "month_profit_loss_krw": 912000,
-    "month_profit_loss_pct": 9.12,
-    "month_realized_pl_krw": 0,
-    "realized_pl_30d_krw": 0,
+    "today_return_pct": 9.12,
+    "today_realized_pl_pct": 0.0,
+    "month_return_pct": 9.12,
+    "month_realized_pl_pct": null,
+    "realized_pl_30d_pct": 0.0,
     "cycles_30d": 7,
     "cycles_held_30d": 1,
     "orders_sent_30d": 2,
     "fills_30d": 3,
     "avg_slippage_bps_30d": 0.0,
-    "strategy_version": 1
+    "strategy_version": 1,
+    "month_cash_flow_adjusted_return_pct": 9.12,
+    "today_cash_flow_adjusted_return_pct": 9.12
   },
   "strategy": {
     "version": 1,
@@ -40,126 +27,81 @@
       "min_momentum_score": 0.0
     },
     "rationale": "initial defaults",
-    "updated_at": "2026-05-07T16:06:43"
+    "updated_at": "2026-05-07T18:34:25"
   },
-  "portfolio_timeseries": [
+  "portfolio_index": [
     {
       "date": "2026-05-05",
-      "total_value_krw": 10000000,
-      "cash_krw": 10000000,
-      "holdings_count": 0,
-      "invested_amount_krw": 0,
-      "holdings_market_value_krw": 0,
-      "unrealized_pl_krw": 0
+      "index_value": 100.0,
+      "holdings_count": null
     },
     {
       "date": "2026-05-06",
-      "total_value_krw": 10000000,
-      "cash_krw": 10000000,
-      "holdings_count": 0,
-      "invested_amount_krw": 0,
-      "holdings_market_value_krw": 0,
-      "unrealized_pl_krw": 0
+      "index_value": 100.0,
+      "holdings_count": null
     },
     {
       "date": "2026-05-07",
-      "total_value_krw": 10912000,
-      "cash_krw": 10000000,
-      "holdings_count": 1,
-      "invested_amount_krw": 894000,
-      "holdings_market_value_krw": 912000,
-      "unrealized_pl_krw": 18000
+      "index_value": 109.12,
+      "holdings_count": null
     }
   ],
   "daily_profit_loss": [
     {
       "date": "2026-05-05",
-      "total_value_krw": 10000000,
-      "cash_krw": 10000000,
-      "invested_amount_krw": 0,
-      "holdings_market_value_krw": 0,
-      "unrealized_pl_krw": 0,
-      "previous_total_value_krw": null,
-      "net_change_krw": 0,
-      "external_cash_flow_krw": 0,
-      "cash_flow_adjusted_profit_loss_krw": 0,
-      "cash_flow_adjusted_return_pct": null,
-      "profit_loss_krw": 0,
-      "profit_loss_pct": null,
-      "realized_pl_krw": 0,
+      "return_pct": null,
+      "realized_pl_pct": null,
+      "external_cash_flow": false,
       "return_method": "baseline",
       "return_note": "first_snapshot_no_return"
     },
     {
       "date": "2026-05-06",
-      "total_value_krw": 10000000,
-      "cash_krw": 10000000,
-      "invested_amount_krw": 0,
-      "holdings_market_value_krw": 0,
-      "unrealized_pl_krw": 0,
-      "previous_total_value_krw": 10000000,
-      "net_change_krw": 0,
-      "external_cash_flow_krw": 0,
-      "cash_flow_adjusted_profit_loss_krw": 0,
-      "cash_flow_adjusted_return_pct": 0.0,
-      "profit_loss_krw": 0,
-      "profit_loss_pct": 0.0,
-      "realized_pl_krw": 0,
+      "return_pct": 0.0,
+      "realized_pl_pct": 0.0,
+      "external_cash_flow": false,
       "return_method": "cash_flow_adjusted_daily_return",
       "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
     },
     {
       "date": "2026-05-07",
-      "total_value_krw": 10912000,
-      "cash_krw": 10000000,
-      "invested_amount_krw": 894000,
-      "holdings_market_value_krw": 912000,
-      "unrealized_pl_krw": 18000,
-      "previous_total_value_krw": 10000000,
-      "net_change_krw": 912000,
-      "external_cash_flow_krw": 0,
-      "cash_flow_adjusted_profit_loss_krw": 912000,
-      "cash_flow_adjusted_return_pct": 9.12,
-      "profit_loss_krw": 912000,
-      "profit_loss_pct": 9.12,
-      "realized_pl_krw": 0,
+      "return_pct": 9.12,
+      "realized_pl_pct": 0.0,
+      "external_cash_flow": false,
       "return_method": "cash_flow_adjusted_daily_return",
       "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+    }
+  ],
+  "weekly_profit_loss": [
+    {
+      "week_start": "2026-05-04",
+      "week_end": "2026-05-10",
+      "trading_days": 3,
+      "return_pct": 9.12,
+      "realized_pl_pct": 0.0
     }
   ],
   "monthly_profit_loss": [
     {
       "month": "2026-05",
-      "start_value_krw": 10000000,
-      "end_value_krw": 10912000,
-      "net_change_krw": 912000,
-      "external_cash_flow_krw": 0,
-      "cash_flow_adjusted_profit_loss_krw": 912000,
-      "profit_loss_krw": 912000,
-      "profit_loss_pct": 9.12,
-      "cash_flow_adjusted_return_pct": 9.12,
-      "realized_pl_krw": 0,
-      "trading_days": 3
+      "return_pct": 9.12,
+      "realized_pl_pct": null,
+      "trading_days": 3,
+      "external_cash_flow": false
     }
   ],
   "return_interpretation": {
-    "primary_money_field": "net_change_krw",
-    "primary_performance_field": "cash_flow_adjusted_profit_loss_krw",
-    "primary_return_field": "cash_flow_adjusted_return_pct",
+    "primary_return_field": "return_pct",
     "external_cash_flow_event_type": "external_cash_flow",
-    "external_cash_flow_sign": "positive=deposit, negative=withdrawal",
     "external_cash_flow_events_recorded": 0,
     "unrecorded_cash_flow_risk": true,
-    "policy": "Do not infer deposits or withdrawals from account value changes. Recorded external cash flows are subtracted from net account change; deposits are included in the daily return denominator to avoid overstating gains."
+    "policy": "Public snapshot exposes only percentage returns. KRW amounts and share quantities are stripped at the publish boundary. Recorded external cash flows are subtracted from net account change; deposits are included in the daily return denominator to avoid overstating gains."
   },
   "current_holdings": [
     {
       "symbol": "009150",
       "name": "삼성전기",
-      "quantity": 1,
-      "average_price": 894000,
-      "market_value": 912000,
-      "profit_loss": 18000
+      "return_pct": 2.0134
     }
   ],
   "recent_trades": [
@@ -169,7 +111,6 @@
       "symbol": "042700",
       "name": "한미반도체",
       "side": "buy",
-      "filled_quantity": 2,
       "average_filled_price": 387500,
       "order_date": "20260507",
       "order_time": "124249",
@@ -181,7 +122,6 @@
       "symbol": "009150",
       "name": "삼성전기",
       "side": "buy",
-      "filled_quantity": 1,
       "average_filled_price": 894000,
       "order_date": "20260507",
       "order_time": "094612",
@@ -193,7 +133,6 @@
       "symbol": "009150",
       "name": "삼성전기",
       "side": "buy",
-      "filled_quantity": 0,
       "average_filled_price": 0,
       "order_date": "20260507",
       "order_time": "094612",
@@ -228,22 +167,38 @@
   "market_context": {
     "as_of": "2026-05-07",
     "next_trading_day": "2026-05-08",
-    "recommendation": "trade_normal",
-    "macro_sentiment": "neutral",
-    "key_themes": [],
-    "per_symbol_notes": {},
-    "rationale_kr": "운영자 명시 override (2026-05-07 09:34 KST). 어제 16:30 시황 권고는 reduce_exposure였으나, 운영자가 새로 등록한 directive — 1) 기술적 지표 메인 / 펀더멘털·뉴스 보조, 2) 시황 분석도 기술적 우선, 3) 정책 뉴스 확정 외 검토/예고 단계는 약한 신호 — 기준에서 어제 reduce_exposure는 정책 뉴스(한은 금리 인상 검토 + 5월 물가 우려)에 가중치를 과하게 부여한 결과로 판단. 오늘 사이클은 trade_normal 로 진행한다. 어제 원본 권고는 data/market_context/2026-05-06.json 에 유지.",
-    "model": "operator_override",
+    "recommendation": "reduce_exposure",
+    "macro_sentiment": "cautious",
+    "key_themes": [
+      "코스피 신고점 통과도 외국인 7.1조 역대 최대 순매도로 모멘텀 약화",
+      "반도체 그룹 차익실현 신호 — SK하이닉스 공매도 상위 순위 (기술적 약세)",
+      "삼성SDI 배터리 섹터 '숨 고르기' 중 — ESS 기대는 예고 단계, 실적 회복 확인 미흡",
+      "한은 금리인상 신호 증가 중이나 아직 검토·고민 수준 (확정 아님)",
+      "개인 8조 순매수로 방어하고 있으나 외국인 대량 매도 추세 지속 관찰 필요"
+    ],
+    "per_symbol_notes": {
+      "009150": "AI 수혜 강한 기대 있으나 어제 공매도 상위 + 외국인 차익실현 중 — 단기 조정 위험",
+      "042700": "배터리 섹터 약세 + 적자 상태 → ESS/EV 회복은 예고 단계, 실질 수익성 개선 신호 약함"
+    },
+    "rationale_kr": "코스피가 사상 첫 7,500선을 돌파하며 신고점을 경신했으나 외국인이 2달여 만에 역대 최대인 7.1조원을 순매도하면서 지수 상승의 기술적 뒷받침이 약해졌습니다. 개인 8조 순매수가 방어하고 있지만 외국인 대량 매도 추세는 단기 조정 리스크 신호입니다. 보유 종목 중 SK하이닉스는 차익실현 + 공매도 상위로 압박을 받고 있고, 삼성SDI는 배터리 섹터 전반이 '숨 고르기' 중이며 ESS/EV 회복은 아직 검토·예고 수준입니다. 한은의 금리인상 신호도 증가 중이지만 5월 금통위에서 동결 vs 인상 논의 상태(미결정)이므로 정책 가중치는 낮게 잡습니다. 기술적 지표(외국인 대량 매도, 반도체 차익실현, 배터리 약세)가 우선이므로 다음 거래일은 비중을 축소하고 추세 확인 후 진입하는 것이 타당합니다.",
+    "model": "claude-haiku-4-5-20251001",
+    "input_tokens": 47404,
+    "output_tokens": 2697,
+    "iterations": 3,
+    "generated_at": "2026-05-07T16:31:18",
+    "status": "ok",
     "tools_summary": {
-      "count": 0,
-      "names": []
+      "count": 8,
+      "names": [
+        "search_news"
+      ]
     }
   },
   "llm_usage_30d": {
-    "input_tokens": 345156,
-    "output_tokens": 25842,
-    "calls": 12,
-    "cost_usd_estimate": 0.4744,
+    "input_tokens": 455057,
+    "output_tokens": 31039,
+    "calls": 14,
+    "cost_usd_estimate": 0.6103,
     "by_event": {
       "reflection": {
         "calls": 2,
@@ -258,17 +213,49 @@
         "cost_usd": 0.0427
       },
       "universe_select": {
-        "calls": 2,
-        "input_tokens": 124994,
-        "output_tokens": 5193,
-        "cost_usd": 0.151
+        "calls": 3,
+        "input_tokens": 187491,
+        "output_tokens": 7693,
+        "cost_usd": 0.226
       },
       "market_context": {
-        "calls": 4,
-        "input_tokens": 187476,
-        "output_tokens": 10613,
-        "cost_usd": 0.2405
+        "calls": 5,
+        "input_tokens": 234880,
+        "output_tokens": 13310,
+        "cost_usd": 0.3014
       }
     }
+  },
+  "decision_stats_30d": {
+    "window_days": 30,
+    "cycles": 6,
+    "trade_reviews": 5,
+    "approved": 3,
+    "rejected": 2,
+    "modified": 4,
+    "drift_holds": 1,
+    "volatility_skips": 0,
+    "backtest_gate_failed": 0,
+    "stop_loss_triggered": 0
+  },
+  "backtest_comparison": {
+    "live_30d_return_pct": 9.12,
+    "backtest_recent_return_pct": null,
+    "backtest_recent_sharpe": null,
+    "gap_pct": null,
+    "last_backtest_at": "2026-05-07T09:38:11",
+    "backtest_window_days": null
+  },
+  "holding_period_distribution": {
+    "by_symbol": [
+      {
+        "symbol": "009150",
+        "name": "삼성전기",
+        "days_held": 1
+      }
+    ],
+    "median_days": 1.0,
+    "max_days": 1,
+    "mean_days": 1.0
   }
 }
