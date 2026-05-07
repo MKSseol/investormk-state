@@ -1,6 +1,6 @@
 {
   "schema_version": 7,
-  "generated_at": "2026-05-08T01:41:00",
+  "generated_at": "2026-05-08T01:44:22",
   "as_of": "2026-05-08",
   "window_days": 90,
   "trading_mode": "paper",
@@ -29,7 +29,7 @@
       "min_momentum_score": 0.0
     },
     "rationale": "initial defaults",
-    "updated_at": "2026-05-08T01:41:00"
+    "updated_at": "2026-05-08T01:44:22"
   },
   "portfolio_index": [
     {
@@ -132,20 +132,40 @@
     "as_of": "2026-05-08",
     "next_trading_day": "2026-05-11",
     "recommendation": "trade_normal",
-    "macro_sentiment": "neutral",
-    "key_themes": [],
-    "key_themes_en": [],
-    "per_symbol_notes": {},
-    "per_symbol_notes_en": {},
-    "rationale_kr": "",
-    "rationale_en": "",
-    "input_tokens": 66428,
-    "output_tokens": 3826,
-    "iterations": 4,
-    "generated_at": "2026-05-08T01:40:43",
-    "status": "parse_failed",
+    "macro_sentiment": "positive",
+    "key_themes": [
+      "KOSPI 신고가 7490 돌파, 반도체 랠리 주도 지속",
+      "외국인 사상 최대 매도(7.1조)에도 개인·기관 방어로 상승 추세 유지",
+      "금리 인상 '예고' 신호 (아직 확정 아님, 약한 신호)",
+      "보유 종목 공매도 관심 증가, 수급 악화 신호",
+      "일시적 반도체 쏠림 현상 유의, 내수 연성화 괴리",
+      "거래량 감소 속 예탁금 최고 → 2분기 반등 신호"
+    ],
+    "key_themes_en": [
+      "KOSPI hits record 7490, semiconductor rally continues to lead",
+      "Foreign investors record-high sell (7.1T) but retail/institutional defense maintains uptrend",
+      "BOK rate hike 'signal' stage (not yet confirmed, weak signal)",
+      "Increased short interest in holdings, deteriorating supply-demand",
+      "Caution on temporary semiconductor concentration, domestic weakness divergence",
+      "Lowest trading volume in April but record deposit — Q2 rebound signal"
+    ],
+    "per_symbol_notes": {
+      "009150": "삼성전기: AI·반도체 부품 가격 인상 초입, 외국인·기관 수급 엇갈림 속 강세 유지. 52주 신고가 갱신 중",
+      "042700": "SK하이닉스: 52주 신고가 터치하나 공매도 상위 종목, 외국인·기관 수급 악화 신호. 변동성 주의"
+    },
+    "per_symbol_notes_en": {
+      "009150": "Samsung Electro-Mech: AI/semiconductor components price-hike cycle initiation, maintaining strength amid mixed foreign/institutional flows. 52-week highs renewed",
+      "042700": "SK Hynix: Touches 52-week high but elevated short interest signal, deteriorating foreign/institutional flows. Watch volatility"
+    },
+    "rationale_kr": "기술적으로는 KOSPI 신고가 달성(7490), 추세 강하며, 외국인 대규모 매도에도 개인·기관이 방어해 상승 모멘텀 유지 중. 정책 뉴스(금리 인상)는 '예고' 단계로 아직 확정이 아니므로 운영자 지침상 약한 신호로 처리. 보유 종목은 반도체 랠리 주도 중이나 공매도 관심 증가와 외국인 수급 악화는 주의 신호. 거래량 감소 속 예탁금 최고치는 2분기 반등 신호. 종합하면 다음 거래일 기술적 상승 추세 지속되므로 정상 매매 진행 가능하되, 외국인 수급 악화와 일시적 쏠림 현상을 모니터링해야 함.",
+    "rationale_en": "Technically, KOSPI achieves record high (7490), trend is strong, and despite massive foreign sell-off, retail/institutional defense sustains upward momentum. Policy news (rate hike) remains at 'signal' stage, not yet confirmed, treated as weak signal per operator directive. Holdings lead semiconductor rally but rising short interest and foreign supply-demand deterioration warrant caution. Lowest trading volume but record deposits signal Q2 rebound potential. Overall, technical uptrend likely persists in next session, enabling normal trading while monitoring foreign flows and temporary sector concentration.",
+    "input_tokens": 44549,
+    "output_tokens": 4437,
+    "iterations": 3,
+    "generated_at": "2026-05-08T01:43:54",
+    "status": "ok",
     "tools_summary": {
-      "count": 11,
+      "count": 9,
       "names": [
         "fetch_article_body",
         "search_news"
@@ -153,11 +173,17 @@
     }
   },
   "llm_usage_30d": {
-    "input_tokens": 455057,
-    "output_tokens": 31039,
-    "calls": 14,
-    "cost_usd_estimate": 0.6103,
+    "input_tokens": 499606,
+    "output_tokens": 35476,
+    "calls": 15,
+    "cost_usd_estimate": 0.677,
     "by_event": {
+      "market_context": {
+        "calls": 6,
+        "input_tokens": 279429,
+        "output_tokens": 17747,
+        "cost_usd": 0.3682
+      },
       "reflection": {
         "calls": 2,
         "input_tokens": 10949,
@@ -175,12 +201,6 @@
         "input_tokens": 187491,
         "output_tokens": 7693,
         "cost_usd": 0.226
-      },
-      "market_context": {
-        "calls": 5,
-        "input_tokens": 234880,
-        "output_tokens": 13310,
-        "cost_usd": 0.3014
       }
     }
   },
