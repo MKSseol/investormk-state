@@ -1,6 +1,6 @@
 {
   "schema_version": 7,
-  "generated_at": "2026-05-07T19:32:42",
+  "generated_at": "2026-05-07T20:00:24",
   "as_of": "2026-05-07",
   "window_days": 90,
   "summary": {
@@ -27,7 +27,7 @@
       "min_momentum_score": 0.0
     },
     "rationale": "initial defaults",
-    "updated_at": "2026-05-07T19:32:42"
+    "updated_at": "2026-05-07T20:00:24"
   },
   "portfolio_index": [
     {
@@ -236,11 +236,11 @@
   },
   "backtest_comparison": {
     "live_30d_return_pct": 9.12,
-    "backtest_recent_return_pct": null,
-    "backtest_recent_sharpe": null,
-    "gap_pct": null,
+    "backtest_recent_return_pct": 22.15,
+    "backtest_recent_sharpe": 2.8407,
+    "gap_pct": -13.03,
     "last_backtest_at": "2026-05-07T09:38:11",
-    "backtest_window_days": null
+    "backtest_window_days": 90
   },
   "holding_period_distribution": {
     "by_symbol": [
