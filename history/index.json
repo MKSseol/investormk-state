@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-06T03:00:17Z",
-  "count": 159,
+  "updated_at": "2026-08-06T07:36:22Z",
+  "count": 160,
   "snapshots": [
     {
       "ts": "2026-05-09T01:04:59",
@@ -955,6 +955,12 @@
       "as_of": "2026-08-06",
       "schema_version": 7,
       "path": "history/2026/08/state-20260806-120014Z.json"
+    },
+    {
+      "ts": "2026-08-06T16:36:19",
+      "as_of": "2026-08-06",
+      "schema_version": 7,
+      "path": "history/2026/08/state-20260806-163619Z.json"
     }
   ]
 }
