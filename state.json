@@ -1,19 +1,19 @@
 {
   "schema_version": 7,
-  "generated_at": "2026-10-19T16:31:25",
-  "as_of": "2026-10-19",
+  "generated_at": "2026-10-20T09:35:14",
+  "as_of": "2026-10-20",
   "window_days": 90,
   "trading_mode": "paper",
   "first_trading_day": "2026-10-19",
   "live_since": null,
   "summary": {
     "latest_holdings_count": 6,
-    "today_return_pct": 2.3564,
+    "today_return_pct": -0.8032,
     "today_realized_pl_pct": null,
-    "month_return_pct": 2.3564,
+    "month_return_pct": -0.8032,
     "month_realized_pl_pct": null,
     "realized_pl_30d_pct": 0.0,
-    "cycles_30d": 6,
+    "cycles_30d": 7,
     "cycles_held_30d": 0,
     "orders_sent_30d": 6,
     "fills_30d": 6,
@@ -85,32 +85,32 @@
     {
       "symbol": "000250",
       "name": "삼천당제약",
-      "return_pct": 3.6946
+      "return_pct": 0.0
     },
     {
       "symbol": "031980",
       "name": "피에스케이홀딩스",
-      "return_pct": 2.8754
+      "return_pct": -0.2662
     },
     {
       "symbol": "096530",
       "name": "씨젠",
-      "return_pct": 0.9296
+      "return_pct": -1.0624
     },
     {
       "symbol": "131290",
       "name": "티에스이",
-      "return_pct": 2.0036
+      "return_pct": -1.6393
     },
     {
       "symbol": "251970",
       "name": "펌텍코리아",
-      "return_pct": 2.4251
+      "return_pct": -1.1412
     },
     {
       "symbol": "383220",
       "name": "F&F",
-      "return_pct": -2.069
+      "return_pct": -2.2069
     }
   ],
   "per_symbol_returns": [
@@ -118,8 +118,8 @@
       "symbol": "000250",
       "name": "삼천당제약",
       "realized_return_pct": null,
-      "current_return_pct": 3.6946,
-      "total_return_pct": 3.6946,
+      "current_return_pct": 0.0,
+      "total_return_pct": 0.0,
       "still_held": true,
       "buy_count": 1,
       "sell_count": 0
@@ -128,28 +128,8 @@
       "symbol": "031980",
       "name": "피에스케이홀딩스",
       "realized_return_pct": null,
-      "current_return_pct": 2.8754,
-      "total_return_pct": 2.8754,
-      "still_held": true,
-      "buy_count": 1,
-      "sell_count": 0
-    },
-    {
-      "symbol": "251970",
-      "name": "펌텍코리아",
-      "realized_return_pct": null,
-      "current_return_pct": 2.4251,
-      "total_return_pct": 2.4251,
-      "still_held": true,
-      "buy_count": 1,
-      "sell_count": 0
-    },
-    {
-      "symbol": "131290",
-      "name": "티에스이",
-      "realized_return_pct": null,
-      "current_return_pct": 2.0036,
-      "total_return_pct": 2.0036,
+      "current_return_pct": -0.2662,
+      "total_return_pct": -0.2662,
       "still_held": true,
       "buy_count": 1,
       "sell_count": 0
@@ -158,8 +138,28 @@
       "symbol": "096530",
       "name": "씨젠",
       "realized_return_pct": null,
-      "current_return_pct": 0.9296,
-      "total_return_pct": 0.9296,
+      "current_return_pct": -1.0624,
+      "total_return_pct": -1.0624,
+      "still_held": true,
+      "buy_count": 1,
+      "sell_count": 0
+    },
+    {
+      "symbol": "251970",
+      "name": "펌텍코리아",
+      "realized_return_pct": null,
+      "current_return_pct": -1.1412,
+      "total_return_pct": -1.1412,
+      "still_held": true,
+      "buy_count": 1,
+      "sell_count": 0
+    },
+    {
+      "symbol": "131290",
+      "name": "티에스이",
+      "realized_return_pct": null,
+      "current_return_pct": -1.6393,
+      "total_return_pct": -1.6393,
       "still_held": true,
       "buy_count": 1,
       "sell_count": 0
@@ -168,8 +168,8 @@
       "symbol": "383220",
       "name": "F&F",
       "realized_return_pct": null,
-      "current_return_pct": -2.069,
-      "total_return_pct": -2.069,
+      "current_return_pct": -2.2069,
+      "total_return_pct": -2.2069,
       "still_held": true,
       "buy_count": 1,
       "sell_count": 0
@@ -183,7 +183,7 @@
       "name": "삼천당제약",
       "side": "buy",
       "average_filled_price": 203000,
-      "current_price": 210500,
+      "current_price": 203000,
       "order_date": "20261019",
       "order_time": "093757",
       "cancelled": false
@@ -195,7 +195,7 @@
       "name": "티에스이",
       "side": "buy",
       "average_filled_price": 274500,
-      "current_price": 280000,
+      "current_price": 270000,
       "order_date": "20261019",
       "order_time": "093750",
       "cancelled": false
@@ -207,7 +207,7 @@
       "name": "F&F",
       "side": "buy",
       "average_filled_price": 72500,
-      "current_price": 71000,
+      "current_price": 70900,
       "order_date": "20261019",
       "order_time": "093744",
       "cancelled": false
@@ -219,7 +219,7 @@
       "name": "피에스케이홀딩스",
       "side": "buy",
       "average_filled_price": 187800,
-      "current_price": 193200,
+      "current_price": 187300,
       "order_date": "20261019",
       "order_time": "093734",
       "cancelled": false
@@ -231,7 +231,7 @@
       "name": "씨젠",
       "side": "buy",
       "average_filled_price": 37650,
-      "current_price": 38000,
+      "current_price": 37250,
       "order_date": "20261019",
       "order_time": "123539",
       "cancelled": false
@@ -243,7 +243,7 @@
       "name": "펌텍코리아",
       "side": "buy",
       "average_filled_price": 70100,
-      "current_price": 71800,
+      "current_price": 69300,
       "order_date": "20261019",
       "order_time": "143311",
       "cancelled": false
@@ -395,7 +395,7 @@
   },
   "decision_stats_30d": {
     "window_days": 30,
-    "cycles": 6,
+    "cycles": 7,
     "trade_reviews": 3,
     "approved": 3,
     "rejected": 0,
@@ -938,25 +938,25 @@
     "mean_days": 1.0
   },
   "canary": {
-    "as_of": "2026-10-19",
-    "generated_at": "2026-10-19T16:31:32",
+    "as_of": "2026-10-20",
+    "generated_at": "2026-10-20T09:35:28",
     "first_trading_day": "2026-08-10",
     "live_since": "2026-08-10",
     "summary": {
-      "latest_holdings_count": 1,
-      "today_return_pct": -0.1355,
+      "latest_holdings_count": 3,
+      "today_return_pct": 0.1578,
       "today_realized_pl_pct": 0.0,
-      "month_return_pct": -1.0123,
+      "month_return_pct": -0.8561,
       "month_realized_pl_pct": -1.1299,
       "realized_pl_30d_pct": -1.1213,
-      "cycles_30d": 47,
+      "cycles_30d": 48,
       "cycles_held_30d": 32,
-      "orders_sent_30d": 4,
-      "fills_30d": 5,
-      "avg_slippage_bps_30d": -9.571138329272166,
+      "orders_sent_30d": 6,
+      "fills_30d": 7,
+      "avg_slippage_bps_30d": -1.9462532944597826,
       "strategy_version": 0,
-      "month_cash_flow_adjusted_return_pct": -1.0123,
-      "today_cash_flow_adjusted_return_pct": -0.1355
+      "month_cash_flow_adjusted_return_pct": -0.8561,
+      "today_cash_flow_adjusted_return_pct": 0.1578
     },
     "portfolio_index": [
       {
@@ -1187,6 +1187,11 @@
       {
         "date": "2026-10-19",
         "index_value": 98.2335,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-10-20",
+        "index_value": 98.3885,
         "holdings_count": null
       }
     ],
@@ -1558,6 +1563,14 @@
         "external_cash_flow": false,
         "return_method": "cash_flow_adjusted_daily_return",
         "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-10-20",
+        "return_pct": 0.1578,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
       }
     ],
     "monthly_profit_loss": [
@@ -1579,18 +1592,28 @@
       },
       {
         "month": "2026-10",
-        "return_pct": -1.0123,
+        "return_pct": -0.8561,
         "realized_pl_pct": -1.1299,
-        "trading_days": 11,
+        "trading_days": 12,
         "external_cash_flow": false,
         "excluded_days": 0
       }
     ],
     "current_holdings": [
       {
+        "symbol": "000240",
+        "name": "한국앤컴퍼니",
+        "return_pct": -0.5725
+      },
+      {
+        "symbol": "030190",
+        "name": "NICE평가정보",
+        "return_pct": 0.2335
+      },
+      {
         "symbol": "086450",
         "name": "동국제약",
-        "return_pct": -1.5595
+        "return_pct": 1.1696
       }
     ],
     "per_symbol_returns": [
@@ -1598,8 +1621,28 @@
         "symbol": "086450",
         "name": "동국제약",
         "realized_return_pct": null,
-        "current_return_pct": -1.5595,
-        "total_return_pct": -1.5595,
+        "current_return_pct": 1.1696,
+        "total_return_pct": 1.1696,
+        "still_held": true,
+        "buy_count": 1,
+        "sell_count": 0
+      },
+      {
+        "symbol": "030190",
+        "name": "NICE평가정보",
+        "realized_return_pct": null,
+        "current_return_pct": 0.2335,
+        "total_return_pct": 0.2335,
+        "still_held": true,
+        "buy_count": 1,
+        "sell_count": 0
+      },
+      {
+        "symbol": "000240",
+        "name": "한국앤컴퍼니",
+        "realized_return_pct": null,
+        "current_return_pct": -0.5725,
+        "total_return_pct": -0.5725,
         "still_held": true,
         "buy_count": 1,
         "sell_count": 0
@@ -1637,7 +1680,7 @@
     ],
     "nav_integrity": {
       "threshold_pct": 5.0,
-      "checked_points": 46,
+      "checked_points": 47,
       "suspect_count": 0,
       "status": "ok",
       "suspects": [],
@@ -1646,10 +1689,10 @@
     },
     "decision_stats_30d": {
       "window_days": 30,
-      "cycles": 47,
-      "trade_reviews": 7,
-      "approved": 4,
-      "rejected": 8,
+      "cycles": 48,
+      "trade_reviews": 8,
+      "approved": 6,
+      "rejected": 10,
       "modified": 0,
       "drift_holds": 14,
       "volatility_skips": 0,
