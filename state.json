@@ -1,6 +1,6 @@
 {
   "schema_version": 7,
-  "generated_at": "2026-10-22T09:35:13",
+  "generated_at": "2026-10-22T12:00:14",
   "as_of": "2026-10-22",
   "window_days": 90,
   "trading_mode": "paper",
@@ -8,9 +8,9 @@
   "live_since": null,
   "summary": {
     "latest_holdings_count": 3,
-    "today_return_pct": -0.058,
+    "today_return_pct": -0.06,
     "today_realized_pl_pct": 0.0,
-    "month_return_pct": -0.1764,
+    "month_return_pct": -0.1784,
     "month_realized_pl_pct": null,
     "realized_pl_30d_pct": null,
     "cycles_30d": 13,
@@ -19,8 +19,8 @@
     "fills_30d": 9,
     "avg_slippage_bps_30d": -108.9641936814131,
     "strategy_version": 1,
-    "month_cash_flow_adjusted_return_pct": -0.1764,
-    "today_cash_flow_adjusted_return_pct": -0.058
+    "month_cash_flow_adjusted_return_pct": -0.1784,
+    "today_cash_flow_adjusted_return_pct": -0.06
   },
   "strategy": {
     "version": 1,
@@ -55,7 +55,7 @@
     },
     {
       "date": "2026-10-22",
-      "index_value": 99.8236,
+      "index_value": 99.8216,
       "holdings_count": null
     }
   ],
@@ -86,7 +86,7 @@
     },
     {
       "date": "2026-10-22",
-      "return_pct": -0.058,
+      "return_pct": -0.06,
       "realized_pl_pct": 0.0,
       "external_cash_flow": false,
       "return_method": "cash_flow_adjusted_daily_return",
@@ -98,7 +98,7 @@
       "week_start": "2026-10-19",
       "week_end": "2026-10-25",
       "trading_days": 4,
-      "return_pct": -0.1764,
+      "return_pct": -0.1784,
       "realized_pl_pct": 0.0,
       "excluded_days": 0
     }
@@ -106,7 +106,7 @@
   "monthly_profit_loss": [
     {
       "month": "2026-10",
-      "return_pct": -0.1764,
+      "return_pct": -0.1784,
       "realized_pl_pct": null,
       "trading_days": 4,
       "external_cash_flow": false,
@@ -124,7 +124,7 @@
     {
       "symbol": "000250",
       "name": "삼천당제약",
-      "return_pct": 2.2167
+      "return_pct": 1.2315
     },
     {
       "symbol": "096530",
@@ -134,7 +134,7 @@
     {
       "symbol": "251970",
       "name": "펌텍코리아",
-      "return_pct": -1.1412
+      "return_pct": 0.2853
     }
   ],
   "per_symbol_returns": [
@@ -142,8 +142,18 @@
       "symbol": "000250",
       "name": "삼천당제약",
       "realized_return_pct": null,
-      "current_return_pct": 2.2167,
-      "total_return_pct": 2.2167,
+      "current_return_pct": 1.2315,
+      "total_return_pct": 1.2315,
+      "still_held": true,
+      "buy_count": 1,
+      "sell_count": 0
+    },
+    {
+      "symbol": "251970",
+      "name": "펌텍코리아",
+      "realized_return_pct": null,
+      "current_return_pct": 0.2853,
+      "total_return_pct": 0.2853,
       "still_held": true,
       "buy_count": 1,
       "sell_count": 0
@@ -157,16 +167,6 @@
       "still_held": false,
       "buy_count": 1,
       "sell_count": 1
-    },
-    {
-      "symbol": "251970",
-      "name": "펌텍코리아",
-      "realized_return_pct": null,
-      "current_return_pct": -1.1412,
-      "total_return_pct": -1.1412,
-      "still_held": true,
-      "buy_count": 1,
-      "sell_count": 0
     },
     {
       "symbol": "131290",
@@ -243,7 +243,7 @@
       "name": "삼천당제약",
       "side": "buy",
       "average_filled_price": 203000,
-      "current_price": 207500,
+      "current_price": 205500,
       "order_date": "20261019",
       "order_time": "093757",
       "cancelled": false
@@ -303,7 +303,7 @@
       "name": "펌텍코리아",
       "side": "buy",
       "average_filled_price": 70100,
-      "current_price": 69300,
+      "current_price": 70300,
       "order_date": "20261019",
       "order_time": "143311",
       "cancelled": false
@@ -418,10 +418,10 @@
     "news_provider": "upstarnews_api"
   },
   "llm_usage_30d": {
-    "input_tokens": 166162,
-    "output_tokens": 16729,
-    "calls": 11,
-    "cost_usd_estimate": 0.2498,
+    "input_tokens": 203252,
+    "output_tokens": 18824,
+    "calls": 12,
+    "cost_usd_estimate": 0.2974,
     "by_event": {
       "trade_review": {
         "calls": 8,
@@ -430,10 +430,10 @@
         "cost_usd": 0.1471
       },
       "reflection": {
-        "calls": 3,
-        "input_tokens": 77686,
-        "output_tokens": 5000,
-        "cost_usd": 0.1027
+        "calls": 4,
+        "input_tokens": 114776,
+        "output_tokens": 7095,
+        "cost_usd": 0.1503
       }
     }
   },
@@ -459,10 +459,10 @@
     "stop_loss_triggered": 0
   },
   "backtest_comparison": {
-    "live_30d_return_pct": -0.1764,
+    "live_30d_return_pct": -0.1784,
     "backtest_recent_return_pct": -2.3329,
     "backtest_recent_sharpe": -1.0261,
-    "gap_pct": 2.1565,
+    "gap_pct": 2.1545,
     "last_backtest_at": "2026-10-22T09:31:23",
     "backtest_window_days": 180,
     "universe_source": "full-listed",
@@ -953,9 +953,9 @@
       "points": 4,
       "basis": "intersection_of_live_and_backtest_index_dates"
     },
-    "live_window_return_pct": -0.1764,
+    "live_window_return_pct": -0.1784,
     "backtest_window_return_pct": -2.3329,
-    "live_month_to_date_return_pct": -0.1764,
+    "live_month_to_date_return_pct": -0.1784,
     "backtest_full_window_return_pct": -9.9931
   },
   "holding_period_distribution": {
@@ -982,7 +982,7 @@
   },
   "canary": {
     "as_of": "2026-10-22",
-    "generated_at": "2026-10-22T09:35:24",
+    "generated_at": "2026-10-22T12:00:18",
     "first_trading_day": "2026-08-10",
     "live_since": "2026-08-10",
     "summary": {
@@ -1672,17 +1672,17 @@
       {
         "symbol": "000240",
         "name": "한국앤컴퍼니",
-        "return_pct": -7.4427
+        "return_pct": -8.5878
       },
       {
         "symbol": "030190",
         "name": "NICE평가정보",
-        "return_pct": 0.0584
+        "return_pct": 1.2843
       },
       {
         "symbol": "086450",
         "name": "동국제약",
-        "return_pct": -4.0936
+        "return_pct": -4.8733
       }
     ],
     "per_symbol_returns": [
@@ -1690,8 +1690,8 @@
         "symbol": "030190",
         "name": "NICE평가정보",
         "realized_return_pct": null,
-        "current_return_pct": 0.0584,
-        "total_return_pct": 0.0584,
+        "current_return_pct": 1.2843,
+        "total_return_pct": 1.2843,
         "still_held": true,
         "buy_count": 1,
         "sell_count": 0
@@ -1720,8 +1720,8 @@
         "symbol": "086450",
         "name": "동국제약",
         "realized_return_pct": null,
-        "current_return_pct": -4.0936,
-        "total_return_pct": -4.0936,
+        "current_return_pct": -4.8733,
+        "total_return_pct": -4.8733,
         "still_held": true,
         "buy_count": 1,
         "sell_count": 0
@@ -1730,8 +1730,8 @@
         "symbol": "000240",
         "name": "한국앤컴퍼니",
         "realized_return_pct": null,
-        "current_return_pct": -7.4427,
-        "total_return_pct": -7.4427,
+        "current_return_pct": -8.5878,
+        "total_return_pct": -8.5878,
         "still_held": true,
         "buy_count": 1,
         "sell_count": 0
