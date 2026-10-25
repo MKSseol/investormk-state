@@ -1,15 +1,15 @@
 {
   "schema_version": 7,
-  "generated_at": "2026-10-23T16:33:11",
-  "as_of": "2026-10-23",
+  "generated_at": "2026-10-25T18:30:08",
+  "as_of": "2026-10-25",
   "window_days": 90,
   "trading_mode": "paper",
   "first_trading_day": "2026-10-19",
   "live_since": null,
   "summary": {
     "latest_holdings_count": 2,
-    "today_return_pct": -0.0212,
-    "today_realized_pl_pct": 0.0,
+    "today_return_pct": -1.5379,
+    "today_realized_pl_pct": null,
     "month_return_pct": -0.268,
     "month_realized_pl_pct": null,
     "realized_pl_30d_pct": null,
@@ -20,7 +20,7 @@
     "avg_slippage_bps_30d": -103.98493407658539,
     "strategy_version": 1,
     "month_cash_flow_adjusted_return_pct": -0.268,
-    "today_cash_flow_adjusted_return_pct": -0.0212
+    "today_cash_flow_adjusted_return_pct": null
   },
   "strategy": {
     "version": 1,
@@ -996,14 +996,14 @@
     "mean_days": 5.0
   },
   "canary": {
-    "as_of": "2026-10-23",
-    "generated_at": "2026-10-23T16:33:19",
+    "as_of": "2026-10-25",
+    "generated_at": "2026-10-25T18:30:14",
     "first_trading_day": "2026-08-10",
     "live_since": "2026-08-10",
     "summary": {
       "latest_holdings_count": 3,
-      "today_return_pct": -0.3982,
-      "today_realized_pl_pct": 0.0,
+      "today_return_pct": -6.7991,
+      "today_realized_pl_pct": null,
       "month_return_pct": -2.5305,
       "month_realized_pl_pct": -1.1299,
       "realized_pl_30d_pct": -1.1213,
@@ -1014,7 +1014,7 @@
       "avg_slippage_bps_30d": -1.9462532944597826,
       "strategy_version": 0,
       "month_cash_flow_adjusted_return_pct": -2.5305,
-      "today_cash_flow_adjusted_return_pct": -0.3982
+      "today_cash_flow_adjusted_return_pct": null
     },
     "portfolio_index": [
       {
@@ -1786,12 +1786,12 @@
     },
     "decision_stats_30d": {
       "window_days": 30,
-      "cycles": 57,
+      "cycles": 54,
       "trade_reviews": 8,
       "approved": 6,
       "rejected": 10,
       "modified": 0,
-      "drift_holds": 14,
+      "drift_holds": 11,
       "volatility_skips": 0,
       "backtest_gate_failed": 41,
       "stop_loss_triggered": 1
