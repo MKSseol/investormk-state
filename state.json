@@ -1,19 +1,19 @@
 {
   "schema_version": 7,
-  "generated_at": "2026-10-25T18:30:08",
-  "as_of": "2026-10-25",
+  "generated_at": "2026-10-26T09:35:25",
+  "as_of": "2026-10-26",
   "window_days": 90,
   "trading_mode": "paper",
   "first_trading_day": "2026-10-19",
   "live_since": null,
   "summary": {
     "latest_holdings_count": 2,
-    "today_return_pct": -1.5379,
+    "today_return_pct": -3.3321,
     "today_realized_pl_pct": null,
     "month_return_pct": -0.268,
     "month_realized_pl_pct": null,
     "realized_pl_30d_pct": null,
-    "cycles_30d": 18,
+    "cycles_30d": 19,
     "cycles_held_30d": 0,
     "orders_sent_30d": 10,
     "fills_30d": 10,
@@ -137,12 +137,12 @@
     {
       "symbol": "000250",
       "name": "삼천당제약",
-      "return_pct": -1.8719
+      "return_pct": -2.8079
     },
     {
       "symbol": "251970",
       "name": "펌텍코리아",
-      "return_pct": -0.5706
+      "return_pct": -4.8502
     }
   ],
   "per_symbol_returns": [
@@ -155,16 +155,6 @@
       "still_held": false,
       "buy_count": 1,
       "sell_count": 1
-    },
-    {
-      "symbol": "251970",
-      "name": "펌텍코리아",
-      "realized_return_pct": null,
-      "current_return_pct": -0.5706,
-      "total_return_pct": -0.5706,
-      "still_held": true,
-      "buy_count": 1,
-      "sell_count": 0
     },
     {
       "symbol": "131290",
@@ -180,8 +170,18 @@
       "symbol": "000250",
       "name": "삼천당제약",
       "realized_return_pct": null,
-      "current_return_pct": -1.8719,
-      "total_return_pct": -1.8719,
+      "current_return_pct": -2.8079,
+      "total_return_pct": -2.8079,
+      "still_held": true,
+      "buy_count": 1,
+      "sell_count": 0
+    },
+    {
+      "symbol": "251970",
+      "name": "펌텍코리아",
+      "realized_return_pct": null,
+      "current_return_pct": -4.8502,
+      "total_return_pct": -4.8502,
       "still_held": true,
       "buy_count": 1,
       "sell_count": 0
@@ -263,7 +263,7 @@
       "name": "삼천당제약",
       "side": "buy",
       "average_filled_price": 203000,
-      "current_price": 199200,
+      "current_price": 197300,
       "order_date": "20261019",
       "order_time": "093757",
       "cancelled": false
@@ -323,7 +323,7 @@
       "name": "펌텍코리아",
       "side": "buy",
       "average_filled_price": 70100,
-      "current_price": 69700,
+      "current_price": 66700,
       "order_date": "20261019",
       "order_time": "143311",
       "cancelled": false
@@ -464,7 +464,7 @@
   },
   "decision_stats_30d": {
     "window_days": 30,
-    "cycles": 18,
+    "cycles": 19,
     "trade_reviews": 13,
     "approved": 7,
     "rejected": 10,
@@ -996,25 +996,25 @@
     "mean_days": 5.0
   },
   "canary": {
-    "as_of": "2026-10-25",
-    "generated_at": "2026-10-25T18:30:14",
+    "as_of": "2026-10-26",
+    "generated_at": "2026-10-26T09:35:38",
     "first_trading_day": "2026-08-10",
     "live_since": "2026-08-10",
     "summary": {
       "latest_holdings_count": 3,
-      "today_return_pct": -6.7991,
-      "today_realized_pl_pct": null,
-      "month_return_pct": -2.5305,
+      "today_return_pct": 0.1516,
+      "today_realized_pl_pct": 0.0,
+      "month_return_pct": -2.3827,
       "month_realized_pl_pct": -1.1299,
       "realized_pl_30d_pct": -1.1213,
-      "cycles_30d": 54,
-      "cycles_held_30d": 41,
+      "cycles_30d": 55,
+      "cycles_held_30d": 42,
       "orders_sent_30d": 6,
       "fills_30d": 7,
       "avg_slippage_bps_30d": -1.9462532944597826,
       "strategy_version": 0,
-      "month_cash_flow_adjusted_return_pct": -2.5305,
-      "today_cash_flow_adjusted_return_pct": null
+      "month_cash_flow_adjusted_return_pct": -2.3827,
+      "today_cash_flow_adjusted_return_pct": 0.1516
     },
     "portfolio_index": [
       {
@@ -1265,6 +1265,11 @@
       {
         "date": "2026-10-23",
         "index_value": 96.7269,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-10-26",
+        "index_value": 96.8735,
         "holdings_count": null
       }
     ],
@@ -1668,6 +1673,14 @@
         "external_cash_flow": false,
         "return_method": "cash_flow_adjusted_daily_return",
         "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-10-26",
+        "return_pct": 0.1516,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
       }
     ],
     "monthly_profit_loss": [
@@ -1689,9 +1702,9 @@
       },
       {
         "month": "2026-10",
-        "return_pct": -2.5305,
+        "return_pct": -2.3827,
         "realized_pl_pct": -1.1299,
-        "trading_days": 15,
+        "trading_days": 16,
         "external_cash_flow": false,
         "excluded_days": 0
       }
@@ -1700,12 +1713,12 @@
       {
         "symbol": "000240",
         "name": "한국앤컴퍼니",
-        "return_pct": -11.8321
+        "return_pct": -12.7863
       },
       {
         "symbol": "030190",
         "name": "NICE평가정보",
-        "return_pct": -2.2767
+        "return_pct": 1.0508
       },
       {
         "symbol": "086450",
@@ -1718,8 +1731,8 @@
         "symbol": "030190",
         "name": "NICE평가정보",
         "realized_return_pct": null,
-        "current_return_pct": -2.2767,
-        "total_return_pct": -2.2767,
+        "current_return_pct": 1.0508,
+        "total_return_pct": 1.0508,
         "still_held": true,
         "buy_count": 1,
         "sell_count": 0
@@ -1758,8 +1771,8 @@
         "symbol": "000240",
         "name": "한국앤컴퍼니",
         "realized_return_pct": null,
-        "current_return_pct": -11.8321,
-        "total_return_pct": -11.8321,
+        "current_return_pct": -12.7863,
+        "total_return_pct": -12.7863,
         "still_held": true,
         "buy_count": 1,
         "sell_count": 0
@@ -1777,7 +1790,7 @@
     ],
     "nav_integrity": {
       "threshold_pct": 5.0,
-      "checked_points": 50,
+      "checked_points": 51,
       "suspect_count": 0,
       "status": "ok",
       "suspects": [],
@@ -1786,14 +1799,14 @@
     },
     "decision_stats_30d": {
       "window_days": 30,
-      "cycles": 54,
+      "cycles": 55,
       "trade_reviews": 8,
       "approved": 6,
       "rejected": 10,
       "modified": 0,
       "drift_holds": 11,
       "volatility_skips": 0,
-      "backtest_gate_failed": 41,
+      "backtest_gate_failed": 42,
       "stop_loss_triggered": 1
     },
     "account": "canary",
