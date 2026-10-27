@@ -1,6 +1,6 @@
 {
   "schema_version": 7,
-  "generated_at": "2026-10-27T09:35:19",
+  "generated_at": "2026-10-27T12:00:14",
   "as_of": "2026-10-27",
   "window_days": 90,
   "trading_mode": "paper",
@@ -8,9 +8,9 @@
   "live_since": null,
   "summary": {
     "latest_holdings_count": 3,
-    "today_return_pct": -0.0185,
+    "today_return_pct": -0.0178,
     "today_realized_pl_pct": 0.0,
-    "month_return_pct": -0.3396,
+    "month_return_pct": -0.3389,
     "month_realized_pl_pct": null,
     "realized_pl_30d_pct": null,
     "cycles_30d": 22,
@@ -19,8 +19,8 @@
     "fills_30d": 15,
     "avg_slippage_bps_30d": -55.468418491894234,
     "strategy_version": 1,
-    "month_cash_flow_adjusted_return_pct": -0.3396,
-    "today_cash_flow_adjusted_return_pct": -0.0185
+    "month_cash_flow_adjusted_return_pct": -0.3389,
+    "today_cash_flow_adjusted_return_pct": -0.0178
   },
   "strategy": {
     "version": 1,
@@ -70,7 +70,7 @@
     },
     {
       "date": "2026-10-27",
-      "index_value": 99.6604,
+      "index_value": 99.6611,
       "holdings_count": null
     }
   ],
@@ -125,7 +125,7 @@
     },
     {
       "date": "2026-10-27",
-      "return_pct": -0.0185,
+      "return_pct": -0.0178,
       "realized_pl_pct": 0.0,
       "external_cash_flow": false,
       "return_method": "cash_flow_adjusted_daily_return",
@@ -145,7 +145,7 @@
       "week_start": "2026-10-26",
       "week_end": "2026-11-01",
       "trading_days": 2,
-      "return_pct": -0.0718,
+      "return_pct": -0.0711,
       "realized_pl_pct": 0.0,
       "excluded_days": 0
     }
@@ -153,7 +153,7 @@
   "monthly_profit_loss": [
     {
       "month": "2026-10",
-      "return_pct": -0.3396,
+      "return_pct": -0.3389,
       "realized_pl_pct": null,
       "trading_days": 7,
       "external_cash_flow": false,
@@ -171,20 +171,30 @@
     {
       "symbol": "033780",
       "name": "KT&G",
-      "return_pct": -0.7949
+      "return_pct": -1.3249
     },
     {
       "symbol": "223250",
       "name": "드림씨아이에스",
-      "return_pct": -2.4691
+      "return_pct": -0.1235
     },
     {
       "symbol": "251970",
       "name": "펌텍코리아",
-      "return_pct": -3.8516
+      "return_pct": -5.1355
     }
   ],
   "per_symbol_returns": [
+    {
+      "symbol": "223250",
+      "name": "드림씨아이에스",
+      "realized_return_pct": null,
+      "current_return_pct": -0.1235,
+      "total_return_pct": -0.1235,
+      "still_held": true,
+      "buy_count": 1,
+      "sell_count": 0
+    },
     {
       "symbol": "031980",
       "name": "피에스케이홀딩스",
@@ -194,16 +204,6 @@
       "still_held": false,
       "buy_count": 1,
       "sell_count": 1
-    },
-    {
-      "symbol": "033780",
-      "name": "KT&G",
-      "realized_return_pct": null,
-      "current_return_pct": -0.7949,
-      "total_return_pct": -0.7949,
-      "still_held": true,
-      "buy_count": 1,
-      "sell_count": 0
     },
     {
       "symbol": "012750",
@@ -216,6 +216,16 @@
       "sell_count": 1
     },
     {
+      "symbol": "033780",
+      "name": "KT&G",
+      "realized_return_pct": null,
+      "current_return_pct": -1.3249,
+      "total_return_pct": -1.3249,
+      "still_held": true,
+      "buy_count": 1,
+      "sell_count": 0
+    },
+    {
       "symbol": "131290",
       "name": "티에스이",
       "realized_return_pct": -1.6393,
@@ -224,16 +234,6 @@
       "still_held": false,
       "buy_count": 1,
       "sell_count": 1
-    },
-    {
-      "symbol": "223250",
-      "name": "드림씨아이에스",
-      "realized_return_pct": null,
-      "current_return_pct": -2.4691,
-      "total_return_pct": -2.4691,
-      "still_held": true,
-      "buy_count": 1,
-      "sell_count": 0
     },
     {
       "symbol": "000250",
@@ -249,8 +249,8 @@
       "symbol": "251970",
       "name": "펌텍코리아",
       "realized_return_pct": null,
-      "current_return_pct": -3.8516,
-      "total_return_pct": -3.8516,
+      "current_return_pct": -5.1355,
+      "total_return_pct": -5.1355,
       "still_held": true,
       "buy_count": 1,
       "sell_count": 0
@@ -296,7 +296,7 @@
       "name": "드림씨아이에스",
       "side": "buy",
       "average_filled_price": 4050,
-      "current_price": 3950,
+      "current_price": 4045,
       "order_date": "20261026",
       "order_time": "093913",
       "cancelled": false
@@ -320,7 +320,7 @@
       "name": "KT&G",
       "side": "buy",
       "average_filled_price": 188700,
-      "current_price": 187200,
+      "current_price": 186200,
       "order_date": "20261026",
       "order_time": "093902",
       "cancelled": false
@@ -452,7 +452,7 @@
       "name": "펌텍코리아",
       "side": "buy",
       "average_filled_price": 70100,
-      "current_price": 67400,
+      "current_price": 66500,
       "order_date": "20261019",
       "order_time": "143311",
       "cancelled": false
@@ -568,10 +568,10 @@
     "news_provider": "upstarnews_api"
   },
   "llm_usage_30d": {
-    "input_tokens": 423087,
-    "output_tokens": 34774,
-    "calls": 23,
-    "cost_usd_estimate": 0.597,
+    "input_tokens": 483626,
+    "output_tokens": 36699,
+    "calls": 24,
+    "cost_usd_estimate": 0.6671,
     "by_event": {
       "trade_review": {
         "calls": 17,
@@ -580,10 +580,10 @@
         "cost_usd": 0.3244
       },
       "reflection": {
-        "calls": 6,
-        "input_tokens": 215488,
-        "output_tokens": 11419,
-        "cost_usd": 0.2726
+        "calls": 7,
+        "input_tokens": 276027,
+        "output_tokens": 13344,
+        "cost_usd": 0.3427
       }
     }
   },
@@ -609,10 +609,10 @@
     "stop_loss_triggered": 0
   },
   "backtest_comparison": {
-    "live_30d_return_pct": -0.3396,
+    "live_30d_return_pct": -0.3389,
     "backtest_recent_return_pct": -3.9186,
     "backtest_recent_sharpe": -0.7766,
-    "gap_pct": 3.579,
+    "gap_pct": 3.5797,
     "last_backtest_at": "2026-10-27T09:32:40",
     "backtest_window_days": 180,
     "universe_source": "full-listed",
@@ -1103,9 +1103,9 @@
       "points": 7,
       "basis": "intersection_of_live_and_backtest_index_dates"
     },
-    "live_window_return_pct": -0.3396,
+    "live_window_return_pct": -0.3389,
     "backtest_window_return_pct": -3.9186,
-    "live_month_to_date_return_pct": -0.3396,
+    "live_month_to_date_return_pct": -0.3389,
     "backtest_full_window_return_pct": -8.1538
   },
   "holding_period_distribution": {
@@ -1132,7 +1132,7 @@
   },
   "canary": {
     "as_of": "2026-10-27",
-    "generated_at": "2026-10-27T09:35:30",
+    "generated_at": "2026-10-27T12:00:24",
     "first_trading_day": "2026-08-10",
     "live_since": "2026-08-10",
     "summary": {
@@ -1861,17 +1861,17 @@
       {
         "symbol": "000240",
         "name": "한국앤컴퍼니",
-        "return_pct": -11.4504
+        "return_pct": -11.2595
       },
       {
         "symbol": "030190",
         "name": "NICE평가정보",
-        "return_pct": -1.8097
+        "return_pct": -2.16
       },
       {
         "symbol": "086450",
         "name": "동국제약",
-        "return_pct": -5.4581
+        "return_pct": -6.2378
       }
     ],
     "per_symbol_returns": [
@@ -1879,8 +1879,8 @@
         "symbol": "030190",
         "name": "NICE평가정보",
         "realized_return_pct": null,
-        "current_return_pct": -1.8097,
-        "total_return_pct": -1.8097,
+        "current_return_pct": -2.16,
+        "total_return_pct": -2.16,
         "still_held": true,
         "buy_count": 1,
         "sell_count": 0
@@ -1909,8 +1909,8 @@
         "symbol": "086450",
         "name": "동국제약",
         "realized_return_pct": null,
-        "current_return_pct": -5.4581,
-        "total_return_pct": -5.4581,
+        "current_return_pct": -6.2378,
+        "total_return_pct": -6.2378,
         "still_held": true,
         "buy_count": 1,
         "sell_count": 0
@@ -1919,8 +1919,8 @@
         "symbol": "000240",
         "name": "한국앤컴퍼니",
         "realized_return_pct": null,
-        "current_return_pct": -11.4504,
-        "total_return_pct": -11.4504,
+        "current_return_pct": -11.2595,
+        "total_return_pct": -11.2595,
         "still_held": true,
         "buy_count": 1,
         "sell_count": 0
