@@ -1,0 +1,2055 @@
+{
+  "schema_version": 7,
+  "generated_at": "2026-10-30T12:00:16",
+  "as_of": "2026-10-30",
+  "window_days": 90,
+  "trading_mode": "paper",
+  "first_trading_day": "2026-10-19",
+  "live_since": null,
+  "summary": {
+    "latest_holdings_count": 3,
+    "today_return_pct": 0.0162,
+    "today_realized_pl_pct": 0.0,
+    "month_return_pct": -0.2958,
+    "month_realized_pl_pct": null,
+    "realized_pl_30d_pct": null,
+    "cycles_30d": 31,
+    "cycles_held_30d": 0,
+    "orders_sent_30d": 18,
+    "fills_30d": 18,
+    "avg_slippage_bps_30d": -61.78255000438246,
+    "strategy_version": 1,
+    "month_cash_flow_adjusted_return_pct": -0.2958,
+    "today_cash_flow_adjusted_return_pct": 0.0162
+  },
+  "strategy": {
+    "version": 1,
+    "params": {
+      "lookback_days": 20,
+      "top_n": 5,
+      "min_momentum_score": 0.1,
+      "max_momentum_score": 0.0,
+      "fa_weight": 0.0,
+      "w_flow": 0.0,
+      "vol_normalize": 0.0,
+      "bear_accumulate_factor": 0.0
+    },
+    "rationale": "2026-10-16 별도 모의계정 시작: default 전략 v8의 현재 파라미터만 계승. 과거 성과·검증·승인 이력은 계승하지 않음.",
+    "updated_at": "2026-09-03T23:10:54"
+  },
+  "portfolio_index": [
+    {
+      "date": "2026-10-19",
+      "index_value": 100.0,
+      "holdings_count": null
+    },
+    {
+      "date": "2026-10-20",
+      "index_value": 99.703,
+      "holdings_count": null
+    },
+    {
+      "date": "2026-10-21",
+      "index_value": 99.8816,
+      "holdings_count": null
+    },
+    {
+      "date": "2026-10-22",
+      "index_value": 99.7531,
+      "holdings_count": null
+    },
+    {
+      "date": "2026-10-23",
+      "index_value": 99.732,
+      "holdings_count": null
+    },
+    {
+      "date": "2026-10-26",
+      "index_value": 99.6788,
+      "holdings_count": null
+    },
+    {
+      "date": "2026-10-27",
+      "index_value": 99.6544,
+      "holdings_count": null
+    },
+    {
+      "date": "2026-10-28",
+      "index_value": 99.6634,
+      "holdings_count": null
+    },
+    {
+      "date": "2026-10-29",
+      "index_value": 99.6881,
+      "holdings_count": null
+    },
+    {
+      "date": "2026-10-30",
+      "index_value": 99.7042,
+      "holdings_count": null
+    }
+  ],
+  "daily_profit_loss": [
+    {
+      "date": "2026-10-19",
+      "return_pct": null,
+      "realized_pl_pct": null,
+      "external_cash_flow": false,
+      "return_method": "baseline",
+      "return_note": "first_snapshot_no_return"
+    },
+    {
+      "date": "2026-10-20",
+      "return_pct": -0.297,
+      "realized_pl_pct": 0.0,
+      "external_cash_flow": false,
+      "return_method": "cash_flow_adjusted_daily_return",
+      "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+    },
+    {
+      "date": "2026-10-21",
+      "return_pct": 0.1791,
+      "realized_pl_pct": 0.0,
+      "external_cash_flow": false,
+      "return_method": "cash_flow_adjusted_daily_return",
+      "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+    },
+    {
+      "date": "2026-10-22",
+      "return_pct": -0.1286,
+      "realized_pl_pct": 0.0,
+      "external_cash_flow": false,
+      "return_method": "cash_flow_adjusted_daily_return",
+      "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+    },
+    {
+      "date": "2026-10-23",
+      "return_pct": -0.0212,
+      "realized_pl_pct": 0.0,
+      "external_cash_flow": false,
+      "return_method": "cash_flow_adjusted_daily_return",
+      "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+    },
+    {
+      "date": "2026-10-26",
+      "return_pct": -0.0533,
+      "realized_pl_pct": 0.0,
+      "external_cash_flow": false,
+      "return_method": "cash_flow_adjusted_daily_return",
+      "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+    },
+    {
+      "date": "2026-10-27",
+      "return_pct": -0.0245,
+      "realized_pl_pct": 0.0,
+      "external_cash_flow": false,
+      "return_method": "cash_flow_adjusted_daily_return",
+      "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+    },
+    {
+      "date": "2026-10-28",
+      "return_pct": 0.009,
+      "realized_pl_pct": 0.0,
+      "external_cash_flow": false,
+      "return_method": "cash_flow_adjusted_daily_return",
+      "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+    },
+    {
+      "date": "2026-10-29",
+      "return_pct": 0.0248,
+      "realized_pl_pct": 0.0,
+      "external_cash_flow": false,
+      "return_method": "cash_flow_adjusted_daily_return",
+      "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+    },
+    {
+      "date": "2026-10-30",
+      "return_pct": 0.0162,
+      "realized_pl_pct": 0.0,
+      "external_cash_flow": false,
+      "return_method": "cash_flow_adjusted_daily_return",
+      "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+    }
+  ],
+  "weekly_profit_loss": [
+    {
+      "week_start": "2026-10-19",
+      "week_end": "2026-10-25",
+      "trading_days": 5,
+      "return_pct": -0.268,
+      "realized_pl_pct": 0.0,
+      "excluded_days": 0
+    },
+    {
+      "week_start": "2026-10-26",
+      "week_end": "2026-11-01",
+      "trading_days": 5,
+      "return_pct": -0.0278,
+      "realized_pl_pct": 0.0,
+      "excluded_days": 0
+    }
+  ],
+  "monthly_profit_loss": [
+    {
+      "month": "2026-10",
+      "return_pct": -0.2958,
+      "realized_pl_pct": null,
+      "trading_days": 10,
+      "external_cash_flow": false,
+      "excluded_days": 0
+    }
+  ],
+  "return_interpretation": {
+    "primary_return_field": "return_pct",
+    "external_cash_flow_event_type": "external_cash_flow",
+    "external_cash_flow_events_recorded": 0,
+    "unrecorded_cash_flow_risk": true,
+    "policy": "Public snapshot exposes only percentage returns. KRW amounts and share quantities are stripped at the publish boundary. Recorded external cash flows are subtracted from net account change; deposits are included in the daily return denominator to avoid overstating gains."
+  },
+  "current_holdings": [
+    {
+      "symbol": "012750",
+      "name": "에스원",
+      "return_pct": 0.1031
+    },
+    {
+      "symbol": "033780",
+      "name": "KT&G",
+      "return_pct": 3.0737
+    },
+    {
+      "symbol": "223250",
+      "name": "드림씨아이에스",
+      "return_pct": 0.0
+    }
+  ],
+  "per_symbol_returns": [
+    {
+      "symbol": "033780",
+      "name": "KT&G",
+      "realized_return_pct": null,
+      "current_return_pct": 3.0737,
+      "total_return_pct": 3.0737,
+      "still_held": true,
+      "buy_count": 1,
+      "sell_count": 0
+    },
+    {
+      "symbol": "223250",
+      "name": "드림씨아이에스",
+      "realized_return_pct": null,
+      "current_return_pct": 0.0,
+      "total_return_pct": 0.0,
+      "still_held": true,
+      "buy_count": 1,
+      "sell_count": 0
+    },
+    {
+      "symbol": "031980",
+      "name": "피에스케이홀딩스",
+      "realized_return_pct": -0.2662,
+      "current_return_pct": null,
+      "total_return_pct": -0.2662,
+      "still_held": false,
+      "buy_count": 1,
+      "sell_count": 1
+    },
+    {
+      "symbol": "012750",
+      "name": "에스원",
+      "realized_return_pct": -0.9464,
+      "current_return_pct": 0.1031,
+      "total_return_pct": -0.8412,
+      "still_held": true,
+      "buy_count": 1,
+      "sell_count": 1
+    },
+    {
+      "symbol": "131290",
+      "name": "티에스이",
+      "realized_return_pct": -1.6393,
+      "current_return_pct": null,
+      "total_return_pct": -1.6393,
+      "still_held": false,
+      "buy_count": 1,
+      "sell_count": 1
+    },
+    {
+      "symbol": "000250",
+      "name": "삼천당제약",
+      "realized_return_pct": -2.6108,
+      "current_return_pct": null,
+      "total_return_pct": -2.6108,
+      "still_held": false,
+      "buy_count": 1,
+      "sell_count": 1
+    },
+    {
+      "symbol": "251970",
+      "name": "펌텍코리아",
+      "realized_return_pct": -7.418,
+      "current_return_pct": null,
+      "total_return_pct": -7.418,
+      "still_held": false,
+      "buy_count": 1,
+      "sell_count": 1
+    },
+    {
+      "symbol": "383220",
+      "name": "F&F",
+      "realized_return_pct": -8.8276,
+      "current_return_pct": null,
+      "total_return_pct": -8.8276,
+      "still_held": false,
+      "buy_count": 1,
+      "sell_count": 1
+    },
+    {
+      "symbol": "096530",
+      "name": "씨젠",
+      "realized_return_pct": -9.6946,
+      "current_return_pct": null,
+      "total_return_pct": -9.6946,
+      "still_held": false,
+      "buy_count": 1,
+      "sell_count": 1
+    }
+  ],
+  "recent_trades": [
+    {
+      "ts": "2026-10-30T09:36:29",
+      "order_no": "0000011641",
+      "symbol": "251970",
+      "name": "펌텍코리아",
+      "side": "sell",
+      "average_filled_price": 64900,
+      "current_price": null,
+      "order_date": "20261030",
+      "order_time": "093620",
+      "cancelled": false
+    },
+    {
+      "ts": "2026-10-27T15:45:00",
+      "order_no": "0000011560",
+      "symbol": "012750",
+      "name": "에스원",
+      "side": "sell",
+      "average_filled_price": 94200,
+      "current_price": 97100,
+      "order_date": "20261027",
+      "order_time": "093417",
+      "cancelled": false
+    },
+    {
+      "ts": "2026-10-26T15:45:00",
+      "order_no": "0000012441",
+      "symbol": "223250",
+      "name": "드림씨아이에스",
+      "side": "buy",
+      "average_filled_price": 4050,
+      "current_price": 4050,
+      "order_date": "20261026",
+      "order_time": "093913",
+      "cancelled": false
+    },
+    {
+      "ts": "2026-10-26T15:45:00",
+      "order_no": "0000012429",
+      "symbol": "012750",
+      "name": "에스원",
+      "side": "buy",
+      "average_filled_price": 95100,
+      "current_price": 97100,
+      "order_date": "20261026",
+      "order_time": "093907",
+      "cancelled": false
+    },
+    {
+      "ts": "2026-10-26T15:45:00",
+      "order_no": "0000012420",
+      "symbol": "033780",
+      "name": "KT&G",
+      "side": "buy",
+      "average_filled_price": 188700,
+      "current_price": 194500,
+      "order_date": "20261026",
+      "order_time": "093902",
+      "cancelled": false
+    },
+    {
+      "ts": "2026-10-26T15:45:00",
+      "order_no": "0000012414",
+      "symbol": "000250",
+      "name": "삼천당제약",
+      "side": "sell",
+      "average_filled_price": 197700,
+      "current_price": null,
+      "order_date": "20261026",
+      "order_time": "093855",
+      "cancelled": false
+    },
+    {
+      "ts": "2026-10-23T15:45:00",
+      "order_no": "0000012210",
+      "symbol": "096530",
+      "name": "씨젠",
+      "side": "sell",
+      "average_filled_price": 34000,
+      "current_price": null,
+      "order_date": "20261023",
+      "order_time": "093406",
+      "cancelled": false
+    },
+    {
+      "ts": "2026-10-21T15:45:00",
+      "order_no": "0000012670",
+      "symbol": "383220",
+      "name": "F&F",
+      "side": "sell",
+      "average_filled_price": 66100,
+      "current_price": null,
+      "order_date": "20261021",
+      "order_time": "093446",
+      "cancelled": false
+    },
+    {
+      "ts": "2026-10-21T15:45:00",
+      "order_no": "0000012656",
+      "symbol": "031980",
+      "name": "피에스케이홀딩스",
+      "side": "sell",
+      "average_filled_price": 187300,
+      "current_price": null,
+      "order_date": "20261021",
+      "order_time": "093442",
+      "cancelled": false
+    },
+    {
+      "ts": "2026-10-20T15:45:00",
+      "order_no": "0000012398",
+      "symbol": "131290",
+      "name": "티에스이",
+      "side": "sell",
+      "average_filled_price": 270000,
+      "current_price": null,
+      "order_date": "20261020",
+      "order_time": "093654",
+      "cancelled": false
+    },
+    {
+      "ts": "2026-10-19T15:45:00",
+      "order_no": "0000014371",
+      "symbol": "000250",
+      "name": "삼천당제약",
+      "side": "buy",
+      "average_filled_price": 203000,
+      "current_price": null,
+      "order_date": "20261019",
+      "order_time": "093757",
+      "cancelled": false
+    },
+    {
+      "ts": "2026-10-19T15:45:00",
+      "order_no": "0000014357",
+      "symbol": "131290",
+      "name": "티에스이",
+      "side": "buy",
+      "average_filled_price": 274500,
+      "current_price": null,
+      "order_date": "20261019",
+      "order_time": "093750",
+      "cancelled": false
+    },
+    {
+      "ts": "2026-10-19T15:45:00",
+      "order_no": "0000014345",
+      "symbol": "383220",
+      "name": "F&F",
+      "side": "buy",
+      "average_filled_price": 72500,
+      "current_price": null,
+      "order_date": "20261019",
+      "order_time": "093744",
+      "cancelled": false
+    },
+    {
+      "ts": "2026-10-19T15:45:00",
+      "order_no": "0000014321",
+      "symbol": "031980",
+      "name": "피에스케이홀딩스",
+      "side": "buy",
+      "average_filled_price": 187800,
+      "current_price": null,
+      "order_date": "20261019",
+      "order_time": "093734",
+      "cancelled": false
+    },
+    {
+      "ts": "2026-10-19T15:45:00",
+      "order_no": "0000029816",
+      "symbol": "096530",
+      "name": "씨젠",
+      "side": "buy",
+      "average_filled_price": 37650,
+      "current_price": null,
+      "order_date": "20261019",
+      "order_time": "123539",
+      "cancelled": false
+    },
+    {
+      "ts": "2026-10-19T15:45:00",
+      "order_no": "0000036660",
+      "symbol": "251970",
+      "name": "펌텍코리아",
+      "side": "buy",
+      "average_filled_price": 70100,
+      "current_price": null,
+      "order_date": "20261019",
+      "order_time": "143311",
+      "cancelled": false
+    }
+  ],
+  "market_context": {
+    "as_of": "2026-10-29",
+    "next_trading_day": "2026-10-30",
+    "recommendation": "reduce_exposure",
+    "macro_sentiment": "cautious",
+    "key_themes": [
+      "20일 이상 누적 약세 추세 지속 (KOSPI −13.99%, KOSDAQ −13.11%)",
+      "고변동성 국면 (60일 연환산 52% 이상)",
+      "보유 종목 033780 외인·기관 연속 매도 신호",
+      "정책 신호는 검토 단계로 아직 확정 아님",
+      "251970 외인 연속 매수 2일로 상대적 강세"
+    ],
+    "key_themes_en": [
+      "Sustained downtrend over 20+ days (KOSPI −13.99%, KOSDAQ −13.11%)",
+      "High volatility regime (60-day annualized 52%+)",
+      "Holding 033780 shows continuous foreign/institutional selling",
+      "Policy signals remain in review stage, not yet confirmed",
+      "251970 shows relative strength with 2-day consecutive foreign buying"
+    ],
+    "per_symbol_notes": {
+      "033780": "외인·기관 5일 연속 매도 (−113,041주 / −151,090주), 약세 신호 명확",
+      "223250": "외인 소폭 매수 (5일 +24,404주), 중립 신호",
+      "251970": "외인 연속 매수 2일 (5일 +60,907주), 상대적 강세 유지"
+    },
+    "per_symbol_notes_en": {
+      "033780": "Continuous foreign/institutional selling over 5 days (−113,041 / −151,090 shares), clear weakness signal",
+      "223250": "Modest foreign buying (5-day +24,404 shares), neutral signal",
+      "251970": "Consecutive foreign buying for 2 days (5-day +60,907 shares), relative strength maintained"
+    },
+    "rationale_kr": "시장은 20일 이상의 누적 약세 추세(KOSPI −13.99%, KOSDAQ −13.11%)에서 고변동성(60일 연환산 52% 이상)을 보이고 있습니다. 오늘 −1~−3% 조정은 이 약세 추세의 연장선이며, 보유 종목 중 033780은 외인·기관 양쪽 매도가 지속되고 있어 약세 신호가 명확합니다. 정책 신호(11월 금리 인상 가능성)는 아직 검토 단계로 확정이 아니므로 약한 신호입니다. 다음 거래일 신규 매수 비중을 축소하되, 251970 같은 강세 종목은 유지하고 033780은 모니터링하는 것이 적절합니다.",
+    "rationale_en": "The market shows a sustained downtrend over 20+ days (KOSPI −13.99%, KOSDAQ −13.11%) with high volatility (60-day annualized 52%+). Today's −1~−3% adjustment is a continuation of this downtrend, and holding 033780 shows clear weakness signals with continuous foreign/institutional selling. Policy signals (possible November rate hike) remain in review stage and are not yet confirmed, making them weak signals. Following the technical-first principle, it is appropriate to reduce new buy exposure for the next trading day while maintaining relative strength positions like 251970 and monitoring 033780.",
+    "input_tokens": 64989,
+    "output_tokens": 5304,
+    "iterations": 4,
+    "generated_at": "2026-10-29T16:32:39",
+    "status": "ok",
+    "tools_summary": {
+      "count": 5,
+      "names": [
+        "fetch_article_body",
+        "search_news"
+      ]
+    },
+    "news_sources": [
+      {
+        "title": "코스피, 1.24% 하락해 6천선 아래로…코스닥도 2.34%↓ - 연합뉴스TV",
+        "source": "연합뉴스TV",
+        "published": "2026-10-29T15:36:00+09:00",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE44R011eVJOSVI5b2h0MDJfRXY2US1KN0JTM3BiVTF4TURuWHJ3MVBiSEt4N1dieFUyTzlDSlpfZUZOZFpoNFdUOEpJUk9oenJidjA4OXVaVHZaZGZ1SDY2bmI0amJBNkU?oc=5"
+      },
+      {
+        "title": "[마감시황] 삼성전자 하락에 코스피 '6000선' 반납…외국인·기관 매도 행렬 - 뉴스핌",
+        "source": "뉴스핌",
+        "published": "2026-10-29T15:49:00+09:00",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1jRDd1SVZnNlZ2aFF5NFNuWDBkakZOTXFjbjZoMHp4WFItV180M3FHTjZOWDFRNTJfeXQtR3phRXN4UGdCeW9heVhjM29wMkZuVzJjaGJsUURUNUVB?oc=5"
+      },
+      {
+        "title": "[증시 레이더] 코스피, 삼성전자 4% 급락에 6천선 하루 만에 반납 - 포커스온경제",
+        "source": "포커스온경제",
+        "published": "2026-10-29T15:59:54+09:00",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5GQnJsTDBGUTVUdHpMWjJQSmlDNWp6UmlmeUsxX0lTZ01tMG1TT0VLSEFIb3ptWTZxMWY2azRoTEktNnJyZmt4T21leXpKeGRVNUJoMDZSV21uX2xtN3c?oc=5"
+      },
+      {
+        "title": "코스피 장중 2%대 하락 전환…삼성전자 주주환원 실망매물에 5%↓ - 뉴스핌",
+        "source": "뉴스핌",
+        "published": "2026-10-29T11:10:00+09:00",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1HampidFpUTXZHNTFNTWZSMkhaRk5MdXVWbnJOWU5lbERJYXEtMnBNNXI0bmxtTk8yWjExdGZNZnVwX1MyNEItMnAyN1JDY3M2U0IxN3AxRmEtNDBk?oc=5"
+      },
+      {
+        "title": "코스피 6010선 상승·코스닥 760선 하락 출발 - 데일리안",
+        "source": "데일리안",
+        "published": "2026-10-29T09:13:00+09:00",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQWER5dTRHb29XUV9QbkgzeXVlSWs0RmFfUTJocHdPVUo3TzhoQ25Ld0dORUppUll1V1NIU1NpWHN4U25QcVYwZWtVNHRwa0l6Nm5RTDh4UnZXVFFXa0w2SGQ5LVp3cU1FbEZzVjlra3drcDY4eExNLVQwNmRFYUExTVEycTYzdUR2bWZYbVF4Zlh1X3c4dGVmdVF0bGZEQS0zcFVocHNjODJzVVRzdF9PeUYyQnVDZE53QVFtbjFfdlU5ZmtBa1hkcTR4Zy0zcFNwQkVlSFhPRUFaN1hsRUliZGVTMA?oc=5"
+      },
+      {
+        "title": "[10.29(목) 한국장 마감] 동반 하락 (코스피 -1.24%, 코스닥 -2.34%) - 주달",
+        "source": "주달",
+        "published": "2026-10-29T16:00:44+09:00",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1hWF9OLTRYWU5obUpISENOUTZSQVlGejNMYzIzZHZ6WU5Edml4NzYwYkZFWVBya1d1N2E2SV83bURLYi00VzVXT1BwQXZSUnAzWjJaSHdUeVMzZXAwUzcwMklRcUhEUzhLSXFPRTgwV1JReEtZLVE?oc=5"
+      },
+      {
+        "title": "하락 출발하는 코스닥 - 뉴스핌",
+        "source": "뉴스핌",
+        "published": "2026-10-29T09:49:00+09:00",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1UY2JBXy14bTRpX0dVTlhwZkI2ZnF5MnRBdDhrcW9menpMLWN5RVd2YmkyaDVObFZvTjA5b3YxVkVhaVRjVHlEeExlaXNsMThzR2M2aU5hVlNzRk9M?oc=5"
+      },
+      {
+        "title": "[오늘의 증시] 2026년 10월 27일 코스피 5700선 돌파…코스닥도 4%대 급등 - 잡포스트",
+        "source": "잡포스트",
+        "published": "2026-10-27T10:19:17+09:00",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBhaWM5MFBRVkpzaXNuNUNSMTVjVFRXUDNPZkVOSDBXQ0o4N3dnWmJxMmhESndxMFpaTVJXY0JVazdVd00yS3ktbEJVZmhwOFFCSEJVTWxGZFhOWi1tZHFvbTQ5SENlWnFla2tIQzdfV0pYQdIBckFVX3lxTFBhaWM5MFBRVkpzaXNuNUNSMTVjVFRXUDNPZkVOSDBXQ0o4N3dnWmJxMmhESndxMFpaTVJXY0JVazdVd00yS3ktbEJVZmhwOFFCSEJVTWxGZFhOWi1tZHFvbTQ5SENlWnFla2tIQzdfV0pYQQ?oc=5"
+      },
+      {
+        "title": "[개장시황] 코스피 6000선서 숨고르기…SK하이닉스 3%대 강세 - 뉴스핌",
+        "source": "뉴스핌",
+        "published": "2026-10-29T09:26:00+09:00",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4yLVA5OVU3UEJFNEpVazN5NHFSVldyTnJKMk4yd0FLX2pwdjdtS0Z5cl95SVpxdV8za2MweFZabVRrdVBQMnE3Rk1FTlRhaDFRVmt5RF9VTnNTWFdB?oc=5"
+      },
+      {
+        "title": "코스피, '세부실적' 삼성전자 급락에 하락전환…2%대 하락세 - 연합뉴스",
+        "source": "연합뉴스",
+        "published": "2026-10-29T11:08:24+09:00",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBzb0RsTFl4ZzBUYzZDWGN5cUc3WXhNNWhVeTFCak1ZTzlzdnV0c3cyVEI0RVgzajN2eVRwMnlVVk5KMWVTZDlhazY4Y3JUNEVLQV9STGw2UHlLTHfSAWBBVV95cUxPUmxvdUJUd0NjNldTcHlETUVtOFZ1ZENFSEVFMFN3MGFJTTJkYlJSQ3lvMlYtTC1HNW54d19IZ0pwSlhYY1dQdXlPdkdqRFVkcVFYSlMxVHAzTU5Sd0d2NlU?oc=5"
+      }
+    ],
+    "news_sources_total": 30,
+    "news_provider": "upstarnews_api"
+  },
+  "llm_usage_30d": {
+    "input_tokens": 716309,
+    "output_tokens": 47027,
+    "calls": 29,
+    "cost_usd_estimate": 0.9514,
+    "by_event": {
+      "trade_review": {
+        "calls": 19,
+        "input_tokens": 234049,
+        "output_tokens": 27453,
+        "cost_usd": 0.3713
+      },
+      "reflection": {
+        "calls": 10,
+        "input_tokens": 482260,
+        "output_tokens": 19574,
+        "cost_usd": 0.5801
+      }
+    }
+  },
+  "nav_integrity": {
+    "threshold_pct": 5.0,
+    "checked_points": 10,
+    "suspect_count": 0,
+    "status": "ok",
+    "suspects": [],
+    "excluded_return_days": [],
+    "cash_flow_realignments": []
+  },
+  "decision_stats_30d": {
+    "window_days": 30,
+    "cycles": 31,
+    "trade_reviews": 19,
+    "approved": 14,
+    "rejected": 17,
+    "modified": 5,
+    "drift_holds": 21,
+    "volatility_skips": 0,
+    "backtest_gate_failed": 24,
+    "stop_loss_triggered": 0
+  },
+  "backtest_comparison": {
+    "live_30d_return_pct": -0.2958,
+    "backtest_recent_return_pct": -4.2658,
+    "backtest_recent_sharpe": -0.8038,
+    "gap_pct": 3.97,
+    "last_backtest_at": "2026-10-30T09:34:07",
+    "backtest_window_days": 180,
+    "universe_source": "full-listed",
+    "universe_size": 299,
+    "note": "같은 기간 비교; 과거 결정일별 재무 구조 베토 미재현",
+    "backtest_index": [
+      {
+        "date": "2026-05-04",
+        "index_value": 100.0
+      },
+      {
+        "date": "2026-05-06",
+        "index_value": 99.3287
+      },
+      {
+        "date": "2026-05-07",
+        "index_value": 100.7179
+      },
+      {
+        "date": "2026-05-08",
+        "index_value": 100.5595
+      },
+      {
+        "date": "2026-05-11",
+        "index_value": 101.591
+      },
+      {
+        "date": "2026-05-12",
+        "index_value": 100.0851
+      },
+      {
+        "date": "2026-05-13",
+        "index_value": 101.9131
+      },
+      {
+        "date": "2026-05-14",
+        "index_value": 102.5899
+      },
+      {
+        "date": "2026-05-15",
+        "index_value": 99.8117
+      },
+      {
+        "date": "2026-05-18",
+        "index_value": 100.0422
+      },
+      {
+        "date": "2026-05-19",
+        "index_value": 99.4809
+      },
+      {
+        "date": "2026-05-20",
+        "index_value": 98.7028
+      },
+      {
+        "date": "2026-05-21",
+        "index_value": 101.5646
+      },
+      {
+        "date": "2026-05-22",
+        "index_value": 103.1221
+      },
+      {
+        "date": "2026-05-26",
+        "index_value": 105.6405
+      },
+      {
+        "date": "2026-05-27",
+        "index_value": 105.7724
+      },
+      {
+        "date": "2026-05-28",
+        "index_value": 105.0885
+      },
+      {
+        "date": "2026-05-29",
+        "index_value": 107.5124
+      },
+      {
+        "date": "2026-06-01",
+        "index_value": 106.8882
+      },
+      {
+        "date": "2026-06-02",
+        "index_value": 107.2677
+      },
+      {
+        "date": "2026-06-04",
+        "index_value": 107.802
+      },
+      {
+        "date": "2026-06-05",
+        "index_value": 105.6616
+      },
+      {
+        "date": "2026-06-08",
+        "index_value": 101.775
+      },
+      {
+        "date": "2026-06-09",
+        "index_value": 103.2482
+      },
+      {
+        "date": "2026-06-10",
+        "index_value": 100.7445
+      },
+      {
+        "date": "2026-06-11",
+        "index_value": 101.1627
+      },
+      {
+        "date": "2026-06-12",
+        "index_value": 102.3514
+      },
+      {
+        "date": "2026-06-15",
+        "index_value": 105.0543
+      },
+      {
+        "date": "2026-06-16",
+        "index_value": 106.0874
+      },
+      {
+        "date": "2026-06-17",
+        "index_value": 106.6653
+      },
+      {
+        "date": "2026-06-18",
+        "index_value": 107.5704
+      },
+      {
+        "date": "2026-06-19",
+        "index_value": 108.1956
+      },
+      {
+        "date": "2026-06-22",
+        "index_value": 107.7038
+      },
+      {
+        "date": "2026-06-23",
+        "index_value": 103.7546
+      },
+      {
+        "date": "2026-06-24",
+        "index_value": 104.0441
+      },
+      {
+        "date": "2026-06-25",
+        "index_value": 104.4797
+      },
+      {
+        "date": "2026-06-26",
+        "index_value": 103.8823
+      },
+      {
+        "date": "2026-06-29",
+        "index_value": 103.7271
+      },
+      {
+        "date": "2026-06-30",
+        "index_value": 104.738
+      },
+      {
+        "date": "2026-07-01",
+        "index_value": 103.8997
+      },
+      {
+        "date": "2026-07-02",
+        "index_value": 100.5436
+      },
+      {
+        "date": "2026-07-03",
+        "index_value": 100.3305
+      },
+      {
+        "date": "2026-07-06",
+        "index_value": 99.47
+      },
+      {
+        "date": "2026-07-07",
+        "index_value": 100.2183
+      },
+      {
+        "date": "2026-07-08",
+        "index_value": 99.5015
+      },
+      {
+        "date": "2026-07-09",
+        "index_value": 97.8915
+      },
+      {
+        "date": "2026-07-10",
+        "index_value": 98.5883
+      },
+      {
+        "date": "2026-07-13",
+        "index_value": 99.3843
+      },
+      {
+        "date": "2026-07-14",
+        "index_value": 95.1867
+      },
+      {
+        "date": "2026-07-15",
+        "index_value": 96.6349
+      },
+      {
+        "date": "2026-07-16",
+        "index_value": 96.7566
+      },
+      {
+        "date": "2026-07-20",
+        "index_value": 94.9789
+      },
+      {
+        "date": "2026-07-21",
+        "index_value": 95.5702
+      },
+      {
+        "date": "2026-07-22",
+        "index_value": 95.5639
+      },
+      {
+        "date": "2026-07-23",
+        "index_value": 97.2996
+      },
+      {
+        "date": "2026-07-24",
+        "index_value": 97.0082
+      },
+      {
+        "date": "2026-07-27",
+        "index_value": 97.2873
+      },
+      {
+        "date": "2026-07-28",
+        "index_value": 95.4083
+      },
+      {
+        "date": "2026-07-29",
+        "index_value": 94.2517
+      },
+      {
+        "date": "2026-07-30",
+        "index_value": 94.8497
+      },
+      {
+        "date": "2026-07-31",
+        "index_value": 95.2122
+      },
+      {
+        "date": "2026-08-03",
+        "index_value": 95.2703
+      },
+      {
+        "date": "2026-08-04",
+        "index_value": 97.2897
+      },
+      {
+        "date": "2026-08-05",
+        "index_value": 97.1654
+      },
+      {
+        "date": "2026-08-06",
+        "index_value": 99.5202
+      },
+      {
+        "date": "2026-08-07",
+        "index_value": 99.5949
+      },
+      {
+        "date": "2026-08-10",
+        "index_value": 100.02
+      },
+      {
+        "date": "2026-08-11",
+        "index_value": 100.2464
+      },
+      {
+        "date": "2026-08-12",
+        "index_value": 100.2588
+      },
+      {
+        "date": "2026-08-13",
+        "index_value": 100.5663
+      },
+      {
+        "date": "2026-08-14",
+        "index_value": 102.3887
+      },
+      {
+        "date": "2026-08-18",
+        "index_value": 101.5785
+      },
+      {
+        "date": "2026-08-19",
+        "index_value": 101.3896
+      },
+      {
+        "date": "2026-08-20",
+        "index_value": 100.7049
+      },
+      {
+        "date": "2026-08-21",
+        "index_value": 101.3874
+      },
+      {
+        "date": "2026-08-24",
+        "index_value": 103.8653
+      },
+      {
+        "date": "2026-08-25",
+        "index_value": 101.9315
+      },
+      {
+        "date": "2026-08-26",
+        "index_value": 102.1539
+      },
+      {
+        "date": "2026-08-27",
+        "index_value": 101.6648
+      },
+      {
+        "date": "2026-08-28",
+        "index_value": 103.8198
+      },
+      {
+        "date": "2026-08-31",
+        "index_value": 103.5803
+      },
+      {
+        "date": "2026-09-01",
+        "index_value": 103.3729
+      },
+      {
+        "date": "2026-09-02",
+        "index_value": 102.85
+      },
+      {
+        "date": "2026-09-03",
+        "index_value": 102.351
+      },
+      {
+        "date": "2026-09-04",
+        "index_value": 102.2355
+      },
+      {
+        "date": "2026-09-07",
+        "index_value": 102.6425
+      },
+      {
+        "date": "2026-09-08",
+        "index_value": 101.4138
+      },
+      {
+        "date": "2026-09-09",
+        "index_value": 101.4878
+      },
+      {
+        "date": "2026-09-10",
+        "index_value": 101.2758
+      },
+      {
+        "date": "2026-09-11",
+        "index_value": 101.816
+      },
+      {
+        "date": "2026-09-14",
+        "index_value": 101.7127
+      },
+      {
+        "date": "2026-09-15",
+        "index_value": 101.2939
+      },
+      {
+        "date": "2026-09-16",
+        "index_value": 101.3085
+      },
+      {
+        "date": "2026-09-17",
+        "index_value": 101.1887
+      },
+      {
+        "date": "2026-09-18",
+        "index_value": 100.8444
+      },
+      {
+        "date": "2026-09-21",
+        "index_value": 103.5472
+      },
+      {
+        "date": "2026-09-22",
+        "index_value": 102.0623
+      },
+      {
+        "date": "2026-09-23",
+        "index_value": 101.02
+      },
+      {
+        "date": "2026-09-28",
+        "index_value": 102.1074
+      },
+      {
+        "date": "2026-09-29",
+        "index_value": 102.5089
+      },
+      {
+        "date": "2026-09-30",
+        "index_value": 101.8161
+      },
+      {
+        "date": "2026-10-01",
+        "index_value": 102.2041
+      },
+      {
+        "date": "2026-10-02",
+        "index_value": 102.2693
+      },
+      {
+        "date": "2026-10-06",
+        "index_value": 102.1795
+      },
+      {
+        "date": "2026-10-07",
+        "index_value": 102.0826
+      },
+      {
+        "date": "2026-10-08",
+        "index_value": 102.2084
+      },
+      {
+        "date": "2026-10-12",
+        "index_value": 100.3037
+      },
+      {
+        "date": "2026-10-13",
+        "index_value": 99.8089
+      },
+      {
+        "date": "2026-10-14",
+        "index_value": 98.1389
+      },
+      {
+        "date": "2026-10-15",
+        "index_value": 94.6197
+      },
+      {
+        "date": "2026-10-16",
+        "index_value": 95.2225
+      },
+      {
+        "date": "2026-10-19",
+        "index_value": 95.2135
+      },
+      {
+        "date": "2026-10-20",
+        "index_value": 93.7917
+      },
+      {
+        "date": "2026-10-21",
+        "index_value": 93.6573
+      },
+      {
+        "date": "2026-10-22",
+        "index_value": 92.4483
+      },
+      {
+        "date": "2026-10-23",
+        "index_value": 91.8438
+      },
+      {
+        "date": "2026-10-26",
+        "index_value": 89.9832
+      },
+      {
+        "date": "2026-10-27",
+        "index_value": 90.3924
+      },
+      {
+        "date": "2026-10-28",
+        "index_value": 90.3036
+      },
+      {
+        "date": "2026-10-29",
+        "index_value": 90.8528
+      },
+      {
+        "date": "2026-10-30",
+        "index_value": 91.1519
+      }
+    ],
+    "comparison_basis": "same_window",
+    "comparison_window": {
+      "start": "2026-10-19",
+      "end": "2026-10-30",
+      "points": 10,
+      "basis": "intersection_of_live_and_backtest_index_dates"
+    },
+    "live_window_return_pct": -0.2958,
+    "backtest_window_return_pct": -4.2658,
+    "live_month_to_date_return_pct": -0.2958,
+    "backtest_full_window_return_pct": -8.8481
+  },
+  "holding_period_distribution": {
+    "by_symbol": [
+      {
+        "symbol": "033780",
+        "name": "KT&G",
+        "days_held": 5
+      },
+      {
+        "symbol": "223250",
+        "name": "드림씨아이에스",
+        "days_held": 5
+      },
+      {
+        "symbol": "012750",
+        "name": "에스원",
+        "days_held": 1
+      }
+    ],
+    "median_days": 5.0,
+    "max_days": 5,
+    "mean_days": 3.67
+  },
+  "canary": {
+    "as_of": "2026-10-30",
+    "generated_at": "2026-10-30T12:00:32",
+    "first_trading_day": "2026-08-10",
+    "live_since": "2026-08-10",
+    "summary": {
+      "latest_holdings_count": 2,
+      "today_return_pct": 0.1828,
+      "today_realized_pl_pct": 0.0,
+      "month_return_pct": -2.4146,
+      "month_realized_pl_pct": -2.2367,
+      "realized_pl_30d_pct": -2.2197,
+      "cycles_30d": 58,
+      "cycles_held_30d": 48,
+      "orders_sent_30d": 6,
+      "fills_30d": 7,
+      "avg_slippage_bps_30d": -5.163756511963,
+      "strategy_version": 0,
+      "month_cash_flow_adjusted_return_pct": -2.4146,
+      "today_cash_flow_adjusted_return_pct": 0.1828
+    },
+    "portfolio_index": [
+      {
+        "date": "2026-08-10",
+        "index_value": 100.0,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-08-11",
+        "index_value": 100.1167,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-08-12",
+        "index_value": 100.1001,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-08-13",
+        "index_value": 100.0001,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-08-14",
+        "index_value": 99.8834,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-08-18",
+        "index_value": 100.4834,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-08-19",
+        "index_value": 99.5501,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-08-20",
+        "index_value": 99.8501,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-08-21",
+        "index_value": 99.1002,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-08-24",
+        "index_value": 101.0002,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-08-25",
+        "index_value": 101.0002,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-08-26",
+        "index_value": 99.9502,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-08-27",
+        "index_value": 99.9502,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-08-28",
+        "index_value": 99.6002,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-08-31",
+        "index_value": 99.6002,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-09-01",
+        "index_value": 100.1502,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-09-02",
+        "index_value": 99.0501,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-09-03",
+        "index_value": 99.0501,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-09-04",
+        "index_value": 99.7001,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-09-07",
+        "index_value": 99.6798,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-09-08",
+        "index_value": 99.8797,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-09-09",
+        "index_value": 99.3297,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-09-10",
+        "index_value": 99.4297,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-09-11",
+        "index_value": 99.1297,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-09-14",
+        "index_value": 99.4797,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-09-15",
+        "index_value": 99.4881,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-09-16",
+        "index_value": 99.4881,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-09-17",
+        "index_value": 99.4881,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-09-18",
+        "index_value": 99.4881,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-09-21",
+        "index_value": 99.4881,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-09-22",
+        "index_value": 99.4881,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-09-23",
+        "index_value": 99.4881,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-09-28",
+        "index_value": 99.4881,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-09-29",
+        "index_value": 99.2381,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-09-30",
+        "index_value": 99.2381,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-10-01",
+        "index_value": 99.2551,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-10-02",
+        "index_value": 99.2551,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-10-06",
+        "index_value": 99.1884,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-10-07",
+        "index_value": 99.0417,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-10-08",
+        "index_value": 99.075,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-10-12",
+        "index_value": 99.0384,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-10-13",
+        "index_value": 98.9717,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-10-14",
+        "index_value": 98.8284,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-10-15",
+        "index_value": 98.3668,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-10-16",
+        "index_value": 98.3668,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-10-19",
+        "index_value": 98.2335,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-10-20",
+        "index_value": 97.5085,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-10-21",
+        "index_value": 97.3936,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-10-22",
+        "index_value": 97.1136,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-10-23",
+        "index_value": 96.7269,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-10-26",
+        "index_value": 96.6102,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-10-27",
+        "index_value": 96.7336,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-10-28",
+        "index_value": 96.7802,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-10-29",
+        "index_value": 96.6652,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-10-30",
+        "index_value": 96.8419,
+        "holdings_count": null
+      }
+    ],
+    "daily_profit_loss": [
+      {
+        "date": "2026-08-10",
+        "return_pct": null,
+        "realized_pl_pct": null,
+        "external_cash_flow": false,
+        "return_method": "baseline",
+        "return_note": "first_snapshot_no_return"
+      },
+      {
+        "date": "2026-08-11",
+        "return_pct": 0.1167,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-08-12",
+        "return_pct": -0.0166,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-08-13",
+        "return_pct": -0.0999,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-08-14",
+        "return_pct": -0.1167,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-08-18",
+        "return_pct": 0.6007,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-08-19",
+        "return_pct": -0.9288,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-08-20",
+        "return_pct": 0.3014,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-08-21",
+        "return_pct": -0.7511,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-08-24",
+        "return_pct": 1.9173,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-08-25",
+        "return_pct": 0.0,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-08-26",
+        "return_pct": -1.0396,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-08-27",
+        "return_pct": 0.0,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-08-28",
+        "return_pct": -0.3502,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-08-31",
+        "return_pct": 0.0,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-09-01",
+        "return_pct": 0.5522,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-09-02",
+        "return_pct": -1.0984,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-09-03",
+        "return_pct": 0.0,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-09-04",
+        "return_pct": 0.6562,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-09-07",
+        "return_pct": -0.0204,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-09-08",
+        "return_pct": 0.2006,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-09-09",
+        "return_pct": -0.5507,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-09-10",
+        "return_pct": 0.1007,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-09-11",
+        "return_pct": -0.3017,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-09-14",
+        "return_pct": 0.3531,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-09-15",
+        "return_pct": 0.0084,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-09-16",
+        "return_pct": 0.0,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-09-17",
+        "return_pct": 0.0,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-09-18",
+        "return_pct": 0.0,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-09-21",
+        "return_pct": 0.0,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-09-22",
+        "return_pct": 0.0,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": true,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-09-23",
+        "return_pct": 0.0,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": true,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-09-28",
+        "return_pct": 0.0,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": true,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-09-29",
+        "return_pct": -0.2513,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-09-30",
+        "return_pct": 0.0,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-10-01",
+        "return_pct": 0.0171,
+        "realized_pl_pct": -0.2348,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-10-02",
+        "return_pct": 0.0,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-10-06",
+        "return_pct": -0.0672,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-10-07",
+        "return_pct": -0.1479,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-10-08",
+        "return_pct": 0.0337,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-10-12",
+        "return_pct": -0.037,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-10-13",
+        "return_pct": -0.0673,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-10-14",
+        "return_pct": -0.1448,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-10-15",
+        "return_pct": -0.4671,
+        "realized_pl_pct": -0.8989,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-10-16",
+        "return_pct": 0.0,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-10-19",
+        "return_pct": -0.1355,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-10-20",
+        "return_pct": -0.738,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-10-21",
+        "return_pct": -0.1179,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-10-22",
+        "return_pct": -0.2875,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-10-23",
+        "return_pct": -0.3982,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-10-26",
+        "return_pct": -0.1206,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-10-27",
+        "return_pct": 0.1277,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-10-28",
+        "return_pct": 0.0482,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-10-29",
+        "return_pct": -0.1188,
+        "realized_pl_pct": -1.1349,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-10-30",
+        "return_pct": 0.1828,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      }
+    ],
+    "monthly_profit_loss": [
+      {
+        "month": "2026-08",
+        "return_pct": -0.3998,
+        "realized_pl_pct": null,
+        "trading_days": 15,
+        "external_cash_flow": false,
+        "excluded_days": 0
+      },
+      {
+        "month": "2026-09",
+        "return_pct": -0.3635,
+        "realized_pl_pct": null,
+        "trading_days": 20,
+        "external_cash_flow": false,
+        "excluded_days": 0
+      },
+      {
+        "month": "2026-10",
+        "return_pct": -2.4146,
+        "realized_pl_pct": -2.2367,
+        "trading_days": 20,
+        "external_cash_flow": false,
+        "excluded_days": 0
+      }
+    ],
+    "current_holdings": [
+      {
+        "symbol": "030190",
+        "name": "NICE평가정보",
+        "return_pct": 1.1675
+      },
+      {
+        "symbol": "086450",
+        "name": "동국제약",
+        "return_pct": -9.3567
+      }
+    ],
+    "per_symbol_returns": [
+      {
+        "symbol": "030190",
+        "name": "NICE평가정보",
+        "realized_return_pct": null,
+        "current_return_pct": 1.1675,
+        "total_return_pct": 1.1675,
+        "still_held": true,
+        "buy_count": 1,
+        "sell_count": 0
+      },
+      {
+        "symbol": "012630",
+        "name": "HDC",
+        "realized_return_pct": -2.5048,
+        "current_return_pct": null,
+        "total_return_pct": -2.5048,
+        "still_held": false,
+        "buy_count": 1,
+        "sell_count": 1
+      },
+      {
+        "symbol": "011200",
+        "name": "HMM",
+        "realized_return_pct": -2.9885,
+        "current_return_pct": null,
+        "total_return_pct": -2.9885,
+        "still_held": false,
+        "buy_count": 3,
+        "sell_count": 1
+      },
+      {
+        "symbol": "086450",
+        "name": "동국제약",
+        "realized_return_pct": null,
+        "current_return_pct": -9.3567,
+        "total_return_pct": -9.3567,
+        "still_held": true,
+        "buy_count": 1,
+        "sell_count": 0
+      },
+      {
+        "symbol": "000240",
+        "name": "한국앤컴퍼니",
+        "realized_return_pct": -12.4046,
+        "current_return_pct": null,
+        "total_return_pct": -12.4046,
+        "still_held": false,
+        "buy_count": 1,
+        "sell_count": 1
+      },
+      {
+        "symbol": "114810",
+        "name": "한솔아이원스",
+        "realized_return_pct": -17.0984,
+        "current_return_pct": null,
+        "total_return_pct": -17.0984,
+        "still_held": false,
+        "buy_count": 1,
+        "sell_count": 1
+      }
+    ],
+    "nav_integrity": {
+      "threshold_pct": 5.0,
+      "checked_points": 55,
+      "suspect_count": 0,
+      "status": "ok",
+      "suspects": [],
+      "excluded_return_days": [],
+      "cash_flow_realignments": []
+    },
+    "decision_stats_30d": {
+      "window_days": 30,
+      "cycles": 61,
+      "trade_reviews": 6,
+      "approved": 6,
+      "rejected": 10,
+      "modified": 0,
+      "drift_holds": 8,
+      "volatility_skips": 0,
+      "backtest_gate_failed": 50,
+      "stop_loss_triggered": 1
+    },
+    "account": "canary",
+    "trading_mode": "live"
+  }
+}
