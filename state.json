@@ -1,6 +1,6 @@
 {
   "schema_version": 7,
-  "generated_at": "2026-11-03T12:00:12",
+  "generated_at": "2026-11-03T16:32:32",
   "as_of": "2026-11-03",
   "window_days": 90,
   "trading_mode": "paper",
@@ -8,19 +8,19 @@
   "live_since": null,
   "summary": {
     "latest_holdings_count": 2,
-    "today_return_pct": 0.014,
+    "today_return_pct": 0.0771,
     "today_realized_pl_pct": 0.0,
-    "month_return_pct": -0.043,
+    "month_return_pct": 0.0201,
     "month_realized_pl_pct": null,
     "realized_pl_30d_pct": null,
-    "cycles_30d": 37,
+    "cycles_30d": 39,
     "cycles_held_30d": 0,
-    "orders_sent_30d": 20,
-    "fills_30d": 20,
-    "avg_slippage_bps_30d": -58.340139317499585,
+    "orders_sent_30d": 21,
+    "fills_30d": 21,
+    "avg_slippage_bps_30d": -52.889267148201725,
     "strategy_version": 1,
-    "month_cash_flow_adjusted_return_pct": -0.043,
-    "today_cash_flow_adjusted_return_pct": 0.014
+    "month_cash_flow_adjusted_return_pct": 0.0201,
+    "today_cash_flow_adjusted_return_pct": 0.0771
   },
   "strategy": {
     "version": 1,
@@ -95,7 +95,7 @@
     },
     {
       "date": "2026-11-03",
-      "index_value": 99.6821,
+      "index_value": 99.745,
       "holdings_count": null
     }
   ],
@@ -190,7 +190,7 @@
     },
     {
       "date": "2026-11-03",
-      "return_pct": 0.014,
+      "return_pct": 0.0771,
       "realized_pl_pct": 0.0,
       "external_cash_flow": false,
       "return_method": "cash_flow_adjusted_daily_return",
@@ -218,7 +218,7 @@
       "week_start": "2026-11-02",
       "week_end": "2026-11-08",
       "trading_days": 2,
-      "return_pct": -0.043,
+      "return_pct": 0.0201,
       "realized_pl_pct": 0.0,
       "excluded_days": 0
     }
@@ -234,7 +234,7 @@
     },
     {
       "month": "2026-11",
-      "return_pct": -0.043,
+      "return_pct": 0.0201,
       "realized_pl_pct": null,
       "trading_days": 2,
       "external_cash_flow": false,
@@ -252,12 +252,12 @@
     {
       "symbol": "012750",
       "name": "에스원",
-      "return_pct": 1.0299
+      "return_pct": 0.0342
     },
     {
       "symbol": "033780",
       "name": "KT&G",
-      "return_pct": 1.6428
+      "return_pct": 2.1198
     }
   ],
   "per_symbol_returns": [
@@ -265,21 +265,11 @@
       "symbol": "033780",
       "name": "KT&G",
       "realized_return_pct": null,
-      "current_return_pct": 1.6428,
-      "total_return_pct": 1.6428,
+      "current_return_pct": 2.1198,
+      "total_return_pct": 2.1198,
       "still_held": true,
       "buy_count": 1,
       "sell_count": 0
-    },
-    {
-      "symbol": "012750",
-      "name": "에스원",
-      "realized_return_pct": -2.3159,
-      "current_return_pct": 1.0299,
-      "total_return_pct": -0.0807,
-      "still_held": true,
-      "buy_count": 3,
-      "sell_count": 1
     },
     {
       "symbol": "031980",
@@ -289,6 +279,16 @@
       "total_return_pct": -0.2662,
       "still_held": false,
       "buy_count": 1,
+      "sell_count": 1
+    },
+    {
+      "symbol": "012750",
+      "name": "에스원",
+      "realized_return_pct": -2.7613,
+      "current_return_pct": 0.0342,
+      "total_return_pct": -0.6645,
+      "still_held": true,
+      "buy_count": 4,
       "sell_count": 1
     },
     {
@@ -307,6 +307,16 @@
       "realized_return_pct": -2.6108,
       "current_return_pct": null,
       "total_return_pct": -2.6108,
+      "still_held": false,
+      "buy_count": 1,
+      "sell_count": 1
+    },
+    {
+      "symbol": "223250",
+      "name": "드림씨아이에스",
+      "realized_return_pct": -3.2593,
+      "current_return_pct": null,
+      "total_return_pct": -3.2593,
       "still_held": false,
       "buy_count": 1,
       "sell_count": 1
@@ -340,19 +350,33 @@
       "still_held": false,
       "buy_count": 1,
       "sell_count": 1
-    },
-    {
-      "symbol": "223250",
-      "name": "드림씨아이에스",
-      "realized_return_pct": null,
-      "current_return_pct": null,
-      "total_return_pct": null,
-      "still_held": false,
-      "buy_count": 1,
-      "sell_count": 0
     }
   ],
   "recent_trades": [
+    {
+      "ts": "2026-11-03T15:45:00",
+      "order_no": "0000012262",
+      "symbol": "223250",
+      "name": "드림씨아이에스",
+      "side": "sell",
+      "average_filled_price": 3918,
+      "current_price": null,
+      "order_date": "20261103",
+      "order_time": "093515",
+      "cancelled": false
+    },
+    {
+      "ts": "2026-11-03T15:45:00",
+      "order_no": "0000027093",
+      "symbol": "012750",
+      "name": "에스원",
+      "side": "buy",
+      "average_filled_price": 98200,
+      "current_price": 97500,
+      "order_date": "20261103",
+      "order_time": "123408",
+      "cancelled": false
+    },
     {
       "ts": "2026-11-02T15:45:00",
       "order_no": "0000011509",
@@ -360,7 +384,7 @@
       "name": "에스원",
       "side": "buy",
       "average_filled_price": 97200,
-      "current_price": 98100,
+      "current_price": 97500,
       "order_date": "20261102",
       "order_time": "093341",
       "cancelled": false
@@ -372,7 +396,7 @@
       "name": "에스원",
       "side": "buy",
       "average_filled_price": 97000,
-      "current_price": 98100,
+      "current_price": 97500,
       "order_date": "20261030",
       "order_time": "093626",
       "cancelled": false
@@ -396,7 +420,7 @@
       "name": "에스원",
       "side": "sell",
       "average_filled_price": 94200,
-      "current_price": 98100,
+      "current_price": 97500,
       "order_date": "20261027",
       "order_time": "093417",
       "cancelled": false
@@ -420,7 +444,7 @@
       "name": "에스원",
       "side": "buy",
       "average_filled_price": 95100,
-      "current_price": 98100,
+      "current_price": 97500,
       "order_date": "20261026",
       "order_time": "093907",
       "cancelled": false
@@ -432,7 +456,7 @@
       "name": "KT&G",
       "side": "buy",
       "average_filled_price": 188700,
-      "current_price": 191800,
+      "current_price": 192700,
       "order_date": "20261026",
       "order_time": "093902",
       "cancelled": false
@@ -571,123 +595,121 @@
     }
   ],
   "market_context": {
-    "as_of": "2026-11-02",
-    "next_trading_day": "2026-11-03",
-    "recommendation": "reduce_exposure",
-    "macro_sentiment": "cautious",
+    "as_of": "2026-11-03",
+    "next_trading_day": "2026-11-04",
+    "recommendation": "halt_buys",
+    "macro_sentiment": "bearish",
     "key_themes": [
-      "기관 1조원대 매수로 미국발 충격 흡수했으나 외인 지속 매도 중",
-      "KOSPI 5일 +8.24% 반등도 20일 −16.54% 약세 속 기술적 반발로 평가",
-      "고변동성 약세장(60일 연환산 49.27%) 내 전술적 수급 불균형 지속",
-      "보유 종목 전수 외인 5일 순매도 중, 기관 부분 지지로 상쇄 중"
+      "AI 투자 불안에 반도체주 직격탄, 외인 1.5조 규모 매도",
+      "KOSDAQ 5일 −5.63% 급락, 20일 −23.78% 중기 약세 심화",
+      "보유 종목 외인 연속 매도 (012750 10일, 033780 5일 순매도)",
+      "60일 변동성 +49% 극도의 불안정성, 시장 폭 악화",
+      "미국 중간선거 배경 정책 불확실성 가중"
     ],
     "key_themes_en": [
-      "Institutional 1+ trillion won buying absorbed US shock, but foreign investors remain in selling mode",
-      "KOSPI 5-day +8.24% rebound assessed as technical bounce within 20-day −16.54% downtrend",
-      "Tactical supply-demand imbalance persists in high-volatility bear regime (60-day annualized vol 49.27%)",
-      "All held symbols show 5-day foreign selling, partially offset by institutional support"
+      "AI investment concerns hit semiconductor stocks; foreign investors sell 1.5 trillion won",
+      "KOSDAQ plunges 5.63% in 5 days, −23.78% in 20 days showing deepening mid-term weakness",
+      "Held stocks face continuous foreign selling (012750 10 days, 033780 5-day net outflow)",
+      "60-day volatility +49% extreme instability, market breadth deteriorating",
+      "US midterm election backdrop heightens policy uncertainty"
     ],
     "per_symbol_notes": {
-      "012750": "외인 5일 순매도 102K주 지속, 기관 103K주 매수로 상쇄 중. 54% 외인 보유율에서 구조적 매도 압력 주의 필요.",
-      "033780": "외인 5일 순매도 143K주(가장 큼), 기관 매도 11K주로 이중 약세. 50.83% 외인 보유율 하락 추세 모니터링.",
-      "223250": "외인 5일 순매도 991주(상대적 소량), 기관 중립. 49.63% 외인 보유율로 균형 상태이나 외인 매도 신호 주시."
+      "012750": "외인 5일 −141K주 순매도, 10일 연속 매도 중. 중기 약세 추세에서 외인 이탈 신호 강함.",
+      "033780": "외인 5일 −83K주 순매도, 기관도 −32K주 동반 매도. 수급 악화 중."
     },
     "per_symbol_notes_en": {
-      "012750": "Foreign 5-day net selling 102K shares ongoing, offset by institutional 103K buying. Monitor structural selling pressure at 54% foreign ownership.",
-      "033780": "Foreign 5-day net selling 143K shares (largest), institutional selling 11K shares creating dual weakness. Track declining 50.83% foreign ownership.",
-      "223250": "Foreign 5-day net selling 991 shares (relatively small), institutional neutral. At 49.63% foreign ownership; monitor foreign selling signal."
+      "012750": "Foreign net selling 141K shares in 5 days, 10 consecutive days of selling. Strong signal of foreign investor exit in mid-term weakness.",
+      "033780": "Foreign net selling 83K shares in 5 days, institutions also selling 32K shares. Deteriorating supply-demand balance."
     },
-    "rationale_kr": "KOSPI는 기관의 1조원대 매수로 미국발 충격을 흡수하며 +2.36% 반등했으나, 이는 20일 −16.54% 약세 속 기술적 반발로 평가된다. 보유 종목 전수가 외인 5일 순매도 중이고, 60일 연환산 변동성 49.27%의 고변동성 약세장 레짐이 지속되고 있다. 5일 모멘텀은 긍정적이나 중기 추세는 약세이고 외인 구조적 매도가 계속되므로, 다음 거래일 매수 비중을 축소하여 리스크를 관리할 필요가 있다.",
-    "rationale_en": "KOSPI rebounded +2.36% as institutions deployed 1+ trillion won to absorb US shock, but this is assessed as a technical bounce within the 20-day −16.54% downtrend. All held symbols show 5-day foreign selling, and the high-volatility bear regime (60-day annualized vol 49.27%) persists. While 5-day momentum is positive, the medium-term trend is weak and structural foreign outflows continue, warranting reduced buy exposure on the next trading day to manage risk.",
-    "input_tokens": 65095,
-    "output_tokens": 3822,
-    "iterations": 4,
-    "generated_at": "2026-11-02T16:32:49",
+    "rationale_kr": "기술적 신호가 명확한 약세를 보입니다. KOSDAQ 5일 −5.63% 급락, 20일 −23.78% 중기 약세 심화, 60일 변동성 +49% 극도의 불안정성이 동시에 나타나고 있습니다. 보유 종목 모두 외인 연속 매도 중이며, 시장 폭도 악화 중입니다. AI 투자 불안과 외인 1.5조 규모 매도가 낙폭을 주도하고 있으며, 미국 중간선거 배경의 정책 불확실성이 가중되고 있습니다. 다음 거래일 신규 매수는 보류하고 기존 포지션을 재평가해야 합니다.",
+    "rationale_en": "Technical signals show clear weakness. KOSDAQ plunges 5.63% in 5 days, −23.78% in 20 days showing deepening mid-term weakness, with 60-day volatility at +49% indicating extreme instability. Both held stocks face continuous foreign selling, and market breadth is deteriorating. AI investment concerns and 1.5 trillion won foreign selling are driving the decline, compounded by policy uncertainty from the US midterm election backdrop. New purchases should be halted on the next trading day pending reassessment of existing positions.",
+    "input_tokens": 25259,
+    "output_tokens": 3958,
+    "iterations": 2,
+    "generated_at": "2026-11-03T16:32:17",
     "status": "ok",
     "tools_summary": {
-      "count": 6,
+      "count": 3,
       "names": [
-        "fetch_article_body",
-        "read_market_indicators",
         "search_news"
       ]
     },
     "news_sources": [
       {
-        "title": "코스피, 미국발 악재에도 반등…2%대 상승 마감 - KBS 뉴스",
-        "source": "KBS 뉴스",
-        "published": "2026-11-02T15:59:00+09:00",
-        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5hVFA5MndRVk5iR1czbHMyS09Jd0p5M0hRWExjNE5LTTl1Z1RJdHM2SkhLV3JKczJrNF90NWpzQXZ0dk9HV05nbFpZemlST1hRVEVIM0Jxc0ZHV3o5M1ZYSUh0bmlyUQ?oc=5"
-      },
-      {
-        "title": "코스피, 기관 1조원대 '사자'에 3% 상승 전환 - 뉴스핌",
-        "source": "뉴스핌",
-        "published": "2026-11-02T13:45:00+09:00",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAxekRXVEppbWVTdldXaEFqZEl2enJjSm9ZNmtCcGVxWnEtMGJRdWw2STJNY2pMdnZPeTFSU1cyTFpaM0RELWxYX1lsRk1Sa2VicHJyYXN6MlU4dnJP?oc=5"
-      },
-      {
-        "title": "코스피, 장중 상승폭 확대해 2% 넘게 올라…삼전닉스 2∼4%대↑ - 연합뉴스",
+        "title": "코스피, 외인·기관 동반매도에 2%대 하락…낙폭은 다소 축소 - 연합뉴스",
         "source": "연합뉴스",
-        "published": "2026-11-02T14:10:24+09:00",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9rckRwLVRSYm5oUDhqZWVEcVBwMURJTFRHcUYwUjQzNE5FT3JJTkZrMEN2QlJCUUFBQzVmZW1HNVQyRzY0ekhGNTE3OUNaalF3S015cXFVaThkU1XSAWBBVV95cUxOdnRCUU9HNGtmTXFiM01hUVNHWWFxM283RnBtdnhEV25XdFNhcF9DZmhiazMxMTVoeG9uUEtfMEVlYjdVMFd4aWs0a0dHa3FGSDhjYmMtOFczOVRrMXR2X2Q?oc=5"
+        "published": "2026-11-03T11:15:51+09:00",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9FQnM1ZEE1MXZfUmJUS1VmbHFQa3F3WndKLXdRNGxTWC1OeWNpWDk4MjBuS3JSSTBuLUpSbENfMDdrMThuWm1QSEVPXzZBUjhId0l2RzJDWFVBUlnSAWBBVV95cUxPU18zOFFzb284bHZVejBJWGlSMmVTdURKa01xc0lzVkg5Q3lRWFEzNkx3T0pLYVZpUTBhMmtXM1dHNjE5RW8yWUhxb05SRjB6Sjk4SXBsMWFKbkZ3M3NiY3o?oc=5"
       },
       {
-        "title": "[증시 레이더] 코스피 장중 5,600선 밀렸다 2.24% 반등…5,859 마감 - 포커스온경제",
-        "source": "포커스온경제",
-        "published": "2026-11-02T15:52:09+09:00",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE93WDFCaXFWVXhvdUZFSnk5b1Jhbm8zN2RkTEN5M3RnMlpSb1k2T2FQMG4yNUVIR05vcTREMm5BaU52NzBCbDU3Qms3N21DVm1NcFFnQXpsVEVNbTljUXc?oc=5"
+        "title": "코스피, 외인 매도 폭탄에 3.59% 급락, 5650선 내줘…AI 우려에 반도체株 '휘청' - 더팩트",
+        "source": "더팩트",
+        "published": "2026-11-03T15:51:12+09:00",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1HaW1vc2V5MHUwTXFtc2ppYmFRSXA5X1VWU2hKQU9qaUw4bmhHaWtrclJENGtaMDB1S2xGYWUxTW9BM25GWHhLeVhXMWgySjFkYk5oZldiLTR1UdIBVEFVX3lxTFA3REFzQVRJY0pyZXJNUVRTYW5vZ09zeDBxU1ppWjRQdXdqOVc0bEJGUlU2MUl2QXNCYlBia3k5SER6WEd3YThHZGRCU0pDZHctQWE4bA?oc=5"
       },
       {
-        "title": "유난히 힘들었던 10월 韓美증시...'중간선거' 후 반등한다? - 오피니언뉴스",
-        "source": "오피니언뉴스",
-        "published": "2026-11-02T13:24:08+09:00",
-        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9Hd0NFTnRPZnNud0tPLWx1YURRODJpWXNUd1RrUV9MbFI4RzQtZ1NacG5vNEc5Mk9GUmZ0QWdwWWkzazdRQXlRRGpmbUJBZkV4Q2VfdTZWYU5Rc1M2NU9raEgyTEs2QXVYXzBLUU9McFNWQQ?oc=5"
+        "title": "AI 투자 불안에 무너진 코스피…3.59% 급락· 외인 1.5조 ‘팔자’ - 뉴시안",
+        "source": "뉴시안",
+        "published": "2026-11-03T16:16:02+09:00",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8wNjdITWZhZUFiUUxqS1A1RVJsMllDVEhBbHRVSG9rdEVzclVfRkRtNFYySWZuT1RtbXlJM2hNUUJMZ2JwN0RZbFR2T1pTOGJKWnhaM1dvN3hiWWNpZTNBN3F6NkdTTlRfc2c1bg?oc=5"
       },
       {
-        "title": "코스피 5859.08 마감…삼성전자 제치고 거래대금 1위 등극한 '이곳' - 위키트리",
-        "source": "위키트리",
-        "published": "2026-11-02T15:38:00+09:00",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBNOGJlTVpXV2VGU3hlb2lnMTlXRE5EcU5wMXZCT25iS0x2MXF2MnBQRlN6WTJIT2lpV2p6Q0ZmZ0lINTZHN053Rjg2VmYwN1NGT2tnRWV3?oc=5"
+        "title": "외인·기관 매도에 코스피 5640선 털썩…코스닥 700선 턱걸이[시황종합] - 뉴스1",
+        "source": "뉴스1",
+        "published": "2026-11-03T16:00:37+09:00",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5manVla2xMUkRTb210TDJucUdIY05MTElsUXVRX2hsVk5peERvelJNckJ6QWFra2cxazkxSnMyQThGNzVXX1FGcE00bndldVlfb3I4SlhNcmhVaGc?oc=5"
       },
       {
-        "title": "코스피 저점 5,100? \"그 가격은 이제 안온다..이미 '쌍바닥' 확인\" - YTN",
-        "source": "YTN",
-        "published": "2026-11-02T06:40:00+09:00",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5yWlpNdVF6MC1PVGEwbzhxdWdLaWp2NTNhMG9TSzJVRnduaFpqQkZLclhKLXB0LTZudExBNENwWmQ3bzU1SlFnR0ZnNjdESjR2TDJZTlM4VTBhajQ1T0E?oc=5"
+        "title": "외국인·기관 매도에 증시 휘청…코스피 200포인트 넘게 하락 - 진일보 | 전남일보",
+        "source": "진일보 | 전남일보",
+        "published": "2026-11-03T09:36:06+09:00",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1WUERpMVV5aHZfNC1qd0RNM081OTZYanhZS1BmS2t6MlhwcWJRNVpjWEtxa2ZfT19NZXh2c0RScG1nT3VDSDg4TGhpeVU3MW95Mmh5VXdmOUJiTjZobTQzdlhCaG1USjZidjZHLThWMA?oc=5"
       },
       {
-        "title": "상승 마감한 코스피·삼성전자·SK하이닉스 - 뉴스핌",
-        "source": "뉴스핌",
-        "published": "2026-11-02T15:52:00+09:00",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9mcEFpb2RVQl83SjV1UVhKUWlnUEd5bFg4ZXJqUkhYQjUwOHMxZXJaREdSajhhOTYwWkMxMkduSVc2UzRPQll1Q0thLV8teW9iU2JSMWhZS0w4bHNn?oc=5"
+        "title": "코스피, 외국인·기관 2.8조 매도에 3%대 하락…코스닥도 4% 급락 [fn오후시황] - 파이낸셜뉴스",
+        "source": "파이낸셜뉴스",
+        "published": "2026-11-03T14:25:25+09:00",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5JVktUUU9aR1hBSWM4MVNaZWdlZkc3NjQwZW9NLW1zY21ONGNhdk5iOFlWeWJqa1NBejlkZ0RjYko0R3hoUWpFYmpXNWRzRWdpbjBxTWExelNnZw?oc=5"
       },
       {
-        "title": "코스피, 상승 전환해 1%대 강세…삼전닉스도 반등(종합) - 연합뉴스",
-        "source": "연합뉴스",
-        "published": "2026-11-02T11:16:20+09:00",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9OeUFwQXlFSVpqMkhjMl9ReEFBZ25fVnpZX3VDYkN1Qi1vYW0yNEtGVlJhYkNRY29telNqUUxlOGVMbC1JWFdScnFtLVNsTDBuYWdEa0lXbFZuRk3SAWBBVV95cUxPcFZOMTU4LWZjSV9oMHR6Zzlqb2tsZUMzX2ZEUENrMVNTblFVblRYWUlPZjBxV3QtUTJJcFBMb3ZRX0tQZ3pkOHFRakt2RndiMlg5Z3ZvX2JTaWJxQmJPeDU?oc=5"
+        "title": "[증시 프리즘] 코스피 4% 가까이 급락…외인·기관 매도에 개인 홀로 6천억대 순매수 - https://www.moneystorm.kr/",
+        "source": "https://www.moneystorm.kr/",
+        "published": "2026-11-03T13:51:08+09:00",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBJd0lBdWx0dHRLQTZPZnUxbnNzN1FBejFKX1pyV1J6T0JnRmZDbnhuQlNURXBqamtjTFZGWFN2di1jWW1ZTHByeVducm9EMF9GMTVWeFowWE5hRVBDVDZsbm9HXzlaOXUxNnc?oc=5"
       },
       {
-        "title": "코스피, 장중 상승 전환…코스닥도 반등 - KBS 뉴스",
-        "source": "KBS 뉴스",
-        "published": "2026-11-02T10:43:00+09:00",
-        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9zY3ZraFozaHV6R3VCWlRBZFJrZ2l0dnRLOXozZWdVZ0gzb05MOWR4UzNBWnF6SjRReEJlbU81RGVsZS1lUzVIUVVGS0ZOeEdZVmNmcDJQUjJrVGxNV1RGa2JueXZjdw?oc=5"
+        "title": "코스피·코스닥 동반 급락…개장부터 ‘충격’ - 센트럴경제",
+        "source": "센트럴경제",
+        "published": "2026-11-03T09:18:47+09:00",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1TeE8yM1NpbnQ1bjFPNzZpM2xCM3JRbjJjNTZpQndNc3F1UG8xM0M5UWpUWmppeVFqVEExdWU2SmxlVmVnUnZ1Qy03aXdHSVdycFZnOTFzLUdfLUFBYkRkaHNZWW1GZ9IBakFVX3lxTFBhTHZySXRRSGJ2ZXhQUHRQSmd0YkpqV3NrcEpmTnRoVUVKUFlLcVhqOEdrcVkxOGQ3SlZkZ3E2VnBYdWN3M2tyRndhUzlLdjlacUtnZkt4M3pXM2tKQlBnZjRBRklqeEtYQnc?oc=5"
+      },
+      {
+        "title": "[食전食후] 외국인 1.3조원 매도 폭탄…코스피 5600선 위태, 코스닥도 3%대 급락 - 아주경제",
+        "source": "아주경제",
+        "published": "2026-11-03T13:39:18+09:00",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE15RTdBYVFUNk12bVpib05odTExRGRBUTlkZDlfQ2t2dzBIS3RiaV9oQ3VtZldPd0ZLcHQwQzVKYk5rWF9ta1FHeEV1ektMNHdPTUU1eE5mMWlJd9IBWEFVX3lxTE9UTVBod0RuOTNrRkxFTDlfUnJMaXRLS0FmMnJDUkZ5U2l4aW40eDVVLW1aRDdZeWxISndzRXFPcTEtNjZBd3gtUHFHTjV1X3NxUFNPcFkyaDc?oc=5"
+      },
+      {
+        "title": "[증시 시황] 코스피 5,630선까지 추락…외국인 1조2천억 매도, 삼성전자·SK하이닉스 급락 - 톱스타뉴스",
+        "source": "톱스타뉴스",
+        "published": "2026-11-03T13:21:26+09:00",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE85Y0lVSDZhX3pNSHZVbXZzckM1MkhZcjAzVHF4TGVIbmUzdjdJV0J3VmFnaXlsVzZVVTBObmxSVFE0c1RhQkVqQTkxeUlPMDBYa1htMGZoVnZPT3pldk1HMHRRRmpUZkVHQksyRTJ6dDhWZw?oc=5"
       }
     ],
     "news_sources_total": 30,
     "news_provider": "upstarnews_api"
   },
   "llm_usage_30d": {
-    "input_tokens": 912398,
-    "output_tokens": 55970,
-    "calls": 36,
-    "cost_usd_estimate": 1.1922,
+    "input_tokens": 937596,
+    "output_tokens": 58739,
+    "calls": 38,
+    "cost_usd_estimate": 1.2313,
     "by_event": {
       "trade_review": {
-        "calls": 23,
-        "input_tokens": 284317,
-        "output_tokens": 31668,
-        "cost_usd": 0.4427
+        "calls": 25,
+        "input_tokens": 309515,
+        "output_tokens": 34437,
+        "cost_usd": 0.4817
       },
       "reflection": {
         "calls": 12,
@@ -714,25 +736,25 @@
   },
   "decision_stats_30d": {
     "window_days": 30,
-    "cycles": 37,
-    "trade_reviews": 23,
-    "approved": 16,
-    "rejected": 20,
+    "cycles": 39,
+    "trade_reviews": 25,
+    "approved": 17,
+    "rejected": 22,
     "modified": 5,
-    "drift_holds": 27,
+    "drift_holds": 29,
     "volatility_skips": 0,
-    "backtest_gate_failed": 30,
+    "backtest_gate_failed": 32,
     "stop_loss_triggered": 0
   },
   "backtest_comparison": {
-    "live_30d_return_pct": -0.3179,
-    "backtest_recent_return_pct": -5.6044,
-    "backtest_recent_sharpe": -0.2089,
-    "gap_pct": 5.2865,
-    "last_backtest_at": "2026-11-03T09:33:28",
+    "live_30d_return_pct": -0.255,
+    "backtest_recent_return_pct": -6.0194,
+    "backtest_recent_sharpe": -1.3469,
+    "gap_pct": 5.7644,
+    "last_backtest_at": "2026-11-03T14:35:25",
     "backtest_window_days": 180,
     "universe_source": "full-listed",
-    "universe_size": 300,
+    "universe_size": 299,
     "note": "같은 기간 비교; 과거 결정일별 재무 구조 베토 미재현",
     "backtest_index": [
       {
@@ -741,483 +763,483 @@
       },
       {
         "date": "2026-05-08",
-        "index_value": 100.7671
+        "index_value": 101.457
       },
       {
         "date": "2026-05-11",
-        "index_value": 103.2377
+        "index_value": 103.2921
       },
       {
         "date": "2026-05-12",
-        "index_value": 101.8064
+        "index_value": 101.3641
       },
       {
         "date": "2026-05-13",
-        "index_value": 102.0113
+        "index_value": 101.3248
       },
       {
         "date": "2026-05-14",
-        "index_value": 102.1894
+        "index_value": 101.0425
       },
       {
         "date": "2026-05-15",
-        "index_value": 100.9053
+        "index_value": 99.2214
       },
       {
         "date": "2026-05-18",
-        "index_value": 100.5499
+        "index_value": 98.9789
       },
       {
         "date": "2026-05-19",
-        "index_value": 99.5815
+        "index_value": 97.4899
       },
       {
         "date": "2026-05-20",
-        "index_value": 99.4349
+        "index_value": 98.4245
       },
       {
         "date": "2026-05-21",
-        "index_value": 103.0026
+        "index_value": 100.1409
       },
       {
         "date": "2026-05-22",
-        "index_value": 104.3135
+        "index_value": 101.3418
       },
       {
         "date": "2026-05-26",
-        "index_value": 108.6894
+        "index_value": 105.0096
       },
       {
         "date": "2026-05-27",
-        "index_value": 110.3004
+        "index_value": 105.2798
       },
       {
         "date": "2026-05-28",
-        "index_value": 109.8927
+        "index_value": 104.779
       },
       {
         "date": "2026-05-29",
-        "index_value": 112.1401
+        "index_value": 106.9507
       },
       {
         "date": "2026-06-01",
-        "index_value": 111.5178
+        "index_value": 105.5517
       },
       {
         "date": "2026-06-02",
-        "index_value": 110.7286
+        "index_value": 105.9515
       },
       {
         "date": "2026-06-04",
-        "index_value": 111.8639
+        "index_value": 106.4249
       },
       {
         "date": "2026-06-05",
-        "index_value": 109.8036
+        "index_value": 104.3049
       },
       {
         "date": "2026-06-08",
-        "index_value": 106.605
+        "index_value": 100.5034
       },
       {
         "date": "2026-06-09",
-        "index_value": 108.2988
+        "index_value": 101.9258
       },
       {
         "date": "2026-06-10",
-        "index_value": 105.8376
+        "index_value": 99.4651
       },
       {
         "date": "2026-06-11",
-        "index_value": 106.2642
+        "index_value": 99.8916
       },
       {
         "date": "2026-06-12",
-        "index_value": 107.4003
+        "index_value": 101.0274
       },
       {
         "date": "2026-06-15",
-        "index_value": 110.047
+        "index_value": 103.6736
       },
       {
         "date": "2026-06-16",
-        "index_value": 111.5862
+        "index_value": 105.2124
       },
       {
         "date": "2026-06-17",
-        "index_value": 111.7356
+        "index_value": 105.3618
       },
       {
         "date": "2026-06-18",
-        "index_value": 111.9459
+        "index_value": 105.572
       },
       {
         "date": "2026-06-19",
-        "index_value": 111.7878
+        "index_value": 105.414
       },
       {
         "date": "2026-06-22",
-        "index_value": 112.2943
+        "index_value": 105.9204
       },
       {
         "date": "2026-06-23",
-        "index_value": 109.2699
+        "index_value": 102.8967
       },
       {
         "date": "2026-06-24",
-        "index_value": 109.2915
+        "index_value": 102.9182
       },
       {
         "date": "2026-06-25",
-        "index_value": 111.8366
+        "index_value": 105.4628
       },
       {
         "date": "2026-06-26",
-        "index_value": 110.6664
+        "index_value": 104.2928
       },
       {
         "date": "2026-06-29",
-        "index_value": 110.0868
+        "index_value": 103.7133
       },
       {
         "date": "2026-06-30",
-        "index_value": 111.309
+        "index_value": 104.9352
       },
       {
         "date": "2026-07-01",
-        "index_value": 110.7514
+        "index_value": 104.3778
       },
       {
         "date": "2026-07-02",
-        "index_value": 108.345
+        "index_value": 101.9719
       },
       {
         "date": "2026-07-03",
-        "index_value": 108.334
+        "index_value": 101.9609
       },
       {
         "date": "2026-07-06",
-        "index_value": 108.0686
+        "index_value": 101.6956
       },
       {
         "date": "2026-07-07",
-        "index_value": 107.7878
+        "index_value": 101.4149
       },
       {
         "date": "2026-07-08",
-        "index_value": 107.5472
+        "index_value": 101.1743
       },
       {
         "date": "2026-07-09",
-        "index_value": 106.8012
+        "index_value": 100.4284
       },
       {
         "date": "2026-07-10",
-        "index_value": 107.098
+        "index_value": 100.7252
       },
       {
         "date": "2026-07-13",
-        "index_value": 107.844
+        "index_value": 101.471
       },
       {
         "date": "2026-07-14",
-        "index_value": 106.6176
+        "index_value": 98.7491
       },
       {
         "date": "2026-07-15",
-        "index_value": 107.9745
+        "index_value": 99.7626
       },
       {
         "date": "2026-07-16",
-        "index_value": 107.8336
+        "index_value": 99.8863
       },
       {
         "date": "2026-07-20",
-        "index_value": 105.8152
+        "index_value": 97.7118
       },
       {
         "date": "2026-07-21",
-        "index_value": 105.9897
+        "index_value": 97.5031
       },
       {
         "date": "2026-07-22",
-        "index_value": 106.2743
+        "index_value": 97.4079
       },
       {
         "date": "2026-07-23",
-        "index_value": 106.7849
+        "index_value": 98.2947
       },
       {
         "date": "2026-07-24",
-        "index_value": 107.1792
+        "index_value": 98.4869
       },
       {
         "date": "2026-07-27",
-        "index_value": 106.6587
+        "index_value": 97.6633
       },
       {
         "date": "2026-07-28",
-        "index_value": 106.3506
+        "index_value": 96.6891
       },
       {
         "date": "2026-07-29",
-        "index_value": 106.5027
+        "index_value": 96.935
       },
       {
         "date": "2026-07-30",
-        "index_value": 108.3871
+        "index_value": 97.3465
       },
       {
         "date": "2026-07-31",
-        "index_value": 107.4827
+        "index_value": 95.6393
       },
       {
         "date": "2026-08-03",
-        "index_value": 107.1158
+        "index_value": 95.254
       },
       {
         "date": "2026-08-04",
-        "index_value": 108.9313
+        "index_value": 97.528
       },
       {
         "date": "2026-08-05",
-        "index_value": 108.7595
+        "index_value": 97.2759
       },
       {
         "date": "2026-08-06",
-        "index_value": 111.1239
+        "index_value": 99.0578
       },
       {
         "date": "2026-08-07",
-        "index_value": 111.7559
+        "index_value": 99.5109
       },
       {
         "date": "2026-08-10",
-        "index_value": 110.4196
+        "index_value": 98.2002
       },
       {
         "date": "2026-08-11",
-        "index_value": 109.449
+        "index_value": 98.5929
       },
       {
         "date": "2026-08-12",
-        "index_value": 109.1898
+        "index_value": 99.0672
       },
       {
         "date": "2026-08-13",
-        "index_value": 109.0645
+        "index_value": 99.5729
       },
       {
         "date": "2026-08-14",
-        "index_value": 110.6573
+        "index_value": 101.1294
       },
       {
         "date": "2026-08-18",
-        "index_value": 111.1697
+        "index_value": 100.5238
       },
       {
         "date": "2026-08-19",
-        "index_value": 110.0583
+        "index_value": 99.5812
       },
       {
         "date": "2026-08-20",
-        "index_value": 107.9116
+        "index_value": 97.5655
       },
       {
         "date": "2026-08-21",
-        "index_value": 108.3494
+        "index_value": 97.8014
       },
       {
         "date": "2026-08-24",
-        "index_value": 110.0849
+        "index_value": 100.1948
       },
       {
         "date": "2026-08-25",
-        "index_value": 108.6675
+        "index_value": 98.6101
       },
       {
         "date": "2026-08-26",
-        "index_value": 109.0998
+        "index_value": 99.0423
       },
       {
         "date": "2026-08-27",
-        "index_value": 108.1803
+        "index_value": 98.1231
       },
       {
         "date": "2026-08-28",
-        "index_value": 109.7728
+        "index_value": 99.7152
       },
       {
         "date": "2026-08-31",
-        "index_value": 109.2482
+        "index_value": 99.1907
       },
       {
         "date": "2026-09-01",
-        "index_value": 109.1223
+        "index_value": 99.0648
       },
       {
         "date": "2026-09-02",
-        "index_value": 108.6801
+        "index_value": 98.6227
       },
       {
         "date": "2026-09-03",
-        "index_value": 109.3469
+        "index_value": 99.2894
       },
       {
         "date": "2026-09-04",
-        "index_value": 109.4572
+        "index_value": 99.3997
       },
       {
         "date": "2026-09-07",
-        "index_value": 109.8081
+        "index_value": 99.7505
       },
       {
         "date": "2026-09-08",
-        "index_value": 109.0057
+        "index_value": 98.9483
       },
       {
         "date": "2026-09-09",
-        "index_value": 108.96
+        "index_value": 98.9026
       },
       {
         "date": "2026-09-10",
-        "index_value": 109.1027
+        "index_value": 99.0452
       },
       {
         "date": "2026-09-11",
-        "index_value": 108.9401
+        "index_value": 98.8827
       },
       {
         "date": "2026-09-14",
-        "index_value": 108.2119
+        "index_value": 98.1546
       },
       {
         "date": "2026-09-15",
-        "index_value": 108.4178
+        "index_value": 98.3605
       },
       {
         "date": "2026-09-16",
-        "index_value": 108.404
+        "index_value": 98.3467
       },
       {
         "date": "2026-09-17",
-        "index_value": 109.031
+        "index_value": 98.9736
       },
       {
         "date": "2026-09-18",
-        "index_value": 107.7841
+        "index_value": 97.727
       },
       {
         "date": "2026-09-21",
-        "index_value": 108.9952
+        "index_value": 98.9378
       },
       {
         "date": "2026-09-22",
-        "index_value": 107.9928
+        "index_value": 97.9356
       },
       {
         "date": "2026-09-23",
-        "index_value": 107.9096
+        "index_value": 97.8524
       },
       {
         "date": "2026-09-28",
-        "index_value": 109.3675
+        "index_value": 99.31
       },
       {
         "date": "2026-09-29",
-        "index_value": 109.7466
+        "index_value": 99.689
       },
       {
         "date": "2026-09-30",
-        "index_value": 109.0537
+        "index_value": 98.9963
       },
       {
         "date": "2026-10-01",
-        "index_value": 109.4417
+        "index_value": 99.3842
       },
       {
         "date": "2026-10-02",
-        "index_value": 109.5069
+        "index_value": 99.4494
       },
       {
         "date": "2026-10-06",
-        "index_value": 109.4172
+        "index_value": 99.3597
       },
       {
         "date": "2026-10-07",
-        "index_value": 109.3202
+        "index_value": 99.2627
       },
       {
         "date": "2026-10-08",
-        "index_value": 109.4461
+        "index_value": 99.3885
       },
       {
         "date": "2026-10-12",
-        "index_value": 107.5409
+        "index_value": 97.4838
       },
       {
         "date": "2026-10-13",
-        "index_value": 106.6798
+        "index_value": 97.0027
       },
       {
         "date": "2026-10-14",
-        "index_value": 105.3394
+        "index_value": 95.3137
       },
       {
         "date": "2026-10-15",
-        "index_value": 102.6936
+        "index_value": 91.8209
       },
       {
         "date": "2026-10-16",
-        "index_value": 103.6786
+        "index_value": 92.4084
       },
       {
         "date": "2026-10-19",
-        "index_value": 103.04
+        "index_value": 92.4115
       },
       {
         "date": "2026-10-20",
-        "index_value": 100.2591
+        "index_value": 89.6598
       },
       {
         "date": "2026-10-21",
-        "index_value": 100.0125
+        "index_value": 89.4132
       },
       {
         "date": "2026-10-22",
-        "index_value": 98.5561
+        "index_value": 87.9571
       },
       {
         "date": "2026-10-23",
-        "index_value": 97.9646
+        "index_value": 87.3657
       },
       {
         "date": "2026-10-26",
-        "index_value": 96.2469
+        "index_value": 85.6484
       },
       {
         "date": "2026-10-27",
-        "index_value": 96.6995
+        "index_value": 85.9012
       },
       {
         "date": "2026-10-28",
-        "index_value": 96.3746
+        "index_value": 85.5964
       },
       {
         "date": "2026-10-29",
-        "index_value": 96.4739
+        "index_value": 85.5754
       },
       {
         "date": "2026-10-30",
-        "index_value": 97.3964
+        "index_value": 86.3573
       },
       {
         "date": "2026-11-02",
-        "index_value": 97.3522
+        "index_value": 86.4836
       },
       {
         "date": "2026-11-03",
-        "index_value": 97.2652
+        "index_value": 86.8489
       }
     ],
     "comparison_basis": "same_window",
@@ -1227,10 +1249,10 @@
       "points": 12,
       "basis": "intersection_of_live_and_backtest_index_dates"
     },
-    "live_window_return_pct": -0.3179,
-    "backtest_window_return_pct": -5.6044,
-    "live_month_to_date_return_pct": -0.043,
-    "backtest_full_window_return_pct": -2.7348
+    "live_window_return_pct": -0.255,
+    "backtest_window_return_pct": -6.0194,
+    "live_month_to_date_return_pct": 0.0201,
+    "backtest_full_window_return_pct": -13.1511
   },
   "holding_period_distribution": {
     "by_symbol": [
@@ -1251,24 +1273,24 @@
   },
   "canary": {
     "as_of": "2026-11-03",
-    "generated_at": "2026-11-03T12:00:18",
+    "generated_at": "2026-11-03T16:32:36",
     "first_trading_day": "2026-08-10",
     "live_since": "2026-08-10",
     "summary": {
       "latest_holdings_count": 2,
-      "today_return_pct": 0.1311,
+      "today_return_pct": 0.1829,
       "today_realized_pl_pct": 0.0,
-      "month_return_pct": 0.1415,
+      "month_return_pct": 0.1933,
       "month_realized_pl_pct": null,
       "realized_pl_30d_pct": -1.9867,
-      "cycles_30d": 58,
-      "cycles_held_30d": 51,
+      "cycles_30d": 60,
+      "cycles_held_30d": 53,
       "orders_sent_30d": 5,
       "fills_30d": 6,
       "avg_slippage_bps_30d": -6.1965078143556,
       "strategy_version": 0,
-      "month_cash_flow_adjusted_return_pct": 0.1415,
-      "today_cash_flow_adjusted_return_pct": 0.1311
+      "month_cash_flow_adjusted_return_pct": 0.1933,
+      "today_cash_flow_adjusted_return_pct": 0.1829
     },
     "portfolio_index": [
       {
@@ -1553,7 +1575,7 @@
       },
       {
         "date": "2026-11-03",
-        "index_value": 96.7253,
+        "index_value": 96.7753,
         "holdings_count": null
       }
     ],
@@ -2008,7 +2030,7 @@
       },
       {
         "date": "2026-11-03",
-        "return_pct": 0.1311,
+        "return_pct": 0.1829,
         "realized_pl_pct": 0.0,
         "external_cash_flow": false,
         "return_method": "cash_flow_adjusted_daily_return",
@@ -2042,7 +2064,7 @@
       },
       {
         "month": "2026-11",
-        "return_pct": 0.1415,
+        "return_pct": 0.1933,
         "realized_pl_pct": null,
         "trading_days": 2,
         "external_cash_flow": false,
@@ -2053,12 +2075,12 @@
       {
         "symbol": "030190",
         "name": "NICE평가정보",
-        "return_pct": 0.5254
+        "return_pct": 0.934
       },
       {
         "symbol": "086450",
         "name": "동국제약",
-        "return_pct": -5.2632
+        "return_pct": -6.6277
       }
     ],
     "per_symbol_returns": [
@@ -2066,8 +2088,8 @@
         "symbol": "030190",
         "name": "NICE평가정보",
         "realized_return_pct": null,
-        "current_return_pct": 0.5254,
-        "total_return_pct": 0.5254,
+        "current_return_pct": 0.934,
+        "total_return_pct": 0.934,
         "still_held": true,
         "buy_count": 1,
         "sell_count": 0
@@ -2096,8 +2118,8 @@
         "symbol": "086450",
         "name": "동국제약",
         "realized_return_pct": null,
-        "current_return_pct": -5.2632,
-        "total_return_pct": -5.2632,
+        "current_return_pct": -6.6277,
+        "total_return_pct": -6.6277,
         "still_held": true,
         "buy_count": 1,
         "sell_count": 0
@@ -2134,14 +2156,14 @@
     },
     "decision_stats_30d": {
       "window_days": 30,
-      "cycles": 58,
+      "cycles": 60,
       "trade_reviews": 4,
       "approved": 5,
       "rejected": 8,
       "modified": 0,
       "drift_holds": 4,
       "volatility_skips": 0,
-      "backtest_gate_failed": 51,
+      "backtest_gate_failed": 53,
       "stop_loss_triggered": 1
     },
     "account": "canary",
