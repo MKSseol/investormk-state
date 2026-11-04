@@ -1,6 +1,6 @@
 {
   "schema_version": 7,
-  "generated_at": "2026-11-04T09:35:17",
+  "generated_at": "2026-11-04T12:00:22",
   "as_of": "2026-11-04",
   "window_days": 90,
   "trading_mode": "paper",
@@ -265,12 +265,12 @@
     {
       "symbol": "012750",
       "name": "에스원",
-      "return_pct": 0.855
+      "return_pct": -0.3762
     },
     {
       "symbol": "033780",
       "name": "KT&G",
-      "return_pct": 3.2856
+      "return_pct": 2.4377
     }
   ],
   "per_symbol_returns": [
@@ -278,21 +278,11 @@
       "symbol": "033780",
       "name": "KT&G",
       "realized_return_pct": null,
-      "current_return_pct": 3.2856,
-      "total_return_pct": 3.2856,
+      "current_return_pct": 2.4377,
+      "total_return_pct": 2.4377,
       "still_held": true,
       "buy_count": 1,
       "sell_count": 0
-    },
-    {
-      "symbol": "012750",
-      "name": "에스원",
-      "realized_return_pct": -2.7613,
-      "current_return_pct": 0.855,
-      "total_return_pct": -0.0452,
-      "still_held": true,
-      "buy_count": 4,
-      "sell_count": 1
     },
     {
       "symbol": "031980",
@@ -302,6 +292,16 @@
       "total_return_pct": -0.2662,
       "still_held": false,
       "buy_count": 1,
+      "sell_count": 1
+    },
+    {
+      "symbol": "012750",
+      "name": "에스원",
+      "realized_return_pct": -2.7613,
+      "current_return_pct": -0.3762,
+      "total_return_pct": -0.9742,
+      "still_held": true,
+      "buy_count": 4,
       "sell_count": 1
     },
     {
@@ -385,7 +385,7 @@
       "name": "에스원",
       "side": "buy",
       "average_filled_price": 98200,
-      "current_price": 98300,
+      "current_price": 97100,
       "order_date": "20261103",
       "order_time": "123408",
       "cancelled": false
@@ -397,7 +397,7 @@
       "name": "에스원",
       "side": "buy",
       "average_filled_price": 97200,
-      "current_price": 98300,
+      "current_price": 97100,
       "order_date": "20261102",
       "order_time": "093341",
       "cancelled": false
@@ -409,7 +409,7 @@
       "name": "에스원",
       "side": "buy",
       "average_filled_price": 97000,
-      "current_price": 98300,
+      "current_price": 97100,
       "order_date": "20261030",
       "order_time": "093626",
       "cancelled": false
@@ -433,7 +433,7 @@
       "name": "에스원",
       "side": "sell",
       "average_filled_price": 94200,
-      "current_price": 98300,
+      "current_price": 97100,
       "order_date": "20261027",
       "order_time": "093417",
       "cancelled": false
@@ -457,7 +457,7 @@
       "name": "에스원",
       "side": "buy",
       "average_filled_price": 95100,
-      "current_price": 98300,
+      "current_price": 97100,
       "order_date": "20261026",
       "order_time": "093907",
       "cancelled": false
@@ -469,7 +469,7 @@
       "name": "KT&G",
       "side": "buy",
       "average_filled_price": 188700,
-      "current_price": 194900,
+      "current_price": 193300,
       "order_date": "20261026",
       "order_time": "093902",
       "cancelled": false
@@ -1286,7 +1286,7 @@
   },
   "canary": {
     "as_of": "2026-11-04",
-    "generated_at": "2026-11-04T09:35:31",
+    "generated_at": "2026-11-04T12:00:49",
     "first_trading_day": "2026-08-10",
     "live_since": "2026-08-10",
     "summary": {
@@ -2101,12 +2101,12 @@
       {
         "symbol": "030190",
         "name": "NICE평가정보",
-        "return_pct": 0.6421
+        "return_pct": -0.4086
       },
       {
         "symbol": "086450",
         "name": "동국제약",
-        "return_pct": -7.0175
+        "return_pct": -5.653
       }
     ],
     "per_symbol_returns": [
@@ -2114,8 +2114,8 @@
         "symbol": "030190",
         "name": "NICE평가정보",
         "realized_return_pct": null,
-        "current_return_pct": 0.6421,
-        "total_return_pct": 0.6421,
+        "current_return_pct": -0.4086,
+        "total_return_pct": -0.4086,
         "still_held": true,
         "buy_count": 1,
         "sell_count": 0
@@ -2144,8 +2144,8 @@
         "symbol": "086450",
         "name": "동국제약",
         "realized_return_pct": null,
-        "current_return_pct": -7.0175,
-        "total_return_pct": -7.0175,
+        "current_return_pct": -5.653,
+        "total_return_pct": -5.653,
         "still_held": true,
         "buy_count": 1,
         "sell_count": 0
