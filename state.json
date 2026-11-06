@@ -1,6 +1,6 @@
 {
   "schema_version": 7,
-  "generated_at": "2026-11-06T09:35:33",
+  "generated_at": "2026-11-06T12:00:17",
   "as_of": "2026-11-06",
   "window_days": 90,
   "trading_mode": "paper",
@@ -8,9 +8,9 @@
   "live_since": null,
   "summary": {
     "latest_holdings_count": 2,
-    "today_return_pct": -0.001,
+    "today_return_pct": 0.022,
     "today_realized_pl_pct": 0.0,
-    "month_return_pct": 0.0272,
+    "month_return_pct": 0.0502,
     "month_realized_pl_pct": null,
     "realized_pl_30d_pct": null,
     "cycles_30d": 46,
@@ -19,8 +19,8 @@
     "fills_30d": 21,
     "avg_slippage_bps_30d": -52.889267148201725,
     "strategy_version": 1,
-    "month_cash_flow_adjusted_return_pct": 0.0272,
-    "today_cash_flow_adjusted_return_pct": -0.001
+    "month_cash_flow_adjusted_return_pct": 0.0502,
+    "today_cash_flow_adjusted_return_pct": 0.022
   },
   "strategy": {
     "version": 1,
@@ -110,7 +110,7 @@
     },
     {
       "date": "2026-11-06",
-      "index_value": 99.752,
+      "index_value": 99.775,
       "holdings_count": null
     }
   ],
@@ -229,7 +229,7 @@
     },
     {
       "date": "2026-11-06",
-      "return_pct": -0.001,
+      "return_pct": 0.022,
       "realized_pl_pct": 0.0,
       "external_cash_flow": false,
       "return_method": "cash_flow_adjusted_daily_return",
@@ -257,7 +257,7 @@
       "week_start": "2026-11-02",
       "week_end": "2026-11-08",
       "trading_days": 5,
-      "return_pct": 0.0272,
+      "return_pct": 0.0502,
       "realized_pl_pct": 0.0,
       "excluded_days": 0
     }
@@ -273,7 +273,7 @@
     },
     {
       "month": "2026-11",
-      "return_pct": 0.0272,
+      "return_pct": 0.0502,
       "realized_pl_pct": null,
       "trading_days": 5,
       "external_cash_flow": false,
@@ -291,12 +291,12 @@
     {
       "symbol": "012750",
       "name": "에스원",
-      "return_pct": 1.6758
+      "return_pct": 0.7524
     },
     {
       "symbol": "033780",
       "name": "KT&G",
-      "return_pct": 3.6036
+      "return_pct": 1.4838
     }
   ],
   "per_symbol_returns": [
@@ -304,8 +304,8 @@
       "symbol": "033780",
       "name": "KT&G",
       "realized_return_pct": null,
-      "current_return_pct": 3.6036,
-      "total_return_pct": 3.6036,
+      "current_return_pct": 1.4838,
+      "total_return_pct": 1.4838,
       "still_held": true,
       "buy_count": 1,
       "sell_count": 0
@@ -314,8 +314,8 @@
       "symbol": "012750",
       "name": "에스원",
       "realized_return_pct": -2.7613,
-      "current_return_pct": 1.6758,
-      "total_return_pct": 0.5742,
+      "current_return_pct": 0.7524,
+      "total_return_pct": -0.1226,
       "still_held": true,
       "buy_count": 4,
       "sell_count": 1
@@ -411,7 +411,7 @@
       "name": "에스원",
       "side": "buy",
       "average_filled_price": 98200,
-      "current_price": 99100,
+      "current_price": 98200,
       "order_date": "20261103",
       "order_time": "123408",
       "cancelled": false
@@ -423,7 +423,7 @@
       "name": "에스원",
       "side": "buy",
       "average_filled_price": 97200,
-      "current_price": 99100,
+      "current_price": 98200,
       "order_date": "20261102",
       "order_time": "093341",
       "cancelled": false
@@ -435,7 +435,7 @@
       "name": "에스원",
       "side": "buy",
       "average_filled_price": 97000,
-      "current_price": 99100,
+      "current_price": 98200,
       "order_date": "20261030",
       "order_time": "093626",
       "cancelled": false
@@ -459,7 +459,7 @@
       "name": "에스원",
       "side": "sell",
       "average_filled_price": 94200,
-      "current_price": 99100,
+      "current_price": 98200,
       "order_date": "20261027",
       "order_time": "093417",
       "cancelled": false
@@ -483,7 +483,7 @@
       "name": "에스원",
       "side": "buy",
       "average_filled_price": 95100,
-      "current_price": 99100,
+      "current_price": 98200,
       "order_date": "20261026",
       "order_time": "093907",
       "cancelled": false
@@ -495,7 +495,7 @@
       "name": "KT&G",
       "side": "buy",
       "average_filled_price": 188700,
-      "current_price": 195500,
+      "current_price": 191500,
       "order_date": "20261026",
       "order_time": "093902",
       "cancelled": false
@@ -741,22 +741,22 @@
     "news_provider": "upstarnews_api"
   },
   "llm_usage_30d": {
-    "input_tokens": 1104563,
-    "output_tokens": 65726,
-    "calls": 43,
-    "cost_usd_estimate": 1.4332,
+    "input_tokens": 1164542,
+    "output_tokens": 67771,
+    "calls": 44,
+    "cost_usd_estimate": 1.5034,
     "by_event": {
+      "reflection": {
+        "calls": 15,
+        "input_tokens": 808835,
+        "output_tokens": 29665,
+        "cost_usd": 0.9572
+      },
       "trade_review": {
         "calls": 28,
         "input_tokens": 347349,
         "output_tokens": 37540,
         "cost_usd": 0.535
-      },
-      "reflection": {
-        "calls": 14,
-        "input_tokens": 748856,
-        "output_tokens": 27620,
-        "cost_usd": 0.887
       },
       "strategy_update_rejected": {
         "calls": 1,
@@ -788,10 +788,10 @@
     "stop_loss_triggered": 0
   },
   "backtest_comparison": {
-    "live_30d_return_pct": -0.248,
+    "live_30d_return_pct": -0.225,
     "backtest_recent_return_pct": -4.3352,
     "backtest_recent_sharpe": -0.909,
-    "gap_pct": 4.0872,
+    "gap_pct": 4.1102,
     "last_backtest_at": "2026-11-06T09:34:44",
     "backtest_window_days": 180,
     "universe_source": "full-listed",
@@ -1294,9 +1294,9 @@
       "points": 15,
       "basis": "intersection_of_live_and_backtest_index_dates"
     },
-    "live_window_return_pct": -0.248,
+    "live_window_return_pct": -0.225,
     "backtest_window_return_pct": -4.3352,
-    "live_month_to_date_return_pct": 0.0272,
+    "live_month_to_date_return_pct": 0.0502,
     "backtest_full_window_return_pct": -9.8482
   },
   "holding_period_distribution": {
@@ -1318,7 +1318,7 @@
   },
   "canary": {
     "as_of": "2026-11-06",
-    "generated_at": "2026-11-06T09:35:49",
+    "generated_at": "2026-11-06T12:00:32",
     "first_trading_day": "2026-08-10",
     "live_since": "2026-08-10",
     "summary": {
@@ -2159,12 +2159,12 @@
       {
         "symbol": "030190",
         "name": "NICE평가정보",
-        "return_pct": 3.3859
+        "return_pct": 6.5966
       },
       {
         "symbol": "086450",
         "name": "동국제약",
-        "return_pct": -8.7719
+        "return_pct": -7.0175
       }
     ],
     "per_symbol_returns": [
@@ -2172,8 +2172,8 @@
         "symbol": "030190",
         "name": "NICE평가정보",
         "realized_return_pct": null,
-        "current_return_pct": 3.3859,
-        "total_return_pct": 3.3859,
+        "current_return_pct": 6.5966,
+        "total_return_pct": 6.5966,
         "still_held": true,
         "buy_count": 1,
         "sell_count": 0
@@ -2202,8 +2202,8 @@
         "symbol": "086450",
         "name": "동국제약",
         "realized_return_pct": null,
-        "current_return_pct": -8.7719,
-        "total_return_pct": -8.7719,
+        "current_return_pct": -7.0175,
+        "total_return_pct": -7.0175,
         "still_held": true,
         "buy_count": 1,
         "sell_count": 0
