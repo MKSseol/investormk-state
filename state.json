@@ -1,6 +1,6 @@
 {
   "schema_version": 7,
-  "generated_at": "2026-11-10T09:35:36",
+  "generated_at": "2026-11-10T12:00:36",
   "as_of": "2026-11-10",
   "window_days": 90,
   "trading_mode": "paper",
@@ -325,7 +325,7 @@
     {
       "symbol": "012750",
       "name": "에스원",
-      "return_pct": 0.855
+      "return_pct": 0.7524
     }
   ],
   "per_symbol_returns": [
@@ -333,8 +333,8 @@
       "symbol": "012750",
       "name": "에스원",
       "realized_return_pct": -2.7613,
-      "current_return_pct": 0.855,
-      "total_return_pct": -0.0452,
+      "current_return_pct": 0.7524,
+      "total_return_pct": -0.1226,
       "still_held": true,
       "buy_count": 4,
       "sell_count": 1
@@ -452,7 +452,7 @@
       "name": "에스원",
       "side": "buy",
       "average_filled_price": 98200,
-      "current_price": 98300,
+      "current_price": 98200,
       "order_date": "20261103",
       "order_time": "123408",
       "cancelled": false
@@ -464,7 +464,7 @@
       "name": "에스원",
       "side": "buy",
       "average_filled_price": 97200,
-      "current_price": 98300,
+      "current_price": 98200,
       "order_date": "20261102",
       "order_time": "093341",
       "cancelled": false
@@ -476,7 +476,7 @@
       "name": "에스원",
       "side": "buy",
       "average_filled_price": 97000,
-      "current_price": 98300,
+      "current_price": 98200,
       "order_date": "20261030",
       "order_time": "093626",
       "cancelled": false
@@ -500,7 +500,7 @@
       "name": "에스원",
       "side": "sell",
       "average_filled_price": 94200,
-      "current_price": 98300,
+      "current_price": 98200,
       "order_date": "20261027",
       "order_time": "093417",
       "cancelled": false
@@ -524,7 +524,7 @@
       "name": "에스원",
       "side": "buy",
       "average_filled_price": 95100,
-      "current_price": 98300,
+      "current_price": 98200,
       "order_date": "20261026",
       "order_time": "093907",
       "cancelled": false
@@ -1346,7 +1346,7 @@
   },
   "canary": {
     "as_of": "2026-11-10",
-    "generated_at": "2026-11-10T09:35:59",
+    "generated_at": "2026-11-10T12:00:58",
     "first_trading_day": "2026-08-18",
     "live_since": "2026-08-18",
     "summary": {
@@ -2148,7 +2148,7 @@
       {
         "symbol": "030190",
         "name": "NICE평가정보",
-        "return_pct": 4.9037
+        "return_pct": 5.1372
       }
     ],
     "per_symbol_returns": [
@@ -2156,8 +2156,8 @@
         "symbol": "030190",
         "name": "NICE평가정보",
         "realized_return_pct": null,
-        "current_return_pct": 4.9037,
-        "total_return_pct": 4.9037,
+        "current_return_pct": 5.1372,
+        "total_return_pct": 5.1372,
         "still_held": true,
         "buy_count": 1,
         "sell_count": 0
