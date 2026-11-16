@@ -1,6 +1,6 @@
 {
   "schema_version": 7,
-  "generated_at": "2026-11-16T09:35:26",
+  "generated_at": "2026-11-16T12:00:45",
   "as_of": "2026-11-16",
   "window_days": 90,
   "trading_mode": "paper",
@@ -385,7 +385,7 @@
     {
       "symbol": "012750",
       "name": "에스원",
-      "return_pct": 2.5259
+      "return_pct": 3.0344
     }
   ],
   "per_symbol_returns": [
@@ -393,8 +393,8 @@
       "symbol": "012750",
       "name": "에스원",
       "realized_return_pct": -3.7372,
-      "current_return_pct": 2.5259,
-      "total_return_pct": 1.6413,
+      "current_return_pct": 3.0344,
+      "total_return_pct": 2.0792,
       "still_held": true,
       "buy_count": 7,
       "sell_count": 1
@@ -488,7 +488,7 @@
       "name": "에스원",
       "side": "buy",
       "average_filled_price": 100000,
-      "current_price": 100800,
+      "current_price": 101300,
       "order_date": "20261113",
       "order_time": "093713",
       "cancelled": false
@@ -500,7 +500,7 @@
       "name": "에스원",
       "side": "buy",
       "average_filled_price": 99000,
-      "current_price": 100800,
+      "current_price": 101300,
       "order_date": "20261112",
       "order_time": "094220",
       "cancelled": false
@@ -512,7 +512,7 @@
       "name": "에스원",
       "side": "buy",
       "average_filled_price": 98500,
-      "current_price": 100800,
+      "current_price": 101300,
       "order_date": "20261111",
       "order_time": "095851",
       "cancelled": false
@@ -548,7 +548,7 @@
       "name": "에스원",
       "side": "buy",
       "average_filled_price": 98200,
-      "current_price": 100800,
+      "current_price": 101300,
       "order_date": "20261103",
       "order_time": "123408",
       "cancelled": false
@@ -560,7 +560,7 @@
       "name": "에스원",
       "side": "buy",
       "average_filled_price": 97200,
-      "current_price": 100800,
+      "current_price": 101300,
       "order_date": "20261102",
       "order_time": "093341",
       "cancelled": false
@@ -572,7 +572,7 @@
       "name": "에스원",
       "side": "buy",
       "average_filled_price": 97000,
-      "current_price": 100800,
+      "current_price": 101300,
       "order_date": "20261030",
       "order_time": "093626",
       "cancelled": false
@@ -596,7 +596,7 @@
       "name": "에스원",
       "side": "sell",
       "average_filled_price": 94200,
-      "current_price": 100800,
+      "current_price": 101300,
       "order_date": "20261027",
       "order_time": "093417",
       "cancelled": false
@@ -620,7 +620,7 @@
       "name": "에스원",
       "side": "buy",
       "average_filled_price": 95100,
-      "current_price": 100800,
+      "current_price": 101300,
       "order_date": "20261026",
       "order_time": "093907",
       "cancelled": false
@@ -1444,14 +1444,14 @@
   },
   "canary": {
     "as_of": "2026-11-16",
-    "generated_at": "2026-11-16T09:35:56",
+    "generated_at": "2026-11-16T12:01:49",
     "first_trading_day": "2026-08-19",
     "live_since": "2026-08-19",
     "summary": {
       "latest_holdings_count": 1,
-      "today_return_pct": null,
+      "today_return_pct": -0.1411,
       "today_realized_pl_pct": 0.0,
-      "month_return_pct": 0.2841,
+      "month_return_pct": 0.1426,
       "month_realized_pl_pct": -0.6547,
       "realized_pl_30d_pct": -1.7385,
       "cycles_30d": 61,
@@ -1460,8 +1460,8 @@
       "fills_30d": 5,
       "avg_slippage_bps_30d": 11.534570887582491,
       "strategy_version": 0,
-      "month_cash_flow_adjusted_return_pct": 0.2841,
-      "today_cash_flow_adjusted_return_pct": null
+      "month_cash_flow_adjusted_return_pct": 0.1426,
+      "today_cash_flow_adjusted_return_pct": -0.1411
     },
     "portfolio_index": [
       {
@@ -1757,6 +1757,11 @@
       {
         "date": "2026-11-13",
         "index_value": 97.3007,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-11-16",
+        "index_value": 97.1634,
         "holdings_count": null
       }
     ],
@@ -2235,11 +2240,11 @@
       },
       {
         "date": "2026-11-16",
-        "return_pct": null,
+        "return_pct": -0.1411,
         "realized_pl_pct": 0.0,
-        "external_cash_flow": false,
+        "external_cash_flow": true,
         "return_method": "cash_flow_adjusted_daily_return",
-        "return_note": "unexplained_nav_jump_excluded"
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
       }
     ],
     "monthly_profit_loss": [
@@ -2269,18 +2274,18 @@
       },
       {
         "month": "2026-11",
-        "return_pct": 0.2841,
+        "return_pct": 0.1426,
         "realized_pl_pct": -0.6547,
         "trading_days": 11,
-        "external_cash_flow": false,
-        "excluded_days": 1
+        "external_cash_flow": true,
+        "excluded_days": 0
       }
     ],
     "current_holdings": [
       {
         "symbol": "030190",
         "name": "NICE평가정보",
-        "return_pct": 1.3427
+        "return_pct": -1.0508
       }
     ],
     "per_symbol_returns": [
@@ -2288,8 +2293,8 @@
         "symbol": "030190",
         "name": "NICE평가정보",
         "realized_return_pct": null,
-        "current_return_pct": 1.3427,
-        "total_return_pct": 1.3427,
+        "current_return_pct": -1.0508,
+        "total_return_pct": -1.0508,
         "still_held": true,
         "buy_count": 1,
         "sell_count": 0
@@ -2348,24 +2353,17 @@
     "nav_integrity": {
       "threshold_pct": 5.0,
       "checked_points": 60,
-      "suspect_count": 1,
-      "status": "suspect",
-      "suspects": [
+      "suspect_count": 0,
+      "status": "ok",
+      "suspects": [],
+      "excluded_return_days": [],
+      "cash_flow_realignments": [
         {
-          "date": "2026-11-16",
-          "nav_change_pct": -24.2302,
-          "cash_flow_adjusted_change_pct": -24.2302,
-          "unexplained_change_pct": -24.0891,
-          "return_excluded": true
+          "from_date": "2026-11-13",
+          "to_date": "2026-11-16",
+          "basis": "paired_with_next_point"
         }
-      ],
-      "excluded_return_days": [
-        {
-          "date": "2026-11-16",
-          "note": "unexplained_nav_jump_excluded"
-        }
-      ],
-      "cash_flow_realignments": []
+      ]
     },
     "decision_stats_30d": {
       "window_days": 30,
