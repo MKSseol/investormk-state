@@ -1,6 +1,6 @@
 {
   "schema_version": 7,
-  "generated_at": "2026-11-17T09:35:36",
+  "generated_at": "2026-11-17T12:00:39",
   "as_of": "2026-11-17",
   "window_days": 90,
   "trading_mode": "paper",
@@ -398,12 +398,12 @@
     {
       "symbol": "012750",
       "name": "에스원",
-      "return_pct": 3.7464
+      "return_pct": 3.9498
     },
     {
       "symbol": "068270",
       "name": "셀트리온",
-      "return_pct": 0.7009
+      "return_pct": 0.0
     }
   ],
   "per_symbol_returns": [
@@ -411,8 +411,8 @@
       "symbol": "012750",
       "name": "에스원",
       "realized_return_pct": -3.7372,
-      "current_return_pct": 3.7464,
-      "total_return_pct": 2.6924,
+      "current_return_pct": 3.9498,
+      "total_return_pct": 2.8676,
       "still_held": true,
       "buy_count": 7,
       "sell_count": 1
@@ -506,7 +506,7 @@
       "name": "에스원",
       "side": "buy",
       "average_filled_price": 100000,
-      "current_price": 102000,
+      "current_price": 102200,
       "order_date": "20261113",
       "order_time": "093713",
       "cancelled": false
@@ -518,7 +518,7 @@
       "name": "에스원",
       "side": "buy",
       "average_filled_price": 99000,
-      "current_price": 102000,
+      "current_price": 102200,
       "order_date": "20261112",
       "order_time": "094220",
       "cancelled": false
@@ -530,7 +530,7 @@
       "name": "에스원",
       "side": "buy",
       "average_filled_price": 98500,
-      "current_price": 102000,
+      "current_price": 102200,
       "order_date": "20261111",
       "order_time": "095851",
       "cancelled": false
@@ -566,7 +566,7 @@
       "name": "에스원",
       "side": "buy",
       "average_filled_price": 98200,
-      "current_price": 102000,
+      "current_price": 102200,
       "order_date": "20261103",
       "order_time": "123408",
       "cancelled": false
@@ -578,7 +578,7 @@
       "name": "에스원",
       "side": "buy",
       "average_filled_price": 97200,
-      "current_price": 102000,
+      "current_price": 102200,
       "order_date": "20261102",
       "order_time": "093341",
       "cancelled": false
@@ -590,7 +590,7 @@
       "name": "에스원",
       "side": "buy",
       "average_filled_price": 97000,
-      "current_price": 102000,
+      "current_price": 102200,
       "order_date": "20261030",
       "order_time": "093626",
       "cancelled": false
@@ -614,7 +614,7 @@
       "name": "에스원",
       "side": "sell",
       "average_filled_price": 94200,
-      "current_price": 102000,
+      "current_price": 102200,
       "order_date": "20261027",
       "order_time": "093417",
       "cancelled": false
@@ -638,7 +638,7 @@
       "name": "에스원",
       "side": "buy",
       "average_filled_price": 95100,
-      "current_price": 102000,
+      "current_price": 102200,
       "order_date": "20261026",
       "order_time": "093907",
       "cancelled": false
@@ -1454,7 +1454,7 @@
   },
   "canary": {
     "as_of": "2026-11-17",
-    "generated_at": "2026-11-17T09:36:04",
+    "generated_at": "2026-11-17T12:01:15",
     "first_trading_day": "2026-09-14",
     "live_since": "2026-08-20",
     "summary": {
@@ -2066,20 +2066,10 @@
       {
         "symbol": "030190",
         "name": "NICE평가정보",
-        "return_pct": -1.1675
+        "return_pct": -2.6853
       }
     ],
     "per_symbol_returns": [
-      {
-        "symbol": "030190",
-        "name": "NICE평가정보",
-        "realized_return_pct": null,
-        "current_return_pct": -1.1675,
-        "total_return_pct": -1.1675,
-        "still_held": true,
-        "buy_count": 1,
-        "sell_count": 0
-      },
       {
         "symbol": "012630",
         "name": "HDC",
@@ -2089,6 +2079,16 @@
         "still_held": false,
         "buy_count": 1,
         "sell_count": 1
+      },
+      {
+        "symbol": "030190",
+        "name": "NICE평가정보",
+        "realized_return_pct": null,
+        "current_return_pct": -2.6853,
+        "total_return_pct": -2.6853,
+        "still_held": true,
+        "buy_count": 1,
+        "sell_count": 0
       },
       {
         "symbol": "086450",
