@@ -1,6 +1,6 @@
 {
   "schema_version": 7,
-  "generated_at": "2026-11-20T09:38:29",
+  "generated_at": "2026-11-20T12:01:24",
   "as_of": "2026-11-20",
   "window_days": 90,
   "trading_mode": "paper",
@@ -437,10 +437,20 @@
     {
       "symbol": "068270",
       "name": "셀트리온",
-      "return_pct": -0.4662
+      "return_pct": 0.4662
     }
   ],
   "per_symbol_returns": [
+    {
+      "symbol": "068270",
+      "name": "셀트리온",
+      "realized_return_pct": null,
+      "current_return_pct": 0.4662,
+      "total_return_pct": 0.4662,
+      "still_held": true,
+      "buy_count": 2,
+      "sell_count": 0
+    },
     {
       "symbol": "031980",
       "name": "피에스케이홀딩스",
@@ -450,16 +460,6 @@
       "still_held": false,
       "buy_count": 1,
       "sell_count": 1
-    },
-    {
-      "symbol": "068270",
-      "name": "셀트리온",
-      "realized_return_pct": null,
-      "current_return_pct": -0.4662,
-      "total_return_pct": -0.4662,
-      "still_held": true,
-      "buy_count": 2,
-      "sell_count": 0
     },
     {
       "symbol": "012750",
@@ -550,7 +550,7 @@
       "name": "셀트리온",
       "side": "buy",
       "average_filled_price": 215000,
-      "current_price": 213500,
+      "current_price": 215500,
       "order_date": "20261119",
       "order_time": "143435",
       "cancelled": false
@@ -562,7 +562,7 @@
       "name": "셀트리온",
       "side": "buy",
       "average_filled_price": 214000,
-      "current_price": 213500,
+      "current_price": 215500,
       "order_date": "20261117",
       "order_time": "092935",
       "cancelled": false
@@ -927,10 +927,10 @@
     "news_provider": "upstarnews_api"
   },
   "llm_usage_30d": {
-    "input_tokens": 1651597,
-    "output_tokens": 89016,
-    "calls": 57,
-    "cost_usd_estimate": 2.0967,
+    "input_tokens": 1704182,
+    "output_tokens": 91050,
+    "calls": 58,
+    "cost_usd_estimate": 2.1594,
     "by_event": {
       "trade_review": {
         "calls": 34,
@@ -939,10 +939,10 @@
         "cost_usd": 0.6462
       },
       "reflection": {
-        "calls": 22,
-        "input_tokens": 1215796,
-        "output_tokens": 44695,
-        "cost_usd": 1.4393
+        "calls": 23,
+        "input_tokens": 1268381,
+        "output_tokens": 46729,
+        "cost_usd": 1.502
       },
       "strategy_update_rejected": {
         "calls": 1,
@@ -1495,7 +1495,7 @@
   },
   "canary": {
     "as_of": "2026-11-20",
-    "generated_at": "2026-11-20T09:49:09",
+    "generated_at": "2026-11-20T12:02:45",
     "first_trading_day": "2026-09-14",
     "live_since": "2026-08-24",
     "summary": {
@@ -2146,10 +2146,20 @@
       {
         "symbol": "030190",
         "name": "NICE평가정보",
-        "return_pct": -2.627
+        "return_pct": -2.0432
       }
     ],
     "per_symbol_returns": [
+      {
+        "symbol": "030190",
+        "name": "NICE평가정보",
+        "realized_return_pct": null,
+        "current_return_pct": -2.0432,
+        "total_return_pct": -2.0432,
+        "still_held": true,
+        "buy_count": 1,
+        "sell_count": 0
+      },
       {
         "symbol": "012630",
         "name": "HDC",
@@ -2159,16 +2169,6 @@
         "still_held": false,
         "buy_count": 1,
         "sell_count": 1
-      },
-      {
-        "symbol": "030190",
-        "name": "NICE평가정보",
-        "realized_return_pct": null,
-        "current_return_pct": -2.627,
-        "total_return_pct": -2.627,
-        "still_held": true,
-        "buy_count": 1,
-        "sell_count": 0
       },
       {
         "symbol": "086450",
