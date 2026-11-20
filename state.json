@@ -1,26 +1,26 @@
 {
   "schema_version": 7,
-  "generated_at": "2026-11-19T16:34:16",
-  "as_of": "2026-11-19",
+  "generated_at": "2026-11-20T09:38:29",
+  "as_of": "2026-11-20",
   "window_days": 90,
   "trading_mode": "paper",
   "first_trading_day": "2026-10-19",
   "live_since": null,
   "summary": {
-    "latest_holdings_count": 2,
-    "today_return_pct": 0.278,
+    "latest_holdings_count": 1,
+    "today_return_pct": -0.0376,
     "today_realized_pl_pct": 0.0,
-    "month_return_pct": 0.392,
+    "month_return_pct": 0.3543,
     "month_realized_pl_pct": null,
     "realized_pl_30d_pct": null,
-    "cycles_30d": 66,
+    "cycles_30d": 64,
     "cycles_held_30d": 1,
-    "orders_sent_30d": 20,
-    "fills_30d": 20,
-    "avg_slippage_bps_30d": -0.8422001375103425,
+    "orders_sent_30d": 19,
+    "fills_30d": 19,
+    "avg_slippage_bps_30d": 1.5819788086207547,
     "strategy_version": 1,
-    "month_cash_flow_adjusted_return_pct": 0.392,
-    "today_cash_flow_adjusted_return_pct": 0.278
+    "month_cash_flow_adjusted_return_pct": 0.3543,
+    "today_cash_flow_adjusted_return_pct": -0.0376
   },
   "strategy": {
     "version": 1,
@@ -156,6 +156,11 @@
     {
       "date": "2026-11-19",
       "index_value": 100.1159,
+      "holdings_count": null
+    },
+    {
+      "date": "2026-11-20",
+      "index_value": 100.0783,
       "holdings_count": null
     }
   ],
@@ -351,6 +356,14 @@
       "external_cash_flow": false,
       "return_method": "cash_flow_adjusted_daily_return",
       "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+    },
+    {
+      "date": "2026-11-20",
+      "return_pct": -0.0376,
+      "realized_pl_pct": 0.0,
+      "external_cash_flow": false,
+      "return_method": "cash_flow_adjusted_daily_return",
+      "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
     }
   ],
   "weekly_profit_loss": [
@@ -389,8 +402,8 @@
     {
       "week_start": "2026-11-16",
       "week_end": "2026-11-22",
-      "trading_days": 4,
-      "return_pct": 0.3279,
+      "trading_days": 5,
+      "return_pct": 0.2902,
       "realized_pl_pct": 0.0,
       "excluded_days": 0
     }
@@ -406,9 +419,9 @@
     },
     {
       "month": "2026-11",
-      "return_pct": 0.392,
+      "return_pct": 0.3543,
       "realized_pl_pct": null,
-      "trading_days": 14,
+      "trading_days": 15,
       "external_cash_flow": false,
       "excluded_days": 0
     }
@@ -422,37 +435,12 @@
   },
   "current_holdings": [
     {
-      "symbol": "012750",
-      "name": "에스원",
-      "return_pct": 7.6115
-    },
-    {
       "symbol": "068270",
       "name": "셀트리온",
-      "return_pct": 0.2331
+      "return_pct": -0.4662
     }
   ],
   "per_symbol_returns": [
-    {
-      "symbol": "012750",
-      "name": "에스원",
-      "realized_return_pct": -3.7372,
-      "current_return_pct": 7.6115,
-      "total_return_pct": 6.0209,
-      "still_held": true,
-      "buy_count": 7,
-      "sell_count": 1
-    },
-    {
-      "symbol": "068270",
-      "name": "셀트리온",
-      "realized_return_pct": null,
-      "current_return_pct": 0.2331,
-      "total_return_pct": 0.2331,
-      "still_held": true,
-      "buy_count": 2,
-      "sell_count": 0
-    },
     {
       "symbol": "031980",
       "name": "피에스케이홀딩스",
@@ -461,6 +449,26 @@
       "total_return_pct": -0.2662,
       "still_held": false,
       "buy_count": 1,
+      "sell_count": 1
+    },
+    {
+      "symbol": "068270",
+      "name": "셀트리온",
+      "realized_return_pct": null,
+      "current_return_pct": -0.4662,
+      "total_return_pct": -0.4662,
+      "still_held": true,
+      "buy_count": 2,
+      "sell_count": 0
+    },
+    {
+      "symbol": "012750",
+      "name": "에스원",
+      "realized_return_pct": -3.7372,
+      "current_return_pct": null,
+      "total_return_pct": -0.5339,
+      "still_held": false,
+      "buy_count": 7,
       "sell_count": 1
     },
     {
@@ -542,7 +550,7 @@
       "name": "셀트리온",
       "side": "buy",
       "average_filled_price": 215000,
-      "current_price": 215000,
+      "current_price": 213500,
       "order_date": "20261119",
       "order_time": "143435",
       "cancelled": false
@@ -554,7 +562,7 @@
       "name": "셀트리온",
       "side": "buy",
       "average_filled_price": 214000,
-      "current_price": 215000,
+      "current_price": 213500,
       "order_date": "20261117",
       "order_time": "092935",
       "cancelled": false
@@ -566,7 +574,7 @@
       "name": "에스원",
       "side": "buy",
       "average_filled_price": 100000,
-      "current_price": 105800,
+      "current_price": null,
       "order_date": "20261113",
       "order_time": "093713",
       "cancelled": false
@@ -578,7 +586,7 @@
       "name": "에스원",
       "side": "buy",
       "average_filled_price": 99000,
-      "current_price": 105800,
+      "current_price": null,
       "order_date": "20261112",
       "order_time": "094220",
       "cancelled": false
@@ -590,7 +598,7 @@
       "name": "에스원",
       "side": "buy",
       "average_filled_price": 98500,
-      "current_price": 105800,
+      "current_price": null,
       "order_date": "20261111",
       "order_time": "095851",
       "cancelled": false
@@ -626,7 +634,7 @@
       "name": "에스원",
       "side": "buy",
       "average_filled_price": 98200,
-      "current_price": 105800,
+      "current_price": null,
       "order_date": "20261103",
       "order_time": "123408",
       "cancelled": false
@@ -638,7 +646,7 @@
       "name": "에스원",
       "side": "buy",
       "average_filled_price": 97200,
-      "current_price": 105800,
+      "current_price": null,
       "order_date": "20261102",
       "order_time": "093341",
       "cancelled": false
@@ -650,7 +658,7 @@
       "name": "에스원",
       "side": "buy",
       "average_filled_price": 97000,
-      "current_price": 105800,
+      "current_price": null,
       "order_date": "20261030",
       "order_time": "093626",
       "cancelled": false
@@ -674,7 +682,7 @@
       "name": "에스원",
       "side": "sell",
       "average_filled_price": 94200,
-      "current_price": 105800,
+      "current_price": null,
       "order_date": "20261027",
       "order_time": "093417",
       "cancelled": false
@@ -698,7 +706,7 @@
       "name": "에스원",
       "side": "buy",
       "average_filled_price": 95100,
-      "current_price": 105800,
+      "current_price": null,
       "order_date": "20261026",
       "order_time": "093907",
       "cancelled": false
@@ -810,18 +818,6 @@
       "order_date": "20261019",
       "order_time": "093744",
       "cancelled": false
-    },
-    {
-      "ts": "2026-10-19T15:45:00",
-      "order_no": "0000014321",
-      "symbol": "031980",
-      "name": "피에스케이홀딩스",
-      "side": "buy",
-      "average_filled_price": 187800,
-      "current_price": null,
-      "order_date": "20261019",
-      "order_time": "093734",
-      "cancelled": false
     }
   ],
   "market_context": {
@@ -931,22 +927,22 @@
     "news_provider": "upstarnews_api"
   },
   "llm_usage_30d": {
-    "input_tokens": 1675458,
-    "output_tokens": 90140,
-    "calls": 58,
-    "cost_usd_estimate": 2.1262,
+    "input_tokens": 1651597,
+    "output_tokens": 89016,
+    "calls": 57,
+    "cost_usd_estimate": 2.0967,
     "by_event": {
       "trade_review": {
         "calls": 34,
-        "input_tokens": 426545,
-        "output_tokens": 43204,
-        "cost_usd": 0.6426
+        "input_tokens": 427443,
+        "output_tokens": 43755,
+        "cost_usd": 0.6462
       },
       "reflection": {
-        "calls": 23,
-        "input_tokens": 1240555,
-        "output_tokens": 46370,
-        "cost_usd": 1.4724
+        "calls": 22,
+        "input_tokens": 1215796,
+        "output_tokens": 44695,
+        "cost_usd": 1.4393
       },
       "strategy_update_rejected": {
         "calls": 1,
@@ -958,7 +954,7 @@
   },
   "nav_integrity": {
     "threshold_pct": 5.0,
-    "checked_points": 24,
+    "checked_points": 25,
     "suspect_count": 0,
     "status": "ok",
     "suspects": [],
@@ -967,22 +963,22 @@
   },
   "decision_stats_30d": {
     "window_days": 30,
-    "cycles": 69,
+    "cycles": 67,
     "trade_reviews": 34,
     "approved": 19,
-    "rejected": 30,
+    "rejected": 31,
     "modified": 2,
-    "drift_holds": 44,
+    "drift_holds": 42,
     "volatility_skips": 0,
-    "backtest_gate_failed": 67,
+    "backtest_gate_failed": 66,
     "stop_loss_triggered": 0
   },
   "backtest_comparison": {
     "live_30d_return_pct": 0.1159,
-    "backtest_recent_return_pct": -10.9226,
-    "backtest_recent_sharpe": -2.1759,
-    "gap_pct": 11.0385,
-    "last_backtest_at": "2026-11-19T14:33:28",
+    "backtest_recent_return_pct": -2.7269,
+    "backtest_recent_sharpe": -1.4904,
+    "gap_pct": 2.8428,
+    "last_backtest_at": "2026-11-20T09:30:54",
     "backtest_window_days": 180,
     "universe_source": "full-listed",
     "universe_size": 300,
@@ -994,483 +990,483 @@
       },
       {
         "date": "2026-05-27",
-        "index_value": 98.4432
+        "index_value": 97.3525
       },
       {
         "date": "2026-05-28",
-        "index_value": 98.3296
+        "index_value": 97.0058
       },
       {
         "date": "2026-05-29",
-        "index_value": 100.6462
+        "index_value": 99.4264
       },
       {
         "date": "2026-06-01",
-        "index_value": 99.8296
+        "index_value": 98.6787
       },
       {
         "date": "2026-06-02",
-        "index_value": 100.4832
+        "index_value": 99.3545
       },
       {
         "date": "2026-06-04",
-        "index_value": 100.0767
+        "index_value": 98.8745
       },
       {
         "date": "2026-06-05",
-        "index_value": 97.9938
+        "index_value": 96.8281
       },
       {
         "date": "2026-06-08",
-        "index_value": 93.9244
+        "index_value": 92.7112
       },
       {
         "date": "2026-06-09",
-        "index_value": 95.1698
+        "index_value": 94.6044
       },
       {
         "date": "2026-06-10",
-        "index_value": 92.8004
+        "index_value": 91.5638
       },
       {
         "date": "2026-06-11",
-        "index_value": 93.2426
+        "index_value": 92.2488
       },
       {
         "date": "2026-06-12",
-        "index_value": 94.3317
+        "index_value": 93.6458
       },
       {
         "date": "2026-06-15",
-        "index_value": 96.9538
+        "index_value": 95.9937
       },
       {
         "date": "2026-06-16",
-        "index_value": 98.6966
+        "index_value": 97.8507
       },
       {
         "date": "2026-06-17",
-        "index_value": 99.4188
+        "index_value": 98.1871
       },
       {
         "date": "2026-06-18",
-        "index_value": 99.7087
+        "index_value": 98.9628
       },
       {
         "date": "2026-06-19",
-        "index_value": 99.3617
+        "index_value": 98.749
       },
       {
         "date": "2026-06-22",
-        "index_value": 99.7426
+        "index_value": 99.4769
       },
       {
         "date": "2026-06-23",
-        "index_value": 97.2155
+        "index_value": 96.8496
       },
       {
         "date": "2026-06-24",
-        "index_value": 96.9777
+        "index_value": 96.6966
       },
       {
         "date": "2026-06-25",
-        "index_value": 98.4124
+        "index_value": 98.06
       },
       {
         "date": "2026-06-26",
-        "index_value": 97.0517
+        "index_value": 97.6258
       },
       {
         "date": "2026-06-29",
-        "index_value": 96.5083
+        "index_value": 97.0137
       },
       {
         "date": "2026-06-30",
-        "index_value": 97.1145
+        "index_value": 97.9573
       },
       {
         "date": "2026-07-01",
-        "index_value": 96.6445
+        "index_value": 96.9692
       },
       {
         "date": "2026-07-02",
-        "index_value": 92.786
+        "index_value": 93.5751
       },
       {
         "date": "2026-07-03",
-        "index_value": 92.7701
+        "index_value": 93.5332
       },
       {
         "date": "2026-07-06",
-        "index_value": 91.608
+        "index_value": 92.8498
       },
       {
         "date": "2026-07-07",
-        "index_value": 92.4266
+        "index_value": 93.2681
       },
       {
         "date": "2026-07-08",
-        "index_value": 91.2829
+        "index_value": 92.0963
       },
       {
         "date": "2026-07-09",
-        "index_value": 89.2971
+        "index_value": 90.0158
       },
       {
         "date": "2026-07-10",
-        "index_value": 89.8275
+        "index_value": 91.3712
       },
       {
         "date": "2026-07-13",
-        "index_value": 90.9642
+        "index_value": 92.2331
       },
       {
         "date": "2026-07-14",
-        "index_value": 86.9941
+        "index_value": 89.107
       },
       {
         "date": "2026-07-15",
-        "index_value": 88.4391
+        "index_value": 89.8883
       },
       {
         "date": "2026-07-16",
-        "index_value": 88.5614
+        "index_value": 90.0322
       },
       {
         "date": "2026-07-20",
-        "index_value": 86.7839
+        "index_value": 88.3261
       },
       {
         "date": "2026-07-21",
-        "index_value": 86.7853
+        "index_value": 87.9841
       },
       {
         "date": "2026-07-22",
-        "index_value": 87.05
+        "index_value": 87.8467
       },
       {
         "date": "2026-07-23",
-        "index_value": 88.7222
+        "index_value": 89.848
       },
       {
         "date": "2026-07-24",
-        "index_value": 88.7701
+        "index_value": 89.8411
       },
       {
         "date": "2026-07-27",
-        "index_value": 87.4945
+        "index_value": 88.5472
       },
       {
         "date": "2026-07-28",
-        "index_value": 86.7041
+        "index_value": 87.6696
       },
       {
         "date": "2026-07-29",
-        "index_value": 86.5523
+        "index_value": 87.0308
       },
       {
         "date": "2026-07-30",
-        "index_value": 86.2869
+        "index_value": 86.9028
       },
       {
         "date": "2026-07-31",
-        "index_value": 85.9623
+        "index_value": 87.0277
       },
       {
         "date": "2026-08-03",
-        "index_value": 86.1311
+        "index_value": 87.0966
       },
       {
         "date": "2026-08-04",
-        "index_value": 88.2567
+        "index_value": 89.2336
       },
       {
         "date": "2026-08-05",
-        "index_value": 87.9621
+        "index_value": 88.9389
       },
       {
         "date": "2026-08-06",
-        "index_value": 89.869
+        "index_value": 90.8459
       },
       {
         "date": "2026-08-07",
-        "index_value": 90.0188
+        "index_value": 90.9957
       },
       {
         "date": "2026-08-10",
-        "index_value": 89.7321
+        "index_value": 90.709
       },
       {
         "date": "2026-08-11",
-        "index_value": 90.2283
+        "index_value": 91.1828
       },
       {
         "date": "2026-08-12",
-        "index_value": 89.5785
+        "index_value": 90.7551
       },
       {
         "date": "2026-08-13",
-        "index_value": 89.6624
+        "index_value": 90.7601
       },
       {
         "date": "2026-08-14",
-        "index_value": 92.0103
+        "index_value": 92.6297
       },
       {
         "date": "2026-08-18",
-        "index_value": 92.3999
+        "index_value": 92.4826
       },
       {
         "date": "2026-08-19",
-        "index_value": 92.7515
+        "index_value": 92.9742
       },
       {
         "date": "2026-08-20",
-        "index_value": 91.9129
+        "index_value": 92.0547
       },
       {
         "date": "2026-08-21",
-        "index_value": 92.4324
+        "index_value": 92.3835
       },
       {
         "date": "2026-08-24",
-        "index_value": 94.9771
+        "index_value": 95.1617
       },
       {
         "date": "2026-08-25",
-        "index_value": 93.5052
+        "index_value": 93.4353
       },
       {
         "date": "2026-08-26",
-        "index_value": 94.0402
+        "index_value": 93.7946
       },
       {
         "date": "2026-08-27",
-        "index_value": 93.1387
+        "index_value": 93.1944
       },
       {
         "date": "2026-08-28",
-        "index_value": 94.285
+        "index_value": 94.6654
       },
       {
         "date": "2026-08-31",
-        "index_value": 93.79
+        "index_value": 94.4568
       },
       {
         "date": "2026-09-01",
-        "index_value": 94.4197
+        "index_value": 95.5686
       },
       {
         "date": "2026-09-02",
-        "index_value": 93.3149
+        "index_value": 95.0001
       },
       {
         "date": "2026-09-03",
-        "index_value": 93.1411
+        "index_value": 94.7806
       },
       {
         "date": "2026-09-04",
-        "index_value": 93.0901
+        "index_value": 94.8652
       },
       {
         "date": "2026-09-07",
-        "index_value": 92.9823
+        "index_value": 95.3487
       },
       {
         "date": "2026-09-08",
-        "index_value": 92.1823
+        "index_value": 94.4987
       },
       {
         "date": "2026-09-09",
-        "index_value": 92.1484
+        "index_value": 93.6809
       },
       {
         "date": "2026-09-10",
-        "index_value": 91.9346
+        "index_value": 94.3591
       },
       {
         "date": "2026-09-11",
-        "index_value": 91.8057
+        "index_value": 94.4684
       },
       {
         "date": "2026-09-14",
-        "index_value": 91.1045
+        "index_value": 94.2135
       },
       {
         "date": "2026-09-15",
-        "index_value": 91.0944
+        "index_value": 94.0118
       },
       {
         "date": "2026-09-16",
-        "index_value": 91.2377
+        "index_value": 93.9499
       },
       {
         "date": "2026-09-17",
-        "index_value": 91.6877
+        "index_value": 94.3641
       },
       {
         "date": "2026-09-18",
-        "index_value": 90.7737
+        "index_value": 93.4788
       },
       {
         "date": "2026-09-21",
-        "index_value": 92.1902
+        "index_value": 94.8254
       },
       {
         "date": "2026-09-22",
-        "index_value": 91.52
+        "index_value": 93.678
       },
       {
         "date": "2026-09-23",
-        "index_value": 91.9131
+        "index_value": 93.8339
       },
       {
         "date": "2026-09-28",
-        "index_value": 92.7437
+        "index_value": 94.6645
       },
       {
         "date": "2026-09-29",
-        "index_value": 93.0622
+        "index_value": 94.9431
       },
       {
         "date": "2026-09-30",
-        "index_value": 92.2665
+        "index_value": 94.1759
       },
       {
         "date": "2026-10-01",
-        "index_value": 93.103
+        "index_value": 94.4507
       },
       {
         "date": "2026-10-02",
-        "index_value": 93.6665
+        "index_value": 94.1809
       },
       {
         "date": "2026-10-06",
-        "index_value": 93.7543
+        "index_value": 94.2194
       },
       {
         "date": "2026-10-07",
-        "index_value": 93.5837
+        "index_value": 94.2229
       },
       {
         "date": "2026-10-08",
-        "index_value": 94.2146
+        "index_value": 94.3483
       },
       {
         "date": "2026-10-12",
-        "index_value": 92.7228
+        "index_value": 92.4503
       },
       {
         "date": "2026-10-13",
-        "index_value": 93.469
+        "index_value": 91.8059
       },
       {
         "date": "2026-10-14",
-        "index_value": 91.6572
+        "index_value": 89.9619
       },
       {
         "date": "2026-10-15",
-        "index_value": 88.8316
+        "index_value": 85.9577
       },
       {
         "date": "2026-10-16",
-        "index_value": 89.0693
+        "index_value": 86.8754
       },
       {
         "date": "2026-10-19",
-        "index_value": 89.1435
+        "index_value": 86.7765
       },
       {
         "date": "2026-10-20",
-        "index_value": 87.2355
+        "index_value": 84.9742
       },
       {
         "date": "2026-10-21",
-        "index_value": 87.0329
+        "index_value": 87.3932
       },
       {
         "date": "2026-10-22",
-        "index_value": 85.5911
+        "index_value": 84.1224
       },
       {
         "date": "2026-10-23",
-        "index_value": 84.7812
+        "index_value": 83.1466
       },
       {
         "date": "2026-10-26",
-        "index_value": 82.6565
+        "index_value": 81.4354
       },
       {
         "date": "2026-10-27",
-        "index_value": 83.3731
+        "index_value": 82.0654
       },
       {
         "date": "2026-10-28",
-        "index_value": 83.1686
+        "index_value": 82.0654
       },
       {
         "date": "2026-10-29",
-        "index_value": 83.4995
+        "index_value": 82.476
       },
       {
         "date": "2026-10-30",
-        "index_value": 84.3316
+        "index_value": 83.3471
       },
       {
         "date": "2026-11-02",
-        "index_value": 84.3021
+        "index_value": 83.1713
       },
       {
         "date": "2026-11-03",
-        "index_value": 84.4147
+        "index_value": 83.2302
       },
       {
         "date": "2026-11-04",
-        "index_value": 84.5782
+        "index_value": 83.1873
       },
       {
         "date": "2026-11-05",
-        "index_value": 84.7521
+        "index_value": 83.6168
       },
       {
         "date": "2026-11-06",
-        "index_value": 84.7761
+        "index_value": 83.2088
       },
       {
         "date": "2026-11-09",
-        "index_value": 84.7763
+        "index_value": 83.5953
       },
       {
         "date": "2026-11-10",
-        "index_value": 84.5917
+        "index_value": 83.3815
       },
       {
         "date": "2026-11-11",
-        "index_value": 83.8675
+        "index_value": 83.3005
       },
       {
         "date": "2026-11-12",
-        "index_value": 83.1637
+        "index_value": 83.355
       },
       {
         "date": "2026-11-13",
-        "index_value": 83.5246
+        "index_value": 84.2351
       },
       {
         "date": "2026-11-16",
-        "index_value": 80.7926
+        "index_value": 83.7336
       },
       {
         "date": "2026-11-17",
-        "index_value": 79.5465
+        "index_value": 83.5281
       },
       {
         "date": "2026-11-18",
-        "index_value": 78.8912
+        "index_value": 83.5211
       },
       {
         "date": "2026-11-19",
-        "index_value": 79.4067
+        "index_value": 84.4102
       }
     ],
     "comparison_basis": "same_window",
@@ -1481,47 +1477,42 @@
       "basis": "intersection_of_live_and_backtest_index_dates"
     },
     "live_window_return_pct": 0.1159,
-    "backtest_window_return_pct": -10.9226,
-    "live_month_to_date_return_pct": 0.392,
-    "backtest_full_window_return_pct": -20.5933
+    "backtest_window_return_pct": -2.7269,
+    "live_month_to_date_return_pct": 0.3543,
+    "backtest_full_window_return_pct": -15.5898
   },
   "holding_period_distribution": {
     "by_symbol": [
       {
-        "symbol": "012750",
-        "name": "에스원",
-        "days_held": 15
-      },
-      {
         "symbol": "068270",
         "name": "셀트리온",
-        "days_held": 3
+        "days_held": 4
       }
     ],
-    "median_days": 9.0,
-    "max_days": 15,
-    "mean_days": 9.0
+    "median_days": 4.0,
+    "max_days": 4,
+    "mean_days": 4.0
   },
   "canary": {
-    "as_of": "2026-11-19",
-    "generated_at": "2026-11-19T16:34:59",
+    "as_of": "2026-11-20",
+    "generated_at": "2026-11-20T09:49:09",
     "first_trading_day": "2026-09-14",
     "live_since": "2026-08-24",
     "summary": {
       "latest_holdings_count": 1,
-      "today_return_pct": -0.0501,
+      "today_return_pct": -0.0638,
       "today_realized_pl_pct": 0.0,
-      "month_return_pct": -0.1154,
+      "month_return_pct": -0.1792,
       "month_realized_pl_pct": -0.6547,
       "realized_pl_30d_pct": -1.7397,
-      "cycles_30d": 66,
-      "cycles_held_30d": 65,
+      "cycles_30d": 64,
+      "cycles_held_30d": 63,
       "orders_sent_30d": 1,
       "fills_30d": 2,
       "avg_slippage_bps_30d": 0.0,
       "strategy_version": 0,
-      "month_cash_flow_adjusted_return_pct": -0.1154,
-      "today_cash_flow_adjusted_return_pct": -0.0501
+      "month_cash_flow_adjusted_return_pct": -0.1792,
+      "today_cash_flow_adjusted_return_pct": -0.0638
     },
     "portfolio_index": [
       {
@@ -1747,6 +1738,11 @@
       {
         "date": "2026-11-19",
         "index_value": 96.9816,
+        "holdings_count": null
+      },
+      {
+        "date": "2026-11-20",
+        "index_value": 96.9198,
         "holdings_count": null
       }
     ],
@@ -2110,6 +2106,14 @@
         "external_cash_flow": false,
         "return_method": "cash_flow_adjusted_daily_return",
         "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
+      },
+      {
+        "date": "2026-11-20",
+        "return_pct": -0.0638,
+        "realized_pl_pct": 0.0,
+        "external_cash_flow": false,
+        "return_method": "cash_flow_adjusted_daily_return",
+        "return_note": "external_cash_flows_are_subtracted_only_when_recorded"
       }
     ],
     "monthly_profit_loss": [
@@ -2131,9 +2135,9 @@
       },
       {
         "month": "2026-11",
-        "return_pct": -0.1154,
+        "return_pct": -0.1792,
         "realized_pl_pct": -0.6547,
-        "trading_days": 14,
+        "trading_days": 15,
         "external_cash_flow": true,
         "excluded_days": 0
       }
@@ -2142,7 +2146,7 @@
       {
         "symbol": "030190",
         "name": "NICE평가정보",
-        "return_pct": -2.6853
+        "return_pct": -2.627
       }
     ],
     "per_symbol_returns": [
@@ -2160,8 +2164,8 @@
         "symbol": "030190",
         "name": "NICE평가정보",
         "realized_return_pct": null,
-        "current_return_pct": -2.6853,
-        "total_return_pct": -2.6853,
+        "current_return_pct": -2.627,
+        "total_return_pct": -2.627,
         "still_held": true,
         "buy_count": 1,
         "sell_count": 0
@@ -2199,7 +2203,7 @@
     ],
     "nav_integrity": {
       "threshold_pct": 5.0,
-      "checked_points": 45,
+      "checked_points": 46,
       "suspect_count": 0,
       "status": "ok",
       "suspects": [],
@@ -2214,14 +2218,14 @@
     },
     "decision_stats_30d": {
       "window_days": 30,
-      "cycles": 69,
-      "trade_reviews": 2,
-      "approved": 3,
-      "rejected": 5,
+      "cycles": 67,
+      "trade_reviews": 1,
+      "approved": 1,
+      "rejected": 3,
       "modified": 0,
       "drift_holds": 0,
       "volatility_skips": 0,
-      "backtest_gate_failed": 67,
+      "backtest_gate_failed": 66,
       "stop_loss_triggered": 0
     },
     "account": "canary",
