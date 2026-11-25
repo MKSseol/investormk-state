@@ -1446,107 +1446,107 @@
     "mean_days": 7.0
   },
   "market_context": {
-    "as_of": "2026-11-24",
-    "next_trading_day": "2026-11-25",
-    "recommendation": "reduce_exposure",
-    "macro_sentiment": "cautious",
+    "as_of": "2026-11-25",
+    "next_trading_day": "2026-11-26",
+    "recommendation": "halt_buys",
+    "macro_sentiment": "bearish",
     "key_themes": [
-      "[2026-11-24 시황] 기관 매수 주도이나 개인 참여 부족으로 수급 불안정",
-      "[2026-11-24 시황] 보유 종목 068270 외인·기관 5일 순매수 강함 (+163k, +228k주)"
+      "[2026-11-25 시황] 외인 7거래일 연속 순매도로 외국인 자금 이탈 지속",
+      "[2026-11-25 시황] 보유 종목 068270은 외인·기관 순매수 중이나 시장 약세에 영향받을 가능성"
     ],
     "key_themes_en": [
-      "[2026-11-24 report] Institutional buying-led rally but weak retail participation creates unstable supply",
-      "[2026-11-24 report] Held stock 068270 shows strong 5-day foreign/institutional net buying (+163k, +228k shares)"
+      "[2026-11-25 report] Continued foreign investor outflows with 7 consecutive trading days of net selling",
+      "[2026-11-25 report] Held stock 068270 showing foreign and institutional net buying but vulnerable to market weakness"
     ],
     "per_symbol_notes": {
-      "068270": "[2026-11-24 시황] 외인·기관 5일 순매수 강함(+163k, +228k주)이나 중기 하락 추세와 극도의 변동성 속에서 비중 축소 권고"
+      "068270": "[2026-11-25 시황] 외인·기관 5일 순매수 중이나 시장 전체 약세 추세에 영향받을 가능성 높음"
     },
     "per_symbol_notes_en": {
-      "068270": "[2026-11-24 report] Strong 5-day foreign/institutional net buying (+163k, +228k shares) but recommend reducing position size amid ongoing downtrend and extreme volatility"
+      "068270": "[2026-11-25 report] Foreign and institutional net buying over 5 days, but vulnerable to overall market weakness trend"
     },
-    "rationale_kr": "[2026-11-25 KIS 분봉 · 전 거래일 종가 대비] KOSPI -6.16% (15:30 KST) · KOSDAQ -2.29% (15:30 KST)\nS&P 500 -0.50% (2026-11-24 미국 정규장 종가, KIS) · Nasdaq Composite -1.48% (2026-11-24 미국 정규장 종가, KIS) · DJIA +0.85% (2026-11-24 미국 정규장 종가, KIS)\n[2026-11-24 시황] 기관 매수가 주도하지만 개인 참여 부족으로 수급이 불안정합니다. 따라서 다음 거래일 매수는 정상 진행하되 비중을 축소하는 것이 적절합니다.",
-    "rationale_en": "[2026-11-25 KIS minute bars vs previous close] KOSPI -6.16% (15:30 KST) · KOSDAQ -2.29% (15:30 KST)\nS&P 500 -0.50% (2026-11-24 US session close, KIS) · Nasdaq Composite -1.48% (2026-11-24 US session close, KIS) · DJIA +0.85% (2026-11-24 US session close, KIS)\n[2026-11-24 report] Institutional buying leads but weak retail participation creates unstable supply dynamics. Therefore, normal buying should continue for the next trading day but with reduced position size.",
-    "input_tokens": 38668,
-    "output_tokens": 5091,
-    "iterations": 3,
-    "generated_at": "2026-11-24T16:32:23",
+    "rationale_kr": "[2026-11-25 KIS 분봉 · 전 거래일 종가 대비] KOSPI -6.16% (15:30 KST) · KOSDAQ -2.29% (15:30 KST)\nS&P 500 -0.50% (2026-11-24 미국 정규장 종가, KIS) · Nasdaq Composite -1.48% (2026-11-24 미국 정규장 종가, KIS) · DJIA +0.85% (2026-11-24 미국 정규장 종가, KIS)\n[2026-11-25 시황] 직전 거래일 종가 대비 — KOSPI -6.16% (2026-11-25T15:30:00+09:00 분봉, KIS) · KOSDAQ -2.29% (2026-11-25T15:30:00+09:00 분봉, KIS) · S&P 500 -0.50% (2026-11-24 미국 정규장 종가, KIS) · Nasdaq Composite -1.48% (2026-11-24 미국 정규장 종가, KIS) · DJIA +0.85% (2026-11-24 미국 정규장 종가, KIS)\n외인 7거래일 연속 순매도로 외국인 자금 이탈이 계속되는 상황입니다. 보유 종목 068270은 외인·기관 순매수 중이나, 시장 전체 약세에 압도당할 가능성이 높으므로 다음 거래일 신규 매수를 전면 보류합니다.",
+    "rationale_en": "[2026-11-25 KIS minute bars vs previous close] KOSPI -6.16% (15:30 KST) · KOSDAQ -2.29% (15:30 KST)\nS&P 500 -0.50% (2026-11-24 US session close, KIS) · Nasdaq Composite -1.48% (2026-11-24 US session close, KIS) · DJIA +0.85% (2026-11-24 US session close, KIS)\n[2026-11-25 report] Versus previous close — KOSPI -6.16% (2026-11-25T15:30:00+09:00 minute bar, KIS) · KOSDAQ -2.29% (2026-11-25T15:30:00+09:00 minute bar, KIS) · S&P 500 -0.50% (2026-11-24 US session close, KIS) · Nasdaq Composite -1.48% (2026-11-24 US session close, KIS) · DJIA +0.85% (2026-11-24 US session close, KIS)\nForeign investor outflows continue with 7 consecutive trading days of net selling. Although held stock 068270 shows foreign and institutional net buying, it is likely to be overwhelmed by overall market weakness, warranting a full halt to new purchases on the next trading day.",
+    "input_tokens": 28435,
+    "output_tokens": 3909,
+    "iterations": 2,
+    "generated_at": "2026-11-25T20:20:58",
     "status": "ok",
     "tools_summary": {
       "count": 4,
       "names": [
-        "fetch_article_body",
+        "read_market_indicators",
         "search_news"
       ]
     },
     "news_sources": [
       {
-        "title": "아시아 증시 하락세…정부 대책에도 AI 회의론 우세 - 연합뉴스",
+        "title": "코스피, 6%대 급락 4,697…전날 급등분 모두 반납(종합) - 연합뉴스",
         "source": "연합뉴스",
-        "published": "2026-11-23T14:54:11+09:00",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8yOThyY0xJdmRyYnZJQkJQaHZOSUFFRENWT1RPTGxSMHFBZXVWblpLU25NdVVRcGx0NkpvUVZ6NDIyMmlHNTFfSklqWENSZjhpN0l5bjBHNWE1OWfSAWBBVV95cUxQVG96em1mcUtmMjhNdW01U3NsMEN4SWNQS0ltSHRwZEl4eUJUTGJzdkpodWNtYmtGZkhsaTMxUjBBMTBvX1dyQkUzbmo2LU1yRW0wRTNiZEwxcUNfUzVnVFI?oc=5"
+        "published": "2026-11-25T16:11:22+09:00",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBBYmczMmJkOV9wNGZ3UjV4bUM2RWQzTmdaeGxjaFE0N09pMkN1cGdRWVhqQVZfNUduS1hxUERqOFJIbWZTYUlJWm0xNkZNMVlPeEZBaWFyWk51YkHSAWBBVV95cUxOYVNzWlhtWW9rR1pmOXd4UzU3VHpzY3F0Tl80Z1E2QmFDTDljUi0xOTRRa2tlejF3NjY5emQyU3NUYk1uLVhRanBUX2UxbVJmQ3hsQ08yNDFwOUVXbW11MW4?oc=5"
       },
       {
-        "title": "AI 투자 불안에 글로벌 증시 급락…코스피 이번 주도 약세 전망 - 산경투데이",
-        "source": "산경투데이",
-        "published": "2026-11-22T10:11:04+09:00",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9VZXpQc0t0SU9NZURzR3BmYUVZWUFhTnFRXzQyeERfbUUxZTR6LVNjajVUaDl2WFZoMGtUWkhMRFBkMTRfbHEzTV9nVkhOcGliMVlPUnhNbktKYW5tNWJsUWpMY245YXVONHdzRGFzcmJ2M0JJ0gF0QVVfeXFMT1VlelBzS3RJT01lRHNHcGZhRVlZQWFOcVFfNDJ4RF9tRTFlNHotU2NqNVRoOXZYVmgwa1RaSExEUGQxNF9scTNNX2dWSE5waWIxWU9SeE1uS0phbm01YmxRakxjbjlhdU40d3NEYXNyYnYzQkk?oc=5"
+        "title": "코스피, 3%대 급락 출발...5000선 붕괴 - 뉴스핌",
+        "source": "뉴스핌",
+        "published": "2026-11-25T09:19:00+09:00",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9nNm9rZFoyMWhiQVpWMTRHZzNHem9kSW1xVmxHTGRSWm1FZnQ2YjBCNU0xZGVFUWR5YXQ3WklxbFExa1A1UlVJM2owRkc2S2hQbE1rMXN2VFNBczhk?oc=5"
       },
       {
-        "title": "11월 4주차 나스닥 폭락에 따른 투자 전략 - 네이버 프리미엄콘텐츠",
-        "source": "네이버 프리미엄콘텐츠",
-        "published": "2026-11-22T11:12:00+09:00",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPS3Bpamo4c1VWYl9ISFd5VmItYWlIdno3UnM5UzNIcHZzbmtnQ19GeGxhMFNxTVFySDRqeVpCOTdCcC12V3k5RlR2ZHBUSWlDaWNPay1nVGx5M3pNRjNsanM5SWF2UHFQUUdZNGMtN3VNSE5jX3RtSkl0N3ZNMFBHQ0JrUl9XTjBKbkotbU1qZzg0NGVkZHR3?oc=5"
+        "title": "전선주 일제히 '뚝'…대한전선·가온전선·LS 등 약세, 코스피도 급락 - CBC뉴스",
+        "source": "CBC뉴스",
+        "published": "2026-11-25T13:54:21+09:00",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9md1kzU2h2emVYMlJ2NkpjUERYbTZVUlMzNld4Z1Rqakl1ZTRvd3ZhSkRmREk0aktEMmRORGNfVUhYLUdOeG8wdlhKc2RDSXk4Mm9Jek1rRTU0bmlsUDFEZnk4RTdzQk9O?oc=5"
       },
       {
-        "title": "[오늘 증시 전망] 코스피 5,100선 회복했지만 뉴욕증시 급락…20일 외국인 수급이 관건 - 업코리아",
-        "source": "업코리아",
-        "published": "2026-11-20T07:08:51+09:00",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1VTmVVYWxLVkxmSVlWa3NydEVRMkVSNmdBUGowTXBOV3FtTmZEdEZTWXpMWU9OVGNKRGt6QndkR2std2FOWi11T21VOTNkYy03V1k0bHBSeUZzOVp2WFVWc3M4T3lJVVR3TWZBQmZ3?oc=5"
+        "title": "[마켓뷰] 美기술주 다시 하락…코스피, 또 '5천피' 사수 시험대 - 연합뉴스",
+        "source": "연합뉴스",
+        "published": "2026-11-25T07:59:01+09:00",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1EbE03alp0bllIYXhKRGotZHVRV05jLUtkNmRUb3daTUNwRFo3NWVseHBlM045R3U4STVuOU9uWW9WTU1WTlNGaGFGeGhBc2ZnRmNicHY1WG1BMUs2dHp5ctIBYEFVX3lxTE1EbE03alp0bllIYXhKRGotZHVRV05jLUtkNmRUb3daTUNwRFo3NWVseHBlM045R3U4STVuOU9uWW9WTU1WTlNGaGFGeGhBc2ZnRmNicHY1WG1BMUs2dHp5cg?oc=5"
       },
       {
-        "title": "엔비디아 매출 103% 폭증…5000선 무너진 코스피 구원투수 될까 - 매일경제 마켓",
-        "source": "매일경제 마켓",
-        "published": "2026-11-18T08:49:07+09:00",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBfXy1MU0ttREMzak8tZndxX2dQLWdETkx2LVY3RnY0a3lJZWp5QmdEOWU4ZlNuWVpYeS13VEFqN2dWbVpQVXVLT3AwR1JjSWgzZ2c?oc=5"
+        "title": "'-7% 안팎' 삼전닉스 롤러코스터, 냉탕·온탕 다시 희망고문…코스피 사이드카 또 발동 - CBC뉴스",
+        "source": "CBC뉴스",
+        "published": "2026-11-25T10:34:12+09:00",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBadmFSTzRESVh4anlpTl9iZXRoVDdaWUV1ZjdRMUZzeDB3TmpZR09PZW1FMU1EYnBVU00zajhsUWllQzJwVTlWeXc4Z1FzTnYyOXlsNnNuMkpfT09IclpacU5UM2FjcmVa?oc=5"
       },
       {
-        "title": "젠슨 황 복귀에 엔비디아 30% 급등…나스닥100도 7% 반등 - 초이스스탁US",
-        "source": "초이스스탁US",
-        "published": "2026-11-24T00:12:00+09:00",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1UQ0E4cFVoTTlQbGhyQ2EzY04wU0drMXRpVnp5c1FXOGJyWVNlbWlOcnlQaXVSUHI2LW9WTEZob1NVcXBCaHllTWk3Q2lKTjNkYllwWjFlSUVnbzF5NW51WlRlUTRENW8?oc=5"
+        "title": "코스피, 급락 출발...하루 만에 '5천피' 반납 - 뉴스핌",
+        "source": "뉴스핌",
+        "published": "2026-11-25T09:21:00+09:00",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5iMVdGM1IxbnZIOTBNcHRnRHduWjFVeU9DQ2d4ckgwbVFtZmdqZWhUdUgtSm92cEhOdGJEd0FJc2VRXzlha1BjNEhIdi1Zb2doRU95ZHRiNTI3dnBy?oc=5"
       },
       {
-        "title": "20일 VN지수 -0.83% “4일째 약세, 17주 내 최저치…대형주 방어, 저가 매수 유입에도 시장 ‘한파’” [대니얼오의 베트남증시] - 시티타임스 CityTimes",
-        "source": "시티타임스 CityTimes",
-        "published": "2026-11-21T00:32:00+09:00",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE45TzVTeTNrWlVzTmhpc2ppWkRjN19vYmRmaGNGTUFzRl9ZLU93WkNyUzN4YzFwdi01S2diMDd1T2ljRjJ2OFlVY1FvM3FwVkdsblNiczZtaWY4YjFQWTBxdFl6WWpDOWZUTkNGVVJn0gFyQVVfeXFMUHYwMkNvX0FQYmJlSW9PUWZnQzVHTzBSV083TUhmcEZVSkQyVWJiSzBreVRYNGdKc1hzMHluRXVfb3ZuaDhrY0tmU3ZkeE50ZDZTM0x6WjFQWmY2VHBoUlczczBBRFF2S1lvOVp1UUxNa1hn?oc=5"
+        "title": "급락에 쪼그라든 코스피…고점 대비 반토막·올 수익률 11%로 뚝 - 연합뉴스",
+        "source": "연합뉴스",
+        "published": "2026-11-23T16:29:45+09:00",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1nb2pkV2NsdWhQWnpQbWItd1NaQVMzZHM1MlhibGlvV0VmQWZNeS1kWXktTEhfRVVVd3dpYzd1MktabjdETlcyR0p2TV9paUVUQWFoT3l0SFhpdjDSAWBBVV95cUxOSjNYWWlHRUVxR3dPdUZlRXIwYUN5QjdZV2liUTRnRWxmUmpKQWVoVnFvc0lOZ08yM25MZkZ2LUMzcHFfTDdiZ1ZZdnl6SS1tZVVld1lNOTJZSU4zelZINXI?oc=5"
       },
       {
-        "title": "[증시분석] 코스피 5.21% 폭락, 5,000선 무너졌다…다음 주 반등할 수 있나 - 강릉뉴스",
-        "source": "강릉뉴스",
-        "published": "2026-11-20T20:26:32+09:00",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4zSV9WeHJCMkEtRndUT09TX2tOTjNnWEhVSndvNXJOa2p0dEVQNF84eVhGR29VVUoxRE0xTVVVeDl4bG82ekhwSl9ZVUs5UjhPTWdRMUJIV0l2TFRwME9VdTREY1VUMWx6eDUzTHNLTQ?oc=5"
+        "title": "코스피, 3%대 급락 4,700선 턱걸이…코스닥 2년만에 최저(종합) - 연합뉴스",
+        "source": "연합뉴스",
+        "published": "2026-11-23T16:11:06+09:00",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB1TXc4R2ZwODZ0ZUEzRzh2aUctU0xrNVEwdzRvclFmclhiTGh1RlpzTEM2bFYwSkluSGhGUzhpbVlqYl9jcU5HWmsyZEYyZjh2aFU5Q0NtcExoNlXSAWBBVV95cUxNV3VNdEx6VzNJdkdqSFBXLUZJMlNwZElIR2RLb2NCSXdLLTBOcWw0a2dfVGxkYkN6MkFKMGxFSUh1VHVjR21JNVhVRDVrcmt2VU50ekhwOXFhdlBfZllqRUE?oc=5"
       },
       {
-        "title": "앤트로픽 IPO에 쏠린 눈…도쿄증시, 닛케이 나홀로 상승 - 뉴시스",
-        "source": "뉴시스",
-        "published": "2026-11-19T16:43:39+09:00",
-        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBIRXI3UjRJMUkzZkxtNE1BQjFzbjNDeDdTQ2trQmJ4T2dSUTNlVU5LbEdCUFRKZVJ4LXJpTTBPaWgtTHVqNjRYcl83VW1mVHFfOUZDMkc4WXBWc3M2SDh5StIBeEFVX3lxTE1RTVBqeW1oYl95REladjBscnA0cVVLZ1Q0eEkzZGNPT2FqUkktV21sc2E3S2daMzdHTm14ZzdKZnQ2VzY0V0w4X1Y1Nkwybi1Fa1FhanQtcU9UdXItbHEyQUhxTS1KN1c1U0Uyck1GYko2TXVIa1NNMQ?oc=5"
+        "title": "[증시 레이더] 코스피 6.16% 폭락 4,600선 추락⋯삼성전자·SK하이닉스 급락 - 포커스온경제",
+        "source": "포커스온경제",
+        "published": "2026-11-25T16:00:49+09:00",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9hMmtLSHlrcDlXYzItN1F2U2VpM2cyTEdmNC1uc1FzRTc2WkFEcW5vaVRtczFGMlU2blZLQ3dHX2Z4OXJpVXVYR3RFX3pTdlVNRHNpeHN3WVZLWUhvUjZZ?oc=5"
       },
       {
-        "title": "금 가격, 한 주 만에 9.4% 폭락하여 14개월 만에 최저치 기록 - IDNFinancials",
-        "source": "IDNFinancials",
-        "published": "2026-11-21T17:30:00+09:00",
-        "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxOUElOVHhzMmFRTlRhQzlGRXBFbF82M2c2OVkwMEs5RTFDVXRlOGpBaU8wRG4wWXRRbi0waTg3blBZc3RUWjBZOG5wNld2ZXY0NWR2NlFzTXVtV0tCZjNXUkpoWlp0V2o0bzl3ajZMd1NqMTVscUpPS2x4TDAtMnp2a1dJbHFfSUZnOGwxazZuOF9HM2NJMWJCeU5kMVh5SzlaYkNrOXFhNEtBdzd4MnhJRUtWUHZxbERzQWFFSEdqM0VnMVdYX2o3WXd4cEJxQ0ppbHE3QTQwYWprd1FyRFBtdHYwYm1GWDJuSE1tWWRNUlZReU9YTlE0NkRWbjk4cjZwaC1qTldtd3RSdEdpZnZYZ1RvRzNYc1BvdDllckdGQWNrVHZDc0VycV95ZmxkUHNxZFBnTXZJRHJub254QmJrMWtEZWtfUFV0ZWxFT2xsa21CTml0NUZVSWttRQ?oc=5"
+        "title": "코스피 급락 - 연합뉴스",
+        "source": "연합뉴스",
+        "published": "2026-11-23T16:10:44+09:00",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1YRGdxeElBOVpjYnd0ZGlIXzFMQ0NHbzFwWUZzeVFrUDR4V2ZRWlBxUUZMb3NaU1RZOEpQQUY3QVZ1S2xoekUyd3R6WEdJTWFsdXh3QnNLd3pXcEHSAWBBVV95cUxPanFxdV9hNGNfQnVfU25ibVFSbmJ2akhZVWZtNUdKS2l5LTN1eEs2MGljTUc1a1VRclpFdjBhb1dwdFNFeXNtM1NZWGhEcl8zallzS3RFV2ZXM2pqUnNYZUQ?oc=5"
       }
     ],
-    "news_sources_total": 20,
+    "news_sources_total": 30,
     "news_provider": "upstarnews_api"
   },
-  "generated_at": "2026-11-25T18:49:05",
+  "generated_at": "2026-11-25T20:27:29",
   "canary": {
     "as_of": "2026-11-25",
-    "generated_at": "2026-11-25T18:46:55",
+    "generated_at": "2026-11-25T20:25:42",
     "first_trading_day": "2026-09-14",
     "live_since": "2026-08-28",
     "summary": {
